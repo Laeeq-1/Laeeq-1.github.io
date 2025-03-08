@@ -12,7 +12,7 @@ website:
       - hello.qmd
 
   page-footer:
-   center: "Copyright © 2025 Laeeq"
+    center: "Copyright © 2025 Laeeq"
 
 format:
   html:
