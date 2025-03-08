@@ -3,13 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Laeeq-1.github.io"
   navbar:
+    title: "Laeeq-1.github.io"
     left:
       - href: index.qmd
         text: Home
       - about.qmd
       - hello.qmd
+
+  page-footer:
+    center: "Copyright © 2025 Laeeq"
+
+  favicon: favicon.png
 
 format:
   html:
@@ -17,7 +22,7 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
+    toc: true 
     
 
 
