@@ -3,8 +3,6 @@ project:
   output-dir: docs
 
 website:
- page-footer:
-  center: "Copyright © 2025 Laeeq"
   navbar:
     title: "Laeeq-1.github.io"
     left:
@@ -12,6 +10,8 @@ website:
         text: Home
       - about.qmd
       - hello.qmd
+    page-footer:
+    center: "Copyright © 2025 Laeeq"
 
 format:
   html:
@@ -20,7 +20,7 @@ format:
       - brand
     css: styles.css
     toc: true
-    
+
     
 
 
