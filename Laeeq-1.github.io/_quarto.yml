@@ -14,6 +14,8 @@ website:
   page-footer:
     center: "Copyright © 2025 Laeeq"
 
+  favicon: favicon.png
+
 format:
   html:
     theme:
