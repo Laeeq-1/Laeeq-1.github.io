@@ -19,5 +19,26 @@
     "title": "Laeeq-1.github.io",
     "section": "",
     "text": "print('Hello World')\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\nHello World"
+  },
+  {
+    "objectID": "Laeeq-1.github.io/index.html",
+    "href": "Laeeq-1.github.io/index.html",
+    "title": "Laeeq-1.github.io",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "Laeeq-1.github.io/about.html",
+    "href": "Laeeq-1.github.io/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Laeeq-1.github.io/Hello-world.html",
+    "href": "Laeeq-1.github.io/Hello-world.html",
+    "title": "Laeeq-1.github.io",
+    "section": "",
+    "text": "print('Hello World')\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\nHello World"
   }
 ]
