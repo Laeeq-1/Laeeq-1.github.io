@@ -10,8 +10,9 @@ website:
         text: Home
       - about.qmd
       - hello.qmd
-    page-footer:
-    center: "Copyright © 2025 Laeeq"
+
+  page-footer:
+   center: "Copyright © 2025 Laeeq"
 
 format:
   html:
