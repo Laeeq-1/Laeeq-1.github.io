@@ -14,16 +14,14 @@ website:
   page-footer:
     center: "Copyright © 2025 Laeeq"
 
-  favicon: favicon.png
+  favicon: /favicon.png
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: solana
     css: styles.css
     toc: true 
-    
+
 
 
 
