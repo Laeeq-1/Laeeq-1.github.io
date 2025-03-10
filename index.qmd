@@ -2,34 +2,27 @@
 title: "Laeeq-1.github.io"
 about:
   template: solana
+  image: images/profile.jpg  
 ---
 
 # 👋 Welcome to My Website!
-Hi, I'm **Laeeq**! I'm a **20-year-old developer and cricket enthusiast**.  
+Hi, I'm **Laeeq**! I'm a **20-year-old aspiring developer and cricket enthusiast**.  
 This is my personal website where I showcase my **projects, skills, and interests**.
 
 ---
 
 ## 🏏 About Me
-- 📍 **Based in and currently studying in Ireland**
+- 📍 **Currently studying Business studies with a specialism in Data Analytics in Dublin City Univeristy**
 - 💻 **Exploring Backend Development, C++, and Quarto**
 - 🎯 **Passionate about cricket**
 - 🚀 **Learning GitHub Pages & Web Development**
 
 ---
 
-## 🖼️ My Profile Picture
-<p align="center">
-  <img src="images/profile.jpg" width="300">
-</p>
-
----
-
 ## 📌 My Projects
 - 🔹 **Cricket Training & Performance Analysis**
-- 🔹 **Backend API Development in C++**
+- 🔹 **Concrete weight business**
 - 🔹 **Quarto Website Customization**
-
 
 ---
 
@@ -37,7 +30,6 @@ This is my personal website where I showcase my **projects, skills, and interest
 Want to connect? Reach out via:
 - 📧 **Email:** Laeeq.urrehman2@mail.dcu.ie
 - 🐦 **Instagram:** [@Laeeq3x](https://www.instagram.com/laeeq3x/)
-- 💼 **LinkedIn:** [Laeeq Ur Rehman](www.linkedin.com/in/laeeq-ur-rehman-2806192ab)
+- 💼 **LinkedIn:** [Laeeq Ur Rehman](https://www.linkedin.com/in/laeeq-ur-rehman-2806192ab)
 
 ---
-
