@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - hello.qmd
+      
 
   page-footer:
     center: "Copyright © 2025 Laeeq"
