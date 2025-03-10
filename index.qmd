@@ -3,6 +3,7 @@ title: "Laeeq-1.github.io"
 about:
   template: solana
   image: images/profile.jpg  
+  image-style: border-radius: 50%; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 ---
 
 # 👋 Welcome to My Website!
