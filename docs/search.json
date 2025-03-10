@@ -1,16 +1,37 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Laeeq-1.github.io",
+    "section": "",
+    "text": "Hi, I’m Laeeq! I’m a 20-year-old developer and cricket enthusiast.\nThis is my personal website where I showcase my projects, skills, and interests.\n\n\n\n\n📍 Based in and currently studying in Ireland\n💻 Exploring Backend Development, C++, and Quarto\n🎯 Passionate about cricket\n🚀 Learning GitHub Pages & Web Development\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔹 Cricket Training & Performance Analysis\n🔹 Backend API Development in C++\n🔹 Quarto Website Customization\n\n\n\n\n\nWant to connect? Reach out via: - 📧 Email: Laeeq.urrehman2@mail.dcu.ie - 🐦 Instagram: @Laeeq3x - 💼 LinkedIn: Laeeq Ur Rehman"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Laeeq-1.github.io",
+    "section": "",
+    "text": "📍 Based in and currently studying in Ireland\n💻 Exploring Backend Development, C++, and Quarto\n🎯 Passionate about cricket\n🚀 Learning GitHub Pages & Web Development"
+  },
+  {
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Laeeq-1.github.io",
+    "section": "",
+    "text": "🔹 Cricket Training & Performance Analysis\n🔹 Backend API Development in C++\n🔹 Quarto Website Customization"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Laeeq-1.github.io",
+    "section": "",
+    "text": "Want to connect? Reach out via: - 📧 Email: Laeeq.urrehman2@mail.dcu.ie - 🐦 Instagram: @Laeeq3x - 💼 LinkedIn: Laeeq Ur Rehman"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "Hello-world.html",
-    "href": "Hello-world.html",
-    "title": "",
-    "section": "",
-    "text": "print('Hello World')\nimport numpy as np\nimport matplotlib.pyplot as plt\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\nHello World"
   }
 ]
