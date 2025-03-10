@@ -1,8 +1,9 @@
 ---
-title: "Laeeq-1.github.io"
+title: "Laeeq Ur Rehman"
 about:
   template: solana
-  image: images/profile.jpg  
+  image: images/profile.jpg
+  image-shape: round 
  
 ---
 
