@@ -1,44 +1,70 @@
 ---
 title: "Laeeq Ur Rehman"
+subtitle: "Final Year Business Studies & Data Analytics Student"
+image: images/profile.jpg
+
 about:
   template: solana
-  image: images/profile.jpg
   image-shape: round
----
-
-# 👋 Welcome to My Website!
-
-Hi, I'm **Laeeq Ur Rehman**!  
-I'm a **20-year-old aspiring developer and cricket enthusiast**.  
-Currently studying **Business Studies with a specialism in Data Analytics** at Dublin City University.
-
-I have a passion for **backend development, automation, and cricket analytics**.  
-This website showcases my **projects, skills, and professional journey**.
-
----
-
-## 🚀 Explore My Website
-
-- 📄 [**My CV**](cv.qmd)  
-- 💻 [**My Projects**](projects.qmd)  
-- 📌 [**About Me**](about.qmd)  
-
----
-
-## 🖼️ Profile Picture & Bio
-<p align="center">
-  <img src="images/profile.jpg" width="300">
-</p>
+  image-width: 25em
+  page-layout: full
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/YourGitHubUsername
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/laeeq-ur-rehman-2806192ab
+      target: _blank
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/laeeq3x/
+      target: _blank
+    - icon: envelope
+      text: Email
+      href: mailto:Laeeq.urrehman2@mail.dcu.ie
 
 ---
 
-## 📞 Contact Me
+# 👋 Welcome to My Portfolio
 
-Want to connect? Reach out via:
+I’m **Laeeq Ur Rehman**, a **final-year student specializing in Business Studies & Data Analytics** at **Dublin City University**.  
 
-- 📧 [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/gmail.svg" width="20"> **Email**](mailto:Laeeq.urrehman2@mail.dcu.ie)
-- 🐦 [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg" width="20"> **Instagram**](https://www.instagram.com/laeeq3x/)
-- 💼 [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg" width="20"> **LinkedIn**](https://www.linkedin.com/in/laeeq-ur-rehman-2806192ab)
+I am passionate about **technology, backend development, and cricket analytics**, and I am always looking for new ways to **combine data science with automation**.
 
 ---
 
+## 🚀 Explore My Work
+
+🔹 **[View My CV](cv.qmd)**  
+🔹 **[Explore My Projects](projects.qmd)**  
+🔹 **[Learn More About Me](about.qmd)**  
+
+---
+
+## 💼 Professional Skills
+
+- 🔹 **Data Analytics & Visualization** (Python, R, SQL, Excel)  
+- 🔹 **Backend Development** (C++, Python, REST APIs)  
+- 🔹 **Business & Finance Insights**  
+- 🔹 **Automation & AI Integration**  
+
+---
+
+## 📊 Featured Projects
+
+### 🏏 **Cricket Performance Analytics**
+Using data to optimize **batting techniques and training strategies**.
+
+### 🏗 **Concrete Weight Business Optimization**
+Leveraging analytics to improve **supply chain efficiency & market research**.
+
+### 🔄 **Automation in Backend Systems**
+Developing smart **backend solutions for real-world applications**.
+
+---
+
+## 📞 Get in Touch
+
+Feel free to connect with me using the links at the top! 🚀
