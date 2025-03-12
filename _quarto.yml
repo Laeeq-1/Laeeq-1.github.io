@@ -8,8 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      
+      - href: cv.qmd
+        text: CV
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: About
 
   page-footer:
     center: "Copyright © 2025 Laeeq"
@@ -20,7 +24,7 @@ format:
   html:
     theme: solana
     css: styles.css
-    toc: true 
+    toc: true
 
 
 

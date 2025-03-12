@@ -3,6 +3,42 @@ title: "Laeeq Ur Rehman"
 about:
   template: solana
   image: images/profile.jpg
-  image-shape: round 
- 
+  image-shape: round
 ---
+
+# 👋 Welcome to My Website!
+
+Hi, I'm **Laeeq Ur Rehman**!  
+I'm a **20-year-old aspiring developer and cricket enthusiast**.  
+Currently studying **Business Studies with a specialism in Data Analytics** at Dublin City University.
+
+I have a passion for **backend development, automation, and cricket analytics**.  
+This website showcases my **projects, skills, and professional journey**.
+
+---
+
+## 🚀 Explore My Website
+
+- 📄 [**My CV**](cv.qmd)  
+- 💻 [**My Projects**](projects.qmd)  
+- 📌 [**About Me**](about.qmd)  
+
+---
+
+## 🖼️ Profile Picture & Bio
+<p align="center">
+  <img src="images/profile.jpg" width="300">
+</p>
+
+---
+
+## 📞 Contact Me
+
+Want to connect? Reach out via:
+
+- 📧 [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/gmail.svg" width="20"> **Email**](mailto:Laeeq.urrehman2@mail.dcu.ie)
+- 🐦 [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg" width="20"> **Instagram**](https://www.instagram.com/laeeq3x/)
+- 💼 [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg" width="20"> **LinkedIn**](https://www.linkedin.com/in/laeeq-ur-rehman-2806192ab)
+
+---
+
