@@ -4,7 +4,7 @@ project:
 
 website:
   navbar:
-    title: "Laeeq Ur Rehman"
+    title: "Laeeq-1.github.io"
     left:
       - href: index.qmd
         text: Home
@@ -23,10 +23,11 @@ website:
 format:
   html:
     theme:
-      light: flatly  
+      light: flatly   
       dark: darkly    
-    css: styles.css  
-
+    css:
+      - styles.css    
+      - custom.scss   
     toc: true
 
 
