@@ -1,5 +1,43 @@
-.quarto-about-solana img {
-    border-radius: 50%;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
+
+body {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+
+  .navbar {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  
+  p {
+    text-align: justify;
+    color: #333;
+  }
+  
+
+  .quarto-about img, .quarto-about-solana img {
+      border-radius: 50%;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .quarto-page-footer {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    text-align: center;
+  }
+  
 
