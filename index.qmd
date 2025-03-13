@@ -4,14 +4,14 @@ subtitle: "Final Year Business Studies & Data Analytics Student"
 image: images/profile.jpg
 
 about:
-  template: solana
+  template: trestles
   image-shape: round
   image-width: 25em
   page-layout: full
   links:
     - icon: github
       text: Github
-      href: https://github.com/YourGitHubUsername
+      href: https://github.com/Laeeq-1
       target: _blank
     - icon: linkedin
       text: LinkedIn
@@ -31,7 +31,7 @@ about:
 
 I’m **Laeeq Ur Rehman**, a **final-year student specializing in Business Studies & Data Analytics** at **Dublin City University**.  
 
-I am passionate about **technology, backend development, and cricket analytics**, and I am always looking for new ways to **combine data science with automation**.
+I am passionate about cricket and gym, and I am always looking for new ways to enhance my coding skills.
 
 ---
 
@@ -59,9 +59,6 @@ Using data to optimize **batting techniques and training strategies**.
 
 ### 🏗 **Concrete Weight Business Optimization**
 Leveraging analytics to improve **supply chain efficiency & market research**.
-
-### 🔄 **Automation in Backend Systems**
-Developing smart **backend solutions for real-world applications**.
 
 ---
 
