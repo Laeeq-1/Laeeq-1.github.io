@@ -6,7 +6,7 @@ image: images/profile.jpg
 about:
   template: trestles
   image-shape: round
-  image-width: 15em  
+  image-width: 15em
   links:
     - icon: github
       text: Github
@@ -24,44 +24,26 @@ about:
       text: Email
       href: mailto:Laeeq.urrehman2@mail.dcu.ie
 
-page-layout: full  
+page-layout: full
 ---
 
 # 👨‍💻 About Me
 I’m **Laeeq Ur Rehman**, a **final-year student** at **Dublin City University**, specializing in **Business Studies & Data Analytics**.
 
-I have a strong passion for:
-- **Data Analytics & Visualization** using Python, R, and SQL.
-- **Entrepreneurship.**
-- **Cricket**
+I am passionate about:
+- **Backend Development** (C++,Python)
+- **Data Analytics & Visualization** (Python,R,SQL)
+- **Cricket Training Optimization Using Data Science**
 
-I am actively working on **optimizing my cricket training using analytics, and developing innovative business ideas.**  
-
----
-
-# 🏆 Featured Projects
-
-## **📊 Cricket Performance Analytics**
-**🔹 Optimizing batting techniques using data science and machine learning.**  
-**🔹 Developing tools to track performance metrics and predict player efficiency.**  
-
-## **🏗 Concrete Weight Business Optimization**
-**🔹 Using analytics to enhance supply chain efficiency and market research.**  
-**🔹 Developing an automation model to streamline order processing.**  
+I’m currently working on **some exciting projects related to business,automation and sports analytics**.
 
 ---
 
-# 💼 **Professional Skills**
-✅ **Data Analytics & Visualization** (Python, R, SQL, Excel)  
-✅ **Backend Development** (C++, Python, REST APIs)  
-✅ **Business & Finance Insights**    
+# 🔗 My Work & Projects
+Interested in my projects? Click below to explore my work! 🚀  
 
----
+📌 **[View My Projects →](projects.qmd)**
 
-# 📞 Contact Me  
-You can connect with me via:  
-📧 **Email:** [Laeeq.urrehman2@mail.dcu.ie](mailto:Laeeq.urrehman2@mail.dcu.ie)  
-🐦 **Instagram:** [@Laeeq3x](https://www.instagram.com/laeeq3x/)  
-💼 **LinkedIn:** [Laeeq Ur Rehman](https://www.linkedin.com/in/laeeq-ur-rehman-2806192ab)  
+📄 **[Check My CV →](cv.qmd)**
 
 ---
