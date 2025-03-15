@@ -6,7 +6,8 @@ image: images/profile.jpg
 about:
   template: trestles
   image-shape: round
-  image-width: 25em
+  image-width: 15em  
+  image-align: left  
   links:
     - icon: github
       text: Github
@@ -27,41 +28,41 @@ about:
 page-layout: full  
 ---
 
-# 👋 Welcome to My Portfolio
+# 👨‍💻 About Me
+I’m **Laeeq Ur Rehman**, a **final-year student** at **Dublin City University**, specializing in **Business Studies & Data Analytics**.
 
-I’m **Laeeq Ur Rehman**, a **final-year student specializing in Business Studies & Data Analytics** at **Dublin City University**.  
+I have a strong passion for:
+- **Data Analytics & Visualization** using Python, R, and SQL.
+- **Entrepreneurship.**
+- **Cricket**
 
-I am passionate about cricket and gym, and I am always looking for new ways to enhance my coding skills.
-
----
-
-## 🚀 Explore My Work
-
-🔹 **[View My CV](cv.qmd)**  
-🔹 **[Explore My Projects](projects.qmd)**  
-🔹 **[Learn More About Me](about.qmd)**  
+I am actively working on **optimizing my cricket training using analytics, and developing innovative business ideas.**  
 
 ---
 
-## 💼 Professional Skills
+# 🏆 Featured Projects
 
-- 🔹 **Data Analytics & Visualization** (Python, R, SQL, Excel)  
-- 🔹 **Backend Development** (C++, Python, REST APIs)  
-- 🔹 **Business & Finance Insights**  
-- 🔹 **Automation & AI Integration**  
+## **📊 Cricket Performance Analytics**
+**🔹 Optimizing batting techniques using data science and machine learning.**  
+**🔹 Developing tools to track performance metrics and predict player efficiency.**  
 
----
-
-## 📊 Featured Projects
-
-### 🏏 **Cricket Performance Analytics**
-Using data to optimize **batting techniques and training strategies**.
-
-### 🏗 **Concrete Weight Business Optimization**
-Leveraging analytics to improve **supply chain efficiency & market research**.
+## **🏗 Concrete Weight Business Optimization**
+**🔹 Using analytics to enhance supply chain efficiency and market research.**  
+**🔹 Developing an automation model to streamline order processing.**  
 
 ---
 
-## 📞 Get in Touch
+# 💼 **Professional Skills**
+✅ **Data Analytics & Visualization** (Python, R, SQL, Excel)  
+✅ **Backend Development** (C++, Python, REST APIs)  
+✅ **Business & Finance Insights**    
 
-Feel free to connect with me using the links at the top! 🚀  
+---
+
+# 📞 Contact Me  
+You can connect with me via:  
+📧 **Email:** [Laeeq.urrehman2@mail.dcu.ie](mailto:Laeeq.urrehman2@mail.dcu.ie)  
+🐦 **Instagram:** [@Laeeq3x](https://www.instagram.com/laeeq3x/)  
+💼 **LinkedIn:** [Laeeq Ur Rehman](https://www.linkedin.com/in/laeeq-ur-rehman-2806192ab)  
+
+---

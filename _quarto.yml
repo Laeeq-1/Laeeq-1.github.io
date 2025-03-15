@@ -4,7 +4,7 @@ project:
 
 website:
   navbar:
-    title: "Laeeq-1.github.io"
+    title: "Laeeq Ur Rehman"
     left:
       - href: index.qmd
         text: Home
