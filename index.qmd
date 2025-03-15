@@ -7,7 +7,6 @@ about:
   template: trestles
   image-shape: round
   image-width: 15em  
-  image-align: left  
   links:
     - icon: github
       text: Github
