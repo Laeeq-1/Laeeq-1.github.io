@@ -27,23 +27,22 @@ about:
 page-layout: full
 ---
 
-# 👨‍💻 About Me
+# 👨‍💻 Welcome to My Portfolio
 I’m **Laeeq Ur Rehman**, a **final-year student** at **Dublin City University**, specializing in **Business Studies & Data Analytics**.
 
 I am passionate about:
-- **Backend Development** (C++,Python)
-- **Data Analytics & Visualization** (Python,R,SQL)
-- **Cricket Training Optimization Using Data Science**
-
-I’m currently working on **some exciting projects related to business,automation and sports analytics**.
+- **Backend Development** (C++, Python, REST APIs)
+- **Data Analytics & Visualization** (Python, R, SQL)
+- **Entrepreneurship**
+- **Cricket**
 
 ---
 
-# 🔗 My Work & Projects
-Interested in my projects? Click below to explore my work! 🚀  
+# 🔗 Explore More
+📖 **[Learn More About Me →](about.qmd)**  
 
-📌 **[View My Projects →](projects.qmd)**
+📌 **[View My Projects →](projects.qmd)**  
 
-📄 **[Check My CV →](cv.qmd)**
+📄 **[Check My CV →](cv.qmd)**  
 
 ---
