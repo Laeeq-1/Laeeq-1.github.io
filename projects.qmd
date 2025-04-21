@@ -1,9 +1,37 @@
 ---
 title: "Projects"
+format: html
+page-layout: full
 ---
 
-# 💻 My Projects
-Here are some of my key projects:
-- 🔹 **Cricket Training & Performance Analysis**
-- 🔹 **Concrete Weight Business**
-- 🔹 **Backend Development & Automation**
+# 🚀 My Projects
+
+## 🏏 Cricket Performance Analytics
+
+- **Description**: Leveraged data analytics to optimize cricket training sessions.
+- **Tools Used**: Python, Pandas, Matplotlib
+- **Highlights**:
+  - Analyzed player performance metrics.
+  - Developed visual dashboards for performance tracking.
+  - Implemented predictive models to forecast improvement trends.
+
+## 🏗 Concrete Weight Business Automation
+
+- **Description**: Streamlined order and weight tracking for a concrete business.
+- **Tools Used**: Excel, Python, Google Sheets API
+- **Highlights**:
+  - Automated weight logging system.
+  - Backend logic for cost tracking and delivery scheduling.
+  - Reduced manual workload by 60%.
+
+## 🔄 Backend Development Practice
+
+- **Description**: Built REST APIs to enhance backend development skills.
+- **Tools Used**: C++, Postman, Flask
+- **Highlights**:
+  - Developed server-client architecture.
+  - Practiced user data handling and security basics.
+
+---
+
+
