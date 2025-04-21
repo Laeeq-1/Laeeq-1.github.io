@@ -11,7 +11,7 @@ _some of my most meaningful work combining real-world experience with backend an
 <div class="project-cards">
 
 ::: {.project-card}
-![Cricket Project](projects/cricket.png)
+![Cricket Project](projects/cricket.jpg)
 
 ### [Laeeq’s Cricketing Journey](projects/cricket-journey.qmd)
 
@@ -19,14 +19,14 @@ A personal deep dive into how I used data and code to analyze and improve my cri
 :::
 
 ::: {.project-card}
-![Weights](projects/Weights.png)
+![Weights](projects/weights.jpg)
 
 ### [EVCIM](projects/EVCIM.qmd)
 
 Built a backend system to automate order tracking and optimize operations for a local concrete supplier.
 :::
 
-<!-- Add coding project cards below here -->
 </div>
+
 
 
