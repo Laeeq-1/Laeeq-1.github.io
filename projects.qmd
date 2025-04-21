@@ -8,21 +8,27 @@ page-layout: full
 
 _some of my most meaningful work combining real-world experience with backend and data-driven development._
 
-<div class="project-cards">
+---
 
-::: {.project-card}
 ### [Laeeq’s Cricketing Journey](projects/cricket-journey.qmd)
-<img src="projects/cricket.jpg" alt="Cricket Project" width="250" style="margin-bottom: 10px;">
-A personal deep dive into how I used data and code to analyze and improve my cricket performance over time.
-:::
 
-::: {.project-card}
+<img src="projects/cricket.jpg" width="180" style="display:block; margin: 0 auto 10px;" />
+
+A personal deep dive into how I used data and code to analyze and improve my cricket performance over time.  
+Click to explore performance insights, technique analysis, and progress from my 2024 season.
+
+---
+
 ### [EVCIM](projects/EVCIM.qmd)
-<img src="projects/weights.jpg" alt="Weights Project" width="250" style="margin-bottom: 10px;">
-Built a backend system to automate order tracking and optimize operations for a local concrete supplier.
-:::
 
-</div>
+<img src="projects/weights.jpg" width="250" style="display:block; margin: 0 auto 10px;" />
+
+I started a concrete buisness with my best friend, we sourced all our materials for free and we are trying to make automated system to be able to produce weights at a larger more frequent scale.
+Click to find out more about EVCIM 
+---
+
+<!-- You can add more project sections below this point if needed -->
+
 
 
 
