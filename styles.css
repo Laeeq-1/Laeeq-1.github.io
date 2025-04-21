@@ -1,17 +1,18 @@
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 body {
-  font-size: 0.9rem;
-  line-height: 1.4;
-  font-family: "Times New Roman", serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
   background-color: #ffffff; 
   color: #333;
   padding: 20px;
   margin: 0;
 }
 
-
 main, .container, .content, .quarto-about, .quarto-grid {
-  background-color: inherit !important; 
+  background-color: inherit !important;
 }
 
 .navbar {
@@ -71,4 +72,35 @@ p {
 .contact-icons img {
   width: 24px;
   margin-right: 8px;
+}
+
+/* Project Card Grid Layout */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: #ffffff;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px auto;
 }
