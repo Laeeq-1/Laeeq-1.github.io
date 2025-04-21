@@ -4,34 +4,29 @@ format: html
 page-layout: full
 ---
 
-# 🚀 My Projects
+# 💼 My Projects
 
-## 🏏 Cricket Performance Analytics
+_some of my most meaningful work combining real-world experience with backend and data-driven development._
 
-- **Description**: Leveraged data analytics to optimize cricket training sessions.
-- **Tools Used**: Python, Pandas, Matplotlib
-- **Highlights**:
-  - Analyzed player performance metrics.
-  - Developed visual dashboards for performance tracking.
-  - Implemented predictive models to forecast improvement trends.
+<div class="project-cards">
 
-## 🏗 Concrete Weight Business Automation
+::: {.project-card}
+![Cricket Project](projects/cricket.png)
 
-- **Description**: Streamlined order and weight tracking for a concrete business.
-- **Tools Used**: Excel, Python, Google Sheets API
-- **Highlights**:
-  - Automated weight logging system.
-  - Backend logic for cost tracking and delivery scheduling.
-  - Reduced manual workload by 60%.
+### [Laeeq’s Cricketing Journey](projects/cricket-journey.qmd)
 
-## 🔄 Backend Development Practice
+A personal deep dive into how I used data and code to analyze and improve my cricket performance over time.
+:::
 
-- **Description**: Built REST APIs to enhance backend development skills.
-- **Tools Used**: C++, Postman, Flask
-- **Highlights**:
-  - Developed server-client architecture.
-  - Practiced user data handling and security basics.
+::: {.project-card}
+![Weights](projects/Weights.png)
 
----
+### [EVCIM](projects/EVCIM.qmd)
+
+Built a backend system to automate order tracking and optimize operations for a local concrete supplier.
+:::
+
+<!-- Add coding project cards below here -->
+</div>
 
 
