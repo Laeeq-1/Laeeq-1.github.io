@@ -11,22 +11,19 @@ _some of my most meaningful work combining real-world experience with backend an
 <div class="project-cards">
 
 ::: {.project-card}
-![Cricket Project](projects/cricket.jpg)
-
 ### [Laeeq’s Cricketing Journey](projects/cricket-journey.qmd)
-
+<img src="projects/cricket.jpg" alt="Cricket Project" width="250" style="margin-bottom: 10px;">
 A personal deep dive into how I used data and code to analyze and improve my cricket performance over time.
 :::
 
 ::: {.project-card}
-![Weights](projects/weights.jpg)
-
 ### [EVCIM](projects/EVCIM.qmd)
-
+<img src="projects/weights.jpg" alt="Weights Project" width="250" style="margin-bottom: 10px;">
 Built a backend system to automate order tracking and optimize operations for a local concrete supplier.
 :::
 
 </div>
+
 
 
 
