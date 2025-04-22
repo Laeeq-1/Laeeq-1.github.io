@@ -4,30 +4,28 @@ format: html
 page-layout: full
 ---
 
-# 💼 My Projects
+# My Projects
 
 _some of my most meaningful work combining real-world experience with backend and data-driven development._
 
----
+<div class="project-grid">
 
-### [Laeeq’s Cricketing Journey](projects/cricket-journey.qmd)
+<div class="project-card">
+  <h3><a href="projects/cricket-journey.qmd">Laeeq’s Cricketing Journey</a></h3>
+  <img src="projects/cricket.jpg" alt="Cricket Project" class="project-img">
+  <p>A personal deep dive into how I used data and code to analyze and improve my cricket performance over time.</p>
+  <p>Click to explore performance insights, technique analysis, and progress from my 2024 season.</p>
+</div>
 
-<img src="projects/cricket.jpg" width="180" style="display:block; margin: 0 auto 10px;" />
+<div class="project-card">
+  <h3><a href="projects/EVCIM.qmd">EVCIM</a></h3>
+  <img src="projects/weights.jpg" alt="Concrete Project" class="project-img">
+  <p>I started a concrete business with my best friend. We sourced all our materials for free and we’re working on an automated system to produce weights at a larger, more frequent scale.</p>
+  <p>Click to find out more about EVCIM.</p>
+</div>
 
-A personal deep dive into how I used data and code to analyze and improve my cricket performance over time.  
-Click to explore performance insights, technique analysis, and progress from my 2024 season.
+</div>
 
----
-
-### [EVCIM](projects/EVCIM.qmd)
-
-<img src="projects/weights.jpg" width="250" style="display:block; margin: 0 auto 10px;" />
-
-I started a concrete buisness with my best friend, we sourced all our materials for free and we are trying to make automated system to be able to produce weights at a larger more frequent scale.
-Click to find out more about EVCIM 
----
-
-<!-- You can add more project sections below this point if needed -->
 
 
 
