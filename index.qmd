@@ -1,48 +1,40 @@
 ---
 title: "Laeeq Ur Rehman"
-subtitle: "Final Year Business Studies & Data Analytics Student"
+subtitle: "Business Studies & Data Analytics Student at DCU"
 image: images/profile.jpg
-
 about:
-  template: trestles
+  template: solana
   image-shape: round
-  image-width: 15em
+  image-width: 14em
   links:
     - icon: github
       text: Github
       href: https://github.com/Laeeq-1
-      target: _blank
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/laeeq-ur-rehman-2806192ab
-      target: _blank
     - icon: instagram
       text: Instagram
       href: https://www.instagram.com/laeeq3x/
-      target: _blank
     - icon: envelope
       text: Email
       href: mailto:Laeeq.urrehman2@mail.dcu.ie
-
 page-layout: full
 ---
 
-# 👨‍💻 Welcome to My Portfolio
-I’m **Laeeq Ur Rehman**, a **final-year student** at **Dublin City University**, specializing in **Business Studies & Data Analytics**.
+<div class="fade-in">
 
-I am passionate about:
-- **Backend Development** (C++, Python, REST APIs)
-- **Data Analytics & Visualization** (Python, R, SQL)
-- **Entrepreneurship**
-- **Cricket**
+# Welcome!
 
----
+Hi, I’m **Laeeq**, a student at Dublin City University studying Business Studies, with a specialization in Data Analytics.  
+I have a keen interest in Cricket, entrepreneurship and analytics.
 
-# 🔗 Explore More
-📖 **[Learn More About Me →](about.qmd)**  
-
-📌 **[View My Projects →](projects.qmd)**  
-
-📄 **[Check My CV →](cv.qmd)**  
+</div>
 
 ---
+
+## Explore My Work
+
+-  [**My CV**](cv.qmd)  
+-  [**My Projects**](projects.qmd)  
+-  [**More About Me**](about.qmd)
