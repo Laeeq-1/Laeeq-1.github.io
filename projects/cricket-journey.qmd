@@ -18,31 +18,31 @@ Over the last two seasons, I’ve played for **Carlow (2023)** and then moved to
 
 ---
 
-### 🧢 North County (2024–2024)
+### North County (2024–2024)
 
 <div class="card">
-  <img src="projects/northcounty2024.png" alt="North County Stats" style="display:block; margin:auto; max-width:100%; width:80%;" />
+  <img src="northcounty2024.png" alt="North County Stats" style="display:block; margin:auto; max-width:100%; width:80%;" />
 </div>
 
 <div class="card">
-  <img src="projects/2024dismissals.png" alt="Dismissal Breakdown 2024" style="display:block; margin:auto; max-width:100%; width:80%;" />
-</div>
-
----
-
-### 🧢 Carlow (2023)
-
-<div class="card">
-  <img src="projects/carlow2023.png" alt="Carlow 2023 Stats" style="display:block; margin:auto; max-width:100%; width:80%;" />
-</div>
-
-<div class="card">
-  <img src="projects/2023dismissals.png" alt="Dismissal Breakdown 2023" style="display:block; margin:auto; max-width:100%; width:80%;" />
+  <img src="2024dismissals.png" alt="Dismissal Breakdown 2024" style="display:block; margin:auto; max-width:100%; width:80%;" />
 </div>
 
 ---
 
-## 💬 Final Thoughts
+### Carlow (2023)
+
+<div class="card">
+  <img src="carlow2023.png" alt="Carlow Stats" style="display:block; margin:auto; max-width:100%; width:90%;" />
+</div>
+
+<div class="card">
+  <img src="2023dismissals.png" alt="Dismissal Breakdown 2023" style="display:block; margin:auto; max-width:100%; width:80%;" />
+</div>
+
+---
+
+## Reflection
 
 Each year of cricket has taught me something new. I’ve used **coding** to visualize performance trends and stats, helping me identify weaknesses and build confidence. This is just the beginning of my journey.
 
