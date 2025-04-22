@@ -1,39 +1,83 @@
 ---
 title: "About Me"
-about:
-  template: solana
-  image: images/profile.jpg
-  image-shape: round 
- 
+format: html
+page-layout: full
 ---
 
-# 👋 Welcome to My Website!
-Hi, I'm **Laeeq**! I'm a **20-year-old aspiring developer and cricket enthusiast**.  
-This is my personal website where I showcase my **projects, skills, and interests**.
+# About Laeeq Ur Rehman
 
----
+<div style="text-align:center">
+  <img src="images/about-me.jpg" alt="Laeeq profile" style="width:180px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+</div>
 
-## 🏏 About Me
-- 📍 **Currently studying Business studies with a specialism in Data Analytics in Dublin City Univeristy**
-- 💻 **Exploring Backend Development, C++, and Quarto**
-- 🎯 **Passionate about cricket**
-- 🚀 **Learning GitHub Pages & Web Development**
+I'm a **Business Studies & Data Analytics** student at **Dublin City University**. Passionate about cricket, data, and creating solutions — whether through sport, code, or business.
 
 ---
 
-## 📌 My Projects
-- 🔹 **Cricket Training & Performance Analysis**
-- 🔹 **Concrete weight business**
-- 🔹 **Quarto Website Customization**
+## My Cricket Journey
+
+<div class="card">
+  <p>
+    Cricket has been at the heart of my life. Over the years, I’ve moved clubs and climbed divisions — pushing myself physically and mentally.
+    I use analytics and self-review to track my performances and grow as a player.
+  </p>
+  <p>
+    Check out my story: [**Laeeq’s Cricketing Journey →**](projects/cricket-journey.qmd)
+  </p>
+</div>
 
 ---
 
-## 📞 Contact Me
-Want to connect? Reach out via:
-- 📧 **Email:** Laeeq.urrehman2@mail.dcu.ie
-- 🐦 **Instagram:** [@Laeeq3x](https://www.instagram.com/laeeq3x/)
-- 💼 **LinkedIn:** [Laeeq Ur Rehman](https://www.linkedin.com/in/laeeq-ur-rehman-2806192ab)
+## My Business Hustle – EVCIM
+
+<div class="card">
+  <img src="projects/weights.jpg" alt="EVCIM weights" style="width:100%; max-width:400px; border-radius: 10px; display:block; margin: 10px auto;" />
+  <p>
+    I co-founded a startup repurposing scrap metal into recyclable weights.  
+    I handled everything from door-to-door sales to backend logic and automation systems — learning how lean businesses truly run.
+  </p>
+</div>
 
 ---
 
-About this site
+## Real-World Work Experience 
+
+<div class="card">
+  <p>
+    For 4+ years, I’ve worked at Golden Grill, a family-run restaurant in Carlow.  
+    There I manage tills, assist with stock, and even jump into the kitchen at times.
+  </p>
+  <p>
+    It’s taught me the importance of customer service, teamwork, and community engagement — things no textbook can teach.
+  </p>
+</div>
+
+---
+
+## My Tech Stack
+
+<div class="card">
+  <ul>
+    <li>Python Programming</li>
+    <li>Power BI & Tableau</li>
+    <li>Cloud Computing</li>
+    <li>Automation (for business ops)</li>
+    <li>Strategic Thinking & Analytics</li>
+  </ul>
+</div>
+
+---
+
+## Why This Portfolio?
+
+> This isn’t just a portfolio — it’s my journey.
+
+Every page reflects how I combine data, discipline, and creativity to grow as a student, entrepreneur, and cricketer.
+
+---
+
+## Connect & Explore
+
+- [**My CV →**](cv.qmd)  
+- [**My Projects →**](projects.qmd)
+
