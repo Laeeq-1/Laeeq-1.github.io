@@ -1,12 +1,12 @@
 ---
-title: "Laeeq’s Cricketing Journey"
+title: "Laeeq's Cricketing Journey"
 format: html
 page-layout: full
 ---
 
 # 🏏 Laeeq’s Cricketing Journey
 
-Since I can remember, I’ve always loved cricket — it’s been a way of life for me. It allowed me to express myself, stay active, and build lifelong friendships. Every summer as a kid, whether in Ireland or visiting Pakistan, I’d spend hours playing cricket, often with family and friends.  
+Since I can remember, I’ve always loved cricket — it’s been a way of life for me. It allowed me to express myself, stay active, and build lifelong friendships. Every summer as a kid, whether in Ireland or visiting Pakistan, I’d spend hours playing cricket, often with family and friends.
 
 Cricket was never just a game — it was a dream. But dreams require hard work. Over the past year, I’ve taken that seriously: analyzing my technique, reviewing my match performances, and breaking down what I need to improve — both mentally and physically.
 
@@ -14,28 +14,36 @@ Cricket was never just a game — it was a dream. But dreams require hard work. 
 
 ## 📈 Performance Metrics & Stats
 
-Over the last two seasons, I’ve played for **Carlow (2023)** and then moved to **North County (2024)**.I moved to experinece a higher level of cricket. Here are some stats and breakdowns of my performance — from batting scores to wicket-taking form.
+Over the last two seasons, I’ve played for **Carlow (2023)** and then moved to **North County (2024)**. I moved to experience a higher level of cricket. Here are some stats and breakdowns of my performance — from batting scores to wicket-taking form.
 
 ---
 
-### 🏏 North County (2024–2024)
+### 🧢 North County (2024–2024)
 
-<img src="projects/Northcounty2024.png" alt="North County Stats" style="display:block; margin:auto; max-width:100%; width:90%;" />
+<div class="card">
+  <img src="projects/northcounty2024.png" alt="North County Stats" style="display:block; margin:auto; max-width:100%; width:80%;" />
+</div>
 
-<img src="projects/2024dismissals.png" alt="North County Dismissals" style="display:block; margin:auto; max-width:100%; width:90%;" />
-
----
-
-### 🏏 Carlow (2023–2023)
-
-<img src="projects/Carlow2023.png" alt="Carlow Stats" style="display:block; margin:auto; max-width:100%; width:90%;" />
-
-<img src="projects/2023dismissals.png" alt="Carlow Dismissals" style="display:block; margin:auto; max-width:100%; width:90%;" />
+<div class="card">
+  <img src="projects/2024dismissals.png" alt="Dismissal Breakdown 2024" style="display:block; margin:auto; max-width:100%; width:80%;" />
+</div>
 
 ---
 
-## 🧠 Reflection
+### 🧢 Carlow (2023)
 
-The biggest improvements this year weren’t just technical — they were mental. I’ve started approaching innings more calmly, backing myself under pressure, and treating failure as data, not defeat.
+<div class="card">
+  <img src="projects/carlow2023.png" alt="Carlow 2023 Stats" style="display:block; margin:auto; max-width:100%; width:80%;" />
+</div>
 
-This project is just the beginning of how I hope to blend my **passion for cricket** with **data analytics and coding** to improve, grow, and share insights with others.
+<div class="card">
+  <img src="projects/2023dismissals.png" alt="Dismissal Breakdown 2023" style="display:block; margin:auto; max-width:100%; width:80%;" />
+</div>
+
+---
+
+## 💬 Final Thoughts
+
+Each year of cricket has taught me something new. I’ve used **coding** to visualize performance trends and stats, helping me identify weaknesses and build confidence. This is just the beginning of my journey.
+
+Stay tuned — this is only the start. 🏏🔥
