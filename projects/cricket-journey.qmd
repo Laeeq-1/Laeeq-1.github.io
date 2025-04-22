@@ -4,15 +4,13 @@ format: html
 page-layout: full
 ---
 
-# 🏏 Laeeq’s Cricketing Journey
-
 Since I can remember, I’ve always loved cricket — it’s been a way of life for me. It allowed me to express myself, stay active, and build lifelong friendships. Every summer as a kid, whether in Ireland or visiting Pakistan, I’d spend hours playing cricket, often with family and friends.
 
 Cricket was never just a game — it was a dream. But dreams require hard work. Over the past year, I’ve taken that seriously: analyzing my technique, reviewing my match performances, and breaking down what I need to improve — both mentally and physically.
 
 ---
 
-## 📈 Performance Metrics & Stats
+## Performance Metrics & Stats
 
 Over the last two seasons, I’ve played for **Carlow (2023)** and then moved to **North County (2024)**. I moved to experience a higher level of cricket. Here are some stats and breakdowns of my performance — from batting scores to wicket-taking form.
 
@@ -53,4 +51,4 @@ I still have a long way to go, but the data has given me the clarity and confide
 
 Each year of cricket has taught me something new. I’ve used **coding** to visualize performance trends and stats, helping me identify weaknesses and build confidence. This is just the beginning of my journey.
 
-Stay tuned — this is only the start. 🏏🔥
+Stay tuned — this is only the start.
