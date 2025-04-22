@@ -3,11 +3,12 @@ project:
   output-dir: docs
 
 website:
+  title: "Laeeq Ur Rehman"
   navbar:
-    title: "Laeeq Ur Rehman"
+    logo: /favicon.png  # Optional: add a small icon to the left of your name
+    title-href: index.qmd  # ✅ Makes title clickable to home
     left:
-      - href: index.qmd
-        text: Home
+      # Home is removed from here
       - href: cv.qmd
         text: CV
       - href: projects.qmd
@@ -23,12 +24,13 @@ website:
 format:
   html:
     theme:
-      light: flatly   
-      dark: darkly    
+      light: flatly
+      dark: darkly
     css:
-      - styles.css    
-      - custom.scss   
+      - styles.css
+      - custom.scss
     toc: true
+
 
 
 
