@@ -1,22 +1,19 @@
----
-title: "Personal Projects"
-format: html
-page-layout: full
----
+## Personal Projects
 
 <div class="project-entry">
   <img src="cricket.jpg" alt="Cricket Journey" class="project-thumb">
   <div>
-    <a href="cricket-journey.html"><strong>Cricket Journey</strong></a><br>
-    <em>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.Click to learn more about my journey</em>
+    <p><a href="cricket-journey.html"><strong>Cricket Journey</strong></a></p>
+    <p><em>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.Click to follow me on my cricketing journey</em></p>
   </div>
 </div>
 
 <div class="project-entry">
-  <img src="weights.jpg" alt="EVCIM" class="project-thumb">
+  <img src="weights.jpg" alt="EVCIM Weights Business" class="project-thumb">
   <div>
-    <a href="EVCIM.html"><strong>EVCIM Weights Business</strong></a><br>
-    <em>My start-up buisness, strated by me and my two friends , we focus on making recyclabl weights with metal and concrete. Click to learn more </em>
+    <p><a href="EVCIM.html"><strong>EVCIM Weights Business</strong></a></p>
+    <p><em>My first real-world business using reyclabale materials to make concrete weight. Click to find out more</em></p>
   </div>
 </div>
+
 
