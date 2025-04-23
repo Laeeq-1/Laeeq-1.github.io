@@ -14,15 +14,15 @@ Explore my personal and academic projects using data, backend tools, and real-wo
 
 These are hands-on, self-driven projects where I explored coding, cricket performance, and business ideas.
 
-👉 [View Personal Projects →](projects/personal.qmd)
+👉 [View Personal Projects →](projects/personal.html)
 
 ---
 
 ## Academic Projects
 
-This section contains coursework-based or university-led projects where I applied technical skills and analysis.
+This section contains coursework-based or university-led projects.
 
-👉 [View Academic Projects →](projects/academic.qmd)
+👉 [View Academic Projects →](projects/academic.html)
 
 
 
