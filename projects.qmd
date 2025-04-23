@@ -6,23 +6,22 @@ page-layout: full
 
 # My Projects
 
-Explore my personal and academic projects using data, backend tools, and real-world experience.
+_some of my most meaningful work combining real-world experience with backend and data-driven development._
 
----
+<div class="project-grid">
 
-## Personal Projects
+<div class="project-card">
+  <h3><a href="projects/personal.html">Personal Projects</a></h3>
+  <p>Explore personal ventures like cricket performance analysis, business automation, and self-taught coding experiments.</p>
+</div>
 
-These are hands-on, self-driven projects where I explored coding, cricket performance, and business ideas.
+<div class="project-card">
+  <h3><a href="projects/academic.html">Academic Projects</a></h3>
+  <p>See coursework projects from DCU — including data analytics, backend dev, and full-stack assignments.</p>
+</div>
 
-👉 [View Personal Projects →](projects/personal.html)
+</div>
 
----
-
-## Academic Projects
-
-This section contains coursework-based or university-led projects.
-
-👉 [View Academic Projects →](projects/academic.html)
 
 
 
