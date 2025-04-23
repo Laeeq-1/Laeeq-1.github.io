@@ -109,6 +109,6 @@
     "href": "projects/personal.html",
     "title": "Personal Projects",
     "section": "",
-    "text": "Personal Projects\n\nCricket Journey\nEVCIM Weights Business"
+    "text": "&lt;a href=\"cricket-journey.html\"&gt;&lt;strong&gt;Cricket Journey&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;\n&lt;em&gt;This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.Click to learn more about my journey&lt;/em&gt;\n\n\n\n\n\n&lt;a href=\"EVCIM.html\"&gt;&lt;strong&gt;EVCIM Weights Business&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;\n&lt;em&gt;My start-up buisness, strated by me and my two friends , we focus on making recyclabl weights with metal and concrete. Click to learn more &lt;/em&gt;"
   }
 ]
