@@ -12,7 +12,7 @@
   <img src="weights.jpg" alt="EVCIM Weights Business" class="project-thumb" />
   <div class="project-text">
     <p><strong><a href="EVCIM.html">EVCIM Weights Business</a></strong></p>
-    <p><em>My first real-world business using recyclable materials to make concrete weights.</em></p>
+    <p><em>My first real-world business using recyclable materials to make concrete weights. Click to learn more.</em></p>
   </div>
 </div>
 
