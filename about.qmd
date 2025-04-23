@@ -4,10 +4,10 @@ format: html
 page-layout: full
 ---
 
-# About Laeeq Ur Rehman
 
-<div style="text-align:center">
-  <img src="images/about-me.jpg" alt="Laeeq profile" style="width:180px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+
+<div style="text-align:center; margin-top: 20px;">
+  <img src="images/about-me.jpg" alt="Laeeq profile" style="width:180px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;" />
 </div>
 
 I'm a **Business Studies & Data Analytics** student at **Dublin City University**. Passionate about cricket, data, and creating solutions — whether through sport, code, or business.
