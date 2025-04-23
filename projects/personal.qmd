@@ -4,7 +4,7 @@
 <img src="cricket.jpg" alt="Cricket Journey" class="project-thumb" />
 <div class="project-text">
   <p><strong><a href="cricket-journey.html">Cricket Journey</a></strong></p>
-  <p><em>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.</em></p>
+  <p><em>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player. Click to follow my journey.</em></p>
 </div>
 :::
 
@@ -15,6 +15,7 @@
   <p><em>My first real-world business using recyclable materials to make concrete weights. Click to learn more.</em></p>
 </div>
 :::
+
 
 
 
