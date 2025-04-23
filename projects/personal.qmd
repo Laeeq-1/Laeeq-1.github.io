@@ -1,20 +1,17 @@
 ## Personal Projects
 
-<div class="project-entry">
-  <img src="cricket.jpg" alt="Cricket Journey" class="project-thumb" />
-  <div>
-    <p><strong><a href="cricket-journey.html">Cricket Journey</a></strong></p>
-    <p><em>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player. Click to follow my journey.</em></p>
-  </div>
-</div>
+![Cricket Journey thumbnail](cricket.jpg){.project-thumb}
 
-<div class="project-entry">
-  <img src="weights.jpg" alt="EVCIM Weights Business" class="project-thumb" />
-  <div>
-    <p><strong><a href="EVCIM.html">EVCIM Weights Business</a></strong></p>
-    <p><em>My first real-world business using recyclable materials to make concrete weights. Click to learn more.</em></p>
-  </div>
-</div>
+**[Cricket Journey](cricket-journey.html)**  
+*This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player. Click to follow my journey.*
+
+---
+
+![EVCIM thumbnail](weights.jpg){.project-thumb}
+
+**[EVCIM Weights Business](EVCIM.html)**  
+*My first real-world business using recyclable materials to make concrete weights. Click to learn more.*
+
 
 
 
