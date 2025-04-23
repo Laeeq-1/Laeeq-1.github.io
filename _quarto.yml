@@ -7,14 +7,14 @@ website:
   navbar:
     logo: /favicon.png
     title-href: index.qmd
-    left:
+    right:
       - href: cv.qmd
         text: CV
       - text: Projects
         menu:
-          - href: personal.qmd
+          - href: projects/personal.qmd
             text: Personal Projects
-          - href: academic.qmd
+          - href: projects/academic.qmd
             text: Academic Projects
       - href: about.qmd
         text: About
