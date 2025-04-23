@@ -1,0 +1,10 @@
+---
+title: "Personal Projects"
+format: html
+page-layout: full
+---
+
+# Personal Projects
+
+- [Cricket Journey](cricket-journey.qmd)
+- [EVCIM Weights Business](EVCIM.qmd)

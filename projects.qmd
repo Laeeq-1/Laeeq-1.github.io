@@ -6,25 +6,24 @@ page-layout: full
 
 # My Projects
 
-_some of my most meaningful work combining real-world experience with backend and data-driven development._
+Explore my personal and academic projects using data, backend tools, and real-world experience.
 
-<div class="project-grid">
+---
 
-<div class="project-card">
-  <h3><a href="projects/cricket-journey.qmd">Laeeq’s Cricketing Journey</a></h3>
-  <img src="projects/cricket.jpg" alt="Cricket Project" class="project-img">
-  <p>A personal deep dive into how I used data and code to analyze and improve my cricket performance over time.</p>
-  <p>Click to explore performance insights, technique analysis, and progress from my 2024 season.</p>
-</div>
+## Personal Projects
 
-<div class="project-card">
-  <h3><a href="projects/EVCIM.qmd">EVCIM</a></h3>
-  <img src="projects/weights.jpg" alt="Concrete Project" class="project-img">
-  <p>I started a concrete business with my best friend. We sourced all our materials for free and we’re working on an automated system to produce weights at a larger, more frequent scale.</p>
-  <p>Click to find out more about EVCIM.</p>
-</div>
+These are hands-on, self-driven projects where I explored coding, cricket performance, and business ideas.
 
-</div>
+👉 [View Personal Projects →](projects/personal.qmd)
+
+---
+
+## Academic Projects
+
+This section contains coursework-based or university-led projects where I applied technical skills and analysis.
+
+👉 [View Academic Projects →](projects/academic.qmd)
+
 
 
 

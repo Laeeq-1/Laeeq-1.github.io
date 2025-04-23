@@ -4,28 +4,28 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "My Projects\nsome of my most meaningful work combining real-world experience with backend and data-driven development.\n\n\n\nLaeeq’s Cricketing Journey\n\n\n\nA personal deep dive into how I used data and code to analyze and improve my cricket performance over time.\n\n\nClick to explore performance insights, technique analysis, and progress from my 2024 season.\n\n\n\n\nEVCIM\n\n\n\nI started a concrete business with my best friend. We sourced all our materials for free and we’re working on an automated system to produce weights at a larger, more frequent scale.\n\n\nClick to find out more about EVCIM."
+    "text": "Explore my personal and academic projects using data, backend tools, and real-world experience.\n\n\n\nThese are hands-on, self-driven projects where I explored coding, cricket performance, and business ideas.\n👉 View Personal Projects →\n\n\n\n\nThis section contains coursework-based or university-led projects where I applied technical skills and analysis.\n👉 View Academic Projects →"
   },
   {
-    "objectID": "projects/cricket-journey.html",
-    "href": "projects/cricket-journey.html",
-    "title": "Laeeq’s Cricketing Journey",
+    "objectID": "projects.html#personal-projects",
+    "href": "projects.html#personal-projects",
+    "title": "Projects",
     "section": "",
-    "text": "Since I can remember, I’ve always loved cricket — it’s been a way of life for me. It allowed me to express myself, stay active, and build lifelong friendships. Every summer as a kid, whether in Ireland or visiting Pakistan, I’d spend hours playing cricket, often with family and friends.\nCricket was never just a game — it was a dream. But dreams require hard work. Over the past year, I’ve taken that seriously: analyzing my technique, reviewing my match performances, and breaking down what I need to improve — both mentally and physically."
+    "text": "These are hands-on, self-driven projects where I explored coding, cricket performance, and business ideas.\n👉 View Personal Projects →"
   },
   {
-    "objectID": "projects/cricket-journey.html#performance-metrics-stats",
-    "href": "projects/cricket-journey.html#performance-metrics-stats",
-    "title": "Laeeq’s Cricketing Journey",
-    "section": "Performance Metrics & Stats",
-    "text": "Performance Metrics & Stats\nOver the last two seasons, I’ve played for Carlow (2023) and then moved to North County (2024). I moved to experience a higher level of cricket. Here are some stats and breakdowns of my performance — from batting scores to wicket-taking form.\n\n\nNorth County (2024–2024)\n\n\n\n\n\n\n\n\n\nCarlow (2023)\n\n\n\n\n\n\n\nThe move from Carlow to North County was a much-needed change. North County’s ground (The Inch) provided a far better playing environment, and I got the opportunity to compete at a higher level — going from Division 16 in Carlow to regularly playing Division 4 at North County.\nThis 12-division jump in just one year reflects the hard work and dedication I’ve put in, and it continues to motivate me. My total runs increased from 267 in 2023 to 567 in 2024, and my average also improved significantly — all while playing at a higher level.\nThe pie charts played a huge role in helping me understand how I was getting out. For example, frequent LBWs helped me realize that my head was falling across the stumps, making me unbalanced. By identifying these patterns, I was able to make technical corrections and improve my consistency.\nI still have a long way to go, but the data has given me the clarity and confidence that I’m moving in the right direction."
+    "objectID": "projects.html#academic-projects",
+    "href": "projects.html#academic-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "This section contains coursework-based or university-led projects where I applied technical skills and analysis.\n👉 View Academic Projects →"
   },
   {
-    "objectID": "projects/cricket-journey.html#reflection",
-    "href": "projects/cricket-journey.html#reflection",
-    "title": "Laeeq’s Cricketing Journey",
-    "section": "Reflection",
-    "text": "Reflection\nEach year of cricket has taught me something new. I’ve used coding to visualize performance trends and stats, helping me identify weaknesses and build confidence. This is just the beginning of my journey.\nStay tuned — this is only the start."
+    "objectID": "projects/academic.html",
+    "href": "projects/academic.html",
+    "title": "Academic Projects",
+    "section": "",
+    "text": "Academic Projects\nnothing filled in yet"
   },
   {
     "objectID": "cv.html",
@@ -96,5 +96,33 @@
     "title": "Laeeq Ur Rehman",
     "section": "Explore My Work",
     "text": "Explore My Work\n\nMy CV\n\nMy Projects\n\nMore About Me"
+  },
+  {
+    "objectID": "projects/cricket-journey.html",
+    "href": "projects/cricket-journey.html",
+    "title": "Laeeq’s Cricketing Journey",
+    "section": "",
+    "text": "Since I can remember, I’ve always loved cricket — it’s been a way of life for me. It allowed me to express myself, stay active, and build lifelong friendships. Every summer as a kid, whether in Ireland or visiting Pakistan, I’d spend hours playing cricket, often with family and friends.\nCricket was never just a game — it was a dream. But dreams require hard work. Over the past year, I’ve taken that seriously: analyzing my technique, reviewing my match performances, and breaking down what I need to improve — both mentally and physically."
+  },
+  {
+    "objectID": "projects/cricket-journey.html#performance-metrics-stats",
+    "href": "projects/cricket-journey.html#performance-metrics-stats",
+    "title": "Laeeq’s Cricketing Journey",
+    "section": "Performance Metrics & Stats",
+    "text": "Performance Metrics & Stats\nOver the last two seasons, I’ve played for Carlow (2023) and then moved to North County (2024). I moved to experience a higher level of cricket. Here are some stats and breakdowns of my performance — from batting scores to wicket-taking form.\n\n\nNorth County (2024–2024)\n\n\n\n\n\n\n\n\n\nCarlow (2023)\n\n\n\n\n\n\n\nThe move from Carlow to North County was a much-needed change. North County’s ground (The Inch) provided a far better playing environment, and I got the opportunity to compete at a higher level — going from Division 16 in Carlow to regularly playing Division 4 at North County.\nThis 12-division jump in just one year reflects the hard work and dedication I’ve put in, and it continues to motivate me. My total runs increased from 267 in 2023 to 567 in 2024, and my average also improved significantly — all while playing at a higher level.\nThe pie charts played a huge role in helping me understand how I was getting out. For example, frequent LBWs helped me realize that my head was falling across the stumps, making me unbalanced. By identifying these patterns, I was able to make technical corrections and improve my consistency.\nI still have a long way to go, but the data has given me the clarity and confidence that I’m moving in the right direction."
+  },
+  {
+    "objectID": "projects/cricket-journey.html#reflection",
+    "href": "projects/cricket-journey.html#reflection",
+    "title": "Laeeq’s Cricketing Journey",
+    "section": "Reflection",
+    "text": "Reflection\nEach year of cricket has taught me something new. I’ve used coding to visualize performance trends and stats, helping me identify weaknesses and build confidence. This is just the beginning of my journey.\nStay tuned — this is only the start."
+  },
+  {
+    "objectID": "projects/personal.html",
+    "href": "projects/personal.html",
+    "title": "Personal Projects",
+    "section": "",
+    "text": "Personal Projects\n\nCricket Journey\nEVCIM Weights Business"
   }
 ]

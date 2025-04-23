@@ -1,0 +1,9 @@
+---
+title: "Academic Projects"
+format: html
+page-layout: full
+---
+
+# Academic Projects
+
+nothing filled in yet

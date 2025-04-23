@@ -5,14 +5,17 @@ project:
 website:
   title: "Laeeq Ur Rehman"
   navbar:
-    logo: /favicon.png  # Optional: add a small icon to the left of your name
-    title-href: index.qmd  # ✅ Makes title clickable to home
+    logo: /favicon.png
+    title-href: index.qmd
     left:
-      # Home is removed from here
       - href: cv.qmd
         text: CV
-      - href: projects.qmd
-        text: Projects
+      - text: Projects
+        menu:
+          - href: personal.qmd
+            text: Personal Projects
+          - href: academic.qmd
+            text: Academic Projects
       - href: about.qmd
         text: About
 
@@ -30,13 +33,3 @@ format:
       - styles.css
       - custom.scss
     toc: true
-
-
-
-
-
-
-
-
-
-
