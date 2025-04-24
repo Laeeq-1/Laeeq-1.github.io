@@ -165,7 +165,7 @@
     "href": "index.html",
     "title": "Laeeq Ur Rehman",
     "section": "",
-    "text": "Hi, I’m Laeeq, a student at Dublin City University studying Business Studies, with a specialization in Data Analytics.\nI have a keen interest in Cricket, entrepreneurship and analytics."
+    "text": "Welcome to my personal website—I’m studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!"
   },
   {
     "objectID": "index.html#portfolio-highlights",
@@ -222,5 +222,47 @@
     "title": "Personal Projects",
     "section": "EVCIM",
     "text": "EVCIM\n  \n\nMy first real-world business using recyclable materials to make concrete weights.\nClick on the image to learn more."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Laeeq Ur Rehman",
+    "section": "",
+    "text": "Hi, I’m Laeeq Ur Rehman — currently studying Business Studies & Data Analytics at DCU.\nExplore my projects and favorite podcasts below!"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Laeeq Ur Rehman",
+    "section": "",
+    "text": "&lt;a href=\"projects/academic.html\"&gt;\n  &lt;img src=\"images/dairygold.png\" alt=\"Academic Projects\"&gt;\n  &lt;div class=\"project-title\"&gt;Academic Projects&lt;/div&gt;\n&lt;/a&gt;\n\n\n&lt;a href=\"projects/cricket-journey.html\"&gt;\n  &lt;img src=\"images/cricket.jpg\" alt=\"Cricket Journey\"&gt;\n  &lt;div class=\"project-title\"&gt;Cricket Journey&lt;/div&gt;\n&lt;/a&gt;\n\n\n&lt;a href=\"projects/EVCIM.html\"&gt;\n  &lt;img src=\"images/weights.jpg\" alt=\"EVCIM Weights Business\"&gt;\n  &lt;div class=\"project-title\"&gt;EVCIM Weights Business&lt;/div&gt;\n&lt;/a&gt;"
+  },
+  {
+    "objectID": "index.html#my-favorite-podcasts",
+    "href": "index.html#my-favorite-podcasts",
+    "title": "Laeeq Ur Rehman",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.youtube.com/embed/QOsHNL6V8O8\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n\n\n&lt;iframe src=\"https://www.youtube.com/embed/fJGYxQEpv6o\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n\n\n&lt;iframe src=\"https://www.youtube.com/embed/VSceuiPBpxY\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "index.html#hi-im-laeeq-ur-rehman",
+    "href": "index.html#hi-im-laeeq-ur-rehman",
+    "title": "Laeeq Ur Rehman",
+    "section": "",
+    "text": "Welcome to my personal website—I’m studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!"
+  },
+  {
+    "objectID": "index.html#my-portfolio",
+    "href": "index.html#my-portfolio",
+    "title": "Laeeq Ur Rehman",
+    "section": "My Portfolio",
+    "text": "My Portfolio\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n\n\n\n\nAcademic Projects\n\n\nCricket Journey\n\n\nEVCIM"
+  },
+  {
+    "objectID": "index.html#podcasts-that-i-like",
+    "href": "index.html#podcasts-that-i-like",
+    "title": "Laeeq Ur Rehman",
+    "section": "Podcasts That I like",
+    "text": "Podcasts That I like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
   }
 ]
