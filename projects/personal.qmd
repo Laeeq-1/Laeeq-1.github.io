@@ -1,34 +1,49 @@
 ---
 title: "Personal Projects"
-format: 
-  html:
-    toc: true
-    toc-title: "On this page"
-    toc-location: right
-    page-layout: full
-    allow-html: true
+layout: "default"
+toc: true
+toc-title: "On this page"
+toc-location: right
+page-layout: full
 ---
 
-## Personal Projects
+## Cricket Journey
 
-<div class="project-entry">
-  <a href="cricket-journey.html" target="_blank">
-    <img src="cricket.jpg" alt="Cricket Journey" class="project-thumb" />
-  </a>
-  <div class="project-text" markdown="1">
-    <p><strong><a href="cricket-journey.html" target="_blank">Cricket Journey</a></strong></p>
-    <p>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.</p>
-  </div>
-</div>
+<a href="cricket-journey.html" target="_blank">
+  <img 
+    src="cricket.jpg" 
+    alt="Cricket Journey Thumbnail" 
+    style="float: left; margin-right: 20px; width: 350px; transition: transform 0.3s ease;" 
+    onmouseover="this.style.transform='translateY(-10px)';" 
+    onmouseout="this.style.transform='translateY(0)';"
+  />
+</a>
 
-<div class="project-entry reverse">
-  <a href="EVCIM.html" target="_blank">
-    <img src="weights.jpg" alt="EVCIM Weights Business" class="project-thumb" />
-  </a>
-  <div class="project-text" markdown="1">
-    <p><strong><a href="EVCIM.html" target="_blank">EVCIM Weights Business</a></strong></p>
-    <p>My first real-world business using recyclable materials to make concrete weights.</p>
-  </div>
-</div>
+<p style="max-width: 600px;">
+  This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.  
+  <strong><span style="color: var(--bs-primary);">Click on the image to follow my journey.</span></strong>
+</p>
+
+<div style="clear: both; margin-top: 80px;"></div>
+
+## EVCIM
+
+<a href="EVCIM.html" target="_blank">
+  <img 
+    src="weights.jpg" 
+    alt="EVCIM Weights Project Thumbnail" 
+    style="float: right; margin-left: 20px; width: 350px; transition: transform 0.3s ease;" 
+    onmouseover="this.style.transform='translateY(-10px)';" 
+    onmouseout="this.style.transform='translateY(0)';"
+  />
+</a>
+
+<p style="max-width: 700px;">
+  My first real-world business using recyclable materials to make concrete weights.  
+  <strong><span style="color: var(--bs-primary);">Click on the image to learn more.</span></strong>
+</p>
+
+<div style="clear: both; margin-top: 80px;"></div>
+
 
 
