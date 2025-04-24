@@ -24,31 +24,39 @@ page-layout: full
 
 <style>
 .fade-in {
-  animation: fadeIn 1.5s ease-in forwards;
-  opacity: 0;
+  animation: fadeIn 1.2s ease-in;
 }
 @keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
-.card-grid {
+
+.grid-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin: 40px 0;
-  flex-wrap: wrap;
+  margin-top: 40px;
 }
-.card-grid a {
+
+.grid-item {
+  width: 300px;
   text-align: center;
   transition: transform 0.3s ease;
 }
-.card-grid a:hover {
+.grid-item:hover {
   transform: translateY(-8px);
 }
-.card-grid img {
-  width: 350px;
+.grid-item img {
+  width: 100%;
   border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.grid-item-title {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  font-size: 1.1em;
 }
 </style>
 
@@ -63,37 +71,43 @@ I have a keen interest in Cricket, entrepreneurship and analytics.
 
 ---
 
-## Explore My Work
+## Portfolio Highlights
 
-<div class="card-grid">
-  <a href="projects/academic.html">
-    <img src="images/dairygold.png" alt="Academic Projects">
-    <p><strong>Academic Projects</strong></p>
-  </a>
-  <a href="projects/cricket-journey.html">
-    <img src="images/cricket.jpg" alt="Cricket Journey">
-    <p><strong>Cricket Journey</strong></p>
-  </a>
-  <a href="projects/EVCIM.html">
-    <img src="images/weights.jpg" alt="EVCIM Weights Business">
-    <p><strong>EVCIM Weights Business</strong></p>
-  </a>
+<div class="grid-container">
+
+<a href="projects/academic.html" class="grid-item">
+  <img src="images/dairygold.png" alt="Academic Projects Thumbnail" />
+  <span class="grid-item-title">Academic Projects</span>
+</a>
+
+<a href="projects/cricket-journey.html" class="grid-item">
+  <img src="images/cricket.jpg" alt="Cricket Journey Thumbnail" />
+  <span class="grid-item-title">Cricket Journey</span>
+</a>
+
+<a href="projects/EVCIM.html" class="grid-item">
+  <img src="images/weights.jpg" alt="EVCIM Project Thumbnail" />
+  <span class="grid-item-title">EVCIM Weights Business</span>
+</a>
+
 </div>
 
 ---
 
-## Podcasts That Interest Me
+## Podcasts I Enjoy
 
-<div style="margin-top: 40px; text-align: center;">
-  <iframe width="350" height="197" src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen style="margin: 10px;"></iframe>
-  <iframe width="350" height="197" src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen style="margin: 10px;"></iframe>
-  <iframe width="350" height="197" src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen style="margin: 10px;"></iframe>
+<div class="grid-container" style="justify-content: center; margin-top: 30px;">
+
+<div class="grid-item" style="width: 350px;">
+  <iframe width="100%" height="197" src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
 </div>
 
----
+<div class="grid-item" style="width: 350px;">
+  <iframe width="100%" height="197" src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen></iframe>
+</div>
 
-## Contact Me
+<div class="grid-item" style="width: 350px;">
+  <iframe width="100%" height="197" src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<div style="text-align: center; margin-top: 20px;">
-  <a href="https://github.com/Laeeq-1" style="margin: 0 15px; font-size: 2em;"><i class="fa-brands fa-github"></i></a>
-  <a href="mailto:Laeeq.urrehman2@mail.dcu.ie" style="margin:
+</div>
