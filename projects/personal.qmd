@@ -1,4 +1,13 @@
-## Personal Projects
+---
+title: "Personal Projects"
+format:
+  html:
+    toc: true
+    toc-title: "On this page"
+    toc-location: right
+    page-layout: full
+    allow-html: true
+---
 
 <div class="project-entry">
   <a href="cricket-journey.html" target="_blank">
