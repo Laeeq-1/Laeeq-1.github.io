@@ -9,13 +9,11 @@ format:
     toc-depth: 2
 ---
 
-
-
 <style>
   .project-entry {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     margin: 40px 0;
     gap: 20px;
   }
@@ -30,6 +28,7 @@ format:
     height: auto;
     border-radius: 12px;
     transition: transform 0.3s ease;
+    flex-shrink: 0;
   }
 
   .project-thumb:hover {
@@ -39,6 +38,8 @@ format:
   .project-text {
     flex: 1;
     min-width: 250px;
+    font-size: 1.05rem;
+    line-height: 1.6;
   }
 
   video {
@@ -50,7 +51,7 @@ format:
 
   .centered-cta {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .centered-cta a {
@@ -67,6 +68,7 @@ format:
   }
 </style>
 
+:::{=html}
 <div class="project-entry">
   <img src="no-paint.jpg" alt="Metal and Concrete Mixing" class="project-thumb" />
   <div class="project-text">
@@ -106,6 +108,7 @@ format:
     <p>We repurposed discarded wooden planks to build a drying rack. This allowed us to cure multiple weights simultaneously and improve our workflow.</p>
   </div>
 </div>
+:::
 
 ---
 
@@ -122,6 +125,7 @@ format:
 
 ### Transport Tactics
 
+:::{=html}
 <div class="project-entry reverse">
   <img src="transport.jpg" alt="Transporting Mattress" class="project-thumb" />
   <div class="project-text">
@@ -129,6 +133,7 @@ format:
     <p><strong>This is how.</strong> Do not try this at home — unless you're feeling lucky and you have a very good excuse to the guards.</p>
   </div>
 </div>
+:::
 
 ---
 
@@ -138,9 +143,11 @@ format:
 
 <p>We’re not just making plates — we’re building a <strong>movement</strong> where passion meets sustainability. And we’re not stopping until <strong>everyone</strong> can train, lift, and grow without breaking the bank.</p>
 
+:::{=html}
 <div class="centered-cta">
   <a href="https://www.instagram.com/_evcim_" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
     Follow us on Instagram: @_evcim_
   </a>
 </div>
+:::
