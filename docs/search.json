@@ -161,6 +161,13 @@
     "text": "Connect & Explore\n\nMy CV →\n\nMy Projects →"
   },
   {
+    "objectID": "achievements.html",
+    "href": "achievements.html",
+    "title": "Achievements",
+    "section": "",
+    "text": "Notable Achievements\n\n\n\nAs captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field.I was the first brown capatin at CBS, and that was a honour.\n\n\n\n\n\nBeing awarded the &lt;strong&gt;Scholarship&lt;/strong&gt; was one of the proudest moments of my academic journey. This scholarship is given to students from the Access programme who have shown outstanding academic achievement, resilience, and promise. Coming from an Access background, I understood the weight of this recognition. It was more than a financial award — it was a statement that my hard work and consistency mattered. I was deeply honoured to be seen as someone worthy of carrying that legacy forward.\n\n\n\n\n\nThe &lt;strong&gt;Ann&lt;/strong&gt; award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely \"sound\" individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I'd come, not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing.\n\n\n\n\n\nKubicle Certificates\n\n  \n\nClick the image to view all my verified Kubicle certificates."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Laeeq Ur Rehman",
@@ -168,18 +175,18 @@
     "text": "Welcome to my personal website—I’m studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!"
   },
   {
-    "objectID": "index.html#portfolio-highlights",
-    "href": "index.html#portfolio-highlights",
+    "objectID": "index.html#my-portfolio",
+    "href": "index.html#my-portfolio",
     "title": "Laeeq Ur Rehman",
-    "section": "Portfolio Highlights",
-    "text": "Portfolio Highlights\n\n  Academic Projects \n  Cricket Journey \n  EVCIM Weights Business"
+    "section": "My Portfolio",
+    "text": "My Portfolio\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n\n\n\n\nAcademic Projects\n\n\nCricket Journey\n\n\nEVCIM"
   },
   {
-    "objectID": "index.html#podcasts-i-enjoy",
-    "href": "index.html#podcasts-i-enjoy",
+    "objectID": "index.html#podcasts-that-i-like",
+    "href": "index.html#podcasts-that-i-like",
     "title": "Laeeq Ur Rehman",
-    "section": "Podcasts I Enjoy",
-    "text": "Podcasts I Enjoy"
+    "section": "Podcasts That I like",
+    "text": "Podcasts That I like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
   },
   {
     "objectID": "projects/cricket-journey.html",
@@ -222,47 +229,5 @@
     "title": "Personal Projects",
     "section": "EVCIM",
     "text": "EVCIM\n  \n\nMy first real-world business using recyclable materials to make concrete weights.\nClick on the image to learn more."
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Laeeq Ur Rehman",
-    "section": "",
-    "text": "Hi, I’m Laeeq Ur Rehman — currently studying Business Studies & Data Analytics at DCU.\nExplore my projects and favorite podcasts below!"
-  },
-  {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
-    "title": "Laeeq Ur Rehman",
-    "section": "",
-    "text": "&lt;a href=\"projects/academic.html\"&gt;\n  &lt;img src=\"images/dairygold.png\" alt=\"Academic Projects\"&gt;\n  &lt;div class=\"project-title\"&gt;Academic Projects&lt;/div&gt;\n&lt;/a&gt;\n\n\n&lt;a href=\"projects/cricket-journey.html\"&gt;\n  &lt;img src=\"images/cricket.jpg\" alt=\"Cricket Journey\"&gt;\n  &lt;div class=\"project-title\"&gt;Cricket Journey&lt;/div&gt;\n&lt;/a&gt;\n\n\n&lt;a href=\"projects/EVCIM.html\"&gt;\n  &lt;img src=\"images/weights.jpg\" alt=\"EVCIM Weights Business\"&gt;\n  &lt;div class=\"project-title\"&gt;EVCIM Weights Business&lt;/div&gt;\n&lt;/a&gt;"
-  },
-  {
-    "objectID": "index.html#my-favorite-podcasts",
-    "href": "index.html#my-favorite-podcasts",
-    "title": "Laeeq Ur Rehman",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.youtube.com/embed/QOsHNL6V8O8\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n\n\n&lt;iframe src=\"https://www.youtube.com/embed/fJGYxQEpv6o\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n\n\n&lt;iframe src=\"https://www.youtube.com/embed/VSceuiPBpxY\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;"
-  },
-  {
-    "objectID": "index.html#hi-im-laeeq-ur-rehman",
-    "href": "index.html#hi-im-laeeq-ur-rehman",
-    "title": "Laeeq Ur Rehman",
-    "section": "",
-    "text": "Welcome to my personal website—I’m studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!"
-  },
-  {
-    "objectID": "index.html#my-portfolio",
-    "href": "index.html#my-portfolio",
-    "title": "Laeeq Ur Rehman",
-    "section": "My Portfolio",
-    "text": "My Portfolio\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n\n\n\n\nAcademic Projects\n\n\nCricket Journey\n\n\nEVCIM"
-  },
-  {
-    "objectID": "index.html#podcasts-that-i-like",
-    "href": "index.html#podcasts-that-i-like",
-    "title": "Laeeq Ur Rehman",
-    "section": "Podcasts That I like",
-    "text": "Podcasts That I like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
   }
 ]
