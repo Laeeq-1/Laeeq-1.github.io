@@ -74,35 +74,7 @@
     "href": "projects/academic.html",
     "title": "Academic projects",
     "section": "",
-    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#dairy-gold-strategy",
-    "href": "projects/academic.html#dairy-gold-strategy",
-    "title": "Academic projects",
-    "section": "",
-    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#vietnamese-coffee-supply-chain-production",
-    "href": "projects/academic.html#vietnamese-coffee-supply-chain-production",
-    "title": "Academic projects",
-    "section": "Vietnamese Coffee Supply Chain Production",
-    "text": "Vietnamese Coffee Supply Chain Production\n  \n\nWe analyzed the supply chain production of Vietnamese coffee—evaluating sourcing, production costs, and sustainability. We provided strategic recommendations to enhance efficiency, quality, and environmental responsibility.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#vietnamese-sim",
-    "href": "projects/academic.html#vietnamese-sim",
-    "title": "Academic projects",
-    "section": "Vietnamese Sim",
-    "text": "Vietnamese Sim\n  \n\nThis project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#waterwize",
-    "href": "projects/academic.html#waterwize",
-    "title": "Academic projects",
-    "section": "WaterWize",
-    "text": "WaterWize\nKey Metrics: 👥 4 | 📦 Prototype Built | 📊 Real-time Alerts\n  \n\nWaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.\nClick On The Image To Read The Full Report!"
+    "text": "&lt;a href=\"../pdfs/Dairygold.pdf\" class=\"project-title\" target=\"_blank\"&gt;Dairy Gold Strategy&lt;/a&gt;\n&lt;p&gt;\n  For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their market position, supply-chain efficiency, and brand value, then delivered actionable recommendations to sharpen their strategy.\n&lt;/p&gt;\n\n\n\n  \n\n&lt;a href=\"../pdfs/Vietnamese-coffee.pdf\" class=\"project-title\" target=\"_blank\"&gt;\n  Vietnamese Coffee Supply Chain Production\n&lt;/a&gt;\n&lt;p&gt;\n  We analyzed Vietnamese coffee’s supply chain—sourcing, production costs, and sustainability—and recommended improvements to boost efficiency, quality, and environmental responsibility.\n&lt;/p&gt;\n\n\n\n  \n\n&lt;a href=\"../pdfs/Vietnamese-sim.pdf\" class=\"project-title\" target=\"_blank\"&gt;\n  Vietnamese Simulation Model\n&lt;/a&gt;\n&lt;p&gt;\n  Built a Python-based simulation in Spyder to test how events—like monsoons—impact Vietnamese coffee production and inventory management.\n&lt;/p&gt;\n\n\n\n  \n\n&lt;a href=\"../pdfs/WaterWize.pdf\" class=\"project-title\" target=\"_blank\"&gt;\n  WaterWize\n&lt;/a&gt;\n&lt;p&gt;\n  WaterWize is a pocket-sized water tester that spots Legionella in seconds and sends real-time alerts to your phone—think “Fitbit for your water system.”\n&lt;/p&gt;"
   },
   {
     "objectID": "cv.html",
