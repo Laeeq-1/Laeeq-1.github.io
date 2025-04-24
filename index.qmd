@@ -57,13 +57,12 @@ page-layout: full
 }
 </style>
 
+<!-- Fade-in separator only -->
 <div class="fade-in" style="text-align:center;">
-
-## Hi, I'm Laeeq Ur Rehman!
+  <hr style="margin-top: 10px; margin-bottom: 30px;">
+</div>
 
 Welcome to my personal website—I'm studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!
-
----
 
 ## My Portfolio
 
@@ -98,8 +97,8 @@ Welcome to my personal website—I'm studying Business Studies at DCU with a spe
 </table>
 </div>
 
-
 ---
+
 ## Podcasts That I like
 
 <div class="podcast-container">
@@ -111,5 +110,6 @@ Welcome to my personal website—I'm studying Business Studies at DCU with a spe
 <div style="text-align: center; margin-top: 20px; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.05em;">
   I picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best.
 </div>
+
 
 
