@@ -229,13 +229,23 @@ p {
   margin: 0;
   line-height: 1.6;
 }
+.project-title {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+  color: var(--bs-primary);
+  text-decoration: none;
+}
+.project-title:hover {
+  text-decoration: underline;
+}
 .project-break {
   clear: both;
   margin: 60px 0;
 }
 
 .video-section video {
-  max-width: 700px;
+  max-width: 400px;
   width: 100%;
   border-radius: 12px;
 }
