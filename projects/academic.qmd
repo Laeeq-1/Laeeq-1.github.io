@@ -72,8 +72,6 @@ page-layout: full
 
 ## WaterWize
 
-**Key Metrics:** 👥 4 | 📦 Prototype Built | 📊 Real-time Alerts
-
 <a href="../pdfs/WaterWize.pdf" target="_blank">
   <img 
     src="WaterWize.png" 
