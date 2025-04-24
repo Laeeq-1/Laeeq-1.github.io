@@ -2,9 +2,6 @@ project:
   type: website
   output-dir: docs
 
-resources:
-  - docs/pdfs/*.pdf
-
 website:
   title: "Laeeq Ur Rehman"
   navbar:
