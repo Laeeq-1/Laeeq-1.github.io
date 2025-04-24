@@ -78,12 +78,12 @@ Welcome to my personal website—I'm studying Business Studies at DCU with a spe
 </th>
 <th style="text-align: center;">
   <a href="projects/cricket-journey.html">
-    <img src="images/cricket.jpg" style="width: 300px; height: 150px; object-fit: cover; border-radius: 0;">
+    <img src="images/cricket.jpg" style="width: 300px; height: 200px; object-fit: cover; border-radius: 0;">
   </a>
 </th>
 <th style="text-align: center;">
   <a href="projects/EVCIM.html">
-    <img src="images/weights.jpg" style="width: 300px; height: 220px; object-fit: cover; border-radius: 0;">
+    <img src="images/weights.jpg" style="width: 300px; height: 200px; object-fit: cover; border-radius: 0;">
   </a>
 </th>
 </tr>
@@ -100,13 +100,16 @@ Welcome to my personal website—I'm studying Business Studies at DCU with a spe
 
 
 ---
-
 ## Podcasts That I like
 
 <div class="podcast-container">
   <iframe src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
   <iframe src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen></iframe>
   <iframe src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div style="text-align: center; margin-top: 20px; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.05em;">
+  I picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best.
 </div>
 
 
