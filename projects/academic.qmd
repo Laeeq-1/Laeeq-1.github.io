@@ -9,7 +9,7 @@ page-layout: full
 
 ## Dairy Gold Strategy
 
-<a href="pdfs/Dairygold.pdf" target="_blank">
+<a href="../pdfs/Dairygold.pdf" target="_blank">
   <img 
     src="dairygold.png" 
     alt="Dairy Gold Project Thumbnail" 
@@ -19,7 +19,7 @@ page-layout: full
   />
 </a>
 
-<p>
+<p style="max-width: 700px;">
   For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.
 
   **<span style="color: var(--bs-primary);">Click On The Image To Read The Report!</span>**
@@ -29,17 +29,17 @@ page-layout: full
 
 ## Vietnamese Coffee Supply Chain Production
 
-<a href="pdfs/Vietnamese-coffee.pdf" target="_blank">
+<a href="../pdfs/Vietnamese-coffee.pdf" target="_blank">
   <img 
     src="Vietnamese-coffee.png" 
     alt="Vietnamese Coffee Project Thumbnail" 
-    style="float: left; margin-right: 20px; width: 350px; transition: transform 0.3s ease;"
+    style="float: right; margin-left: 20px; width: 350px; transition: transform 0.3s ease;"
     onmouseover="this.style.transform='translateY(-10px)';"
     onmouseout="this.style.transform='translateY(0)';"
   />
 </a>
 
-<p>
+<p style="max-width: 700px;">
   We analyzed the supply chain production of Vietnamese coffee—evaluating sourcing, production costs, and sustainability. We provided strategic recommendations to enhance efficiency, quality, and environmental responsibility.
 
   **<span style="color: var(--bs-primary);">Click On The Image To Read The Report!</span>**
@@ -49,7 +49,7 @@ page-layout: full
 
 ## Vietnamese Sim
 
-<a href="pdfs/Vietnamese-sim.pdf" target="_blank">
+<a href="../pdfs/Vietnamese-sim.pdf" target="_blank">
   <img 
     src="Supply-sim.png" 
     alt="Vietnamese Sim Project Thumbnail" 
@@ -59,7 +59,7 @@ page-layout: full
   />
 </a>
 
-<p>
+<p style="max-width: 700px;">
   This project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.
 
   **<span style="color: var(--bs-primary);">Click On The Image To Read The Report!</span>**
@@ -69,17 +69,17 @@ page-layout: full
 
 ## WaterWize – Water Testing Device
 
-<a href="pdfs/WaterWize.pdf" target="_blank">
+<a href="../pdfs/WaterWize.pdf" target="_blank">
   <img 
     src="WaterWize.png" 
     alt="WaterWize Project Thumbnail" 
-    style="float: left; margin-right: 20px; width: 350px; transition: transform 0.3s ease;"
+    style="float: right; margin-left: 20px; width: 350px; transition: transform 0.3s ease;"
     onmouseover="this.style.transform='translateY(-10px)';"
     onmouseout="this.style.transform='translateY(0)';"
   />
 </a>
 
-<p>
+<p style="max-width: 700px;">
   WaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.
 
   **<span style="color: var(--bs-primary);">Click On The Image To Read The Full Report!</span>**
