@@ -1,5 +1,5 @@
 ---
-title: "My College Work"
+title: "Academic projects"
 layout: "default"
 toc: true
 toc-title: "On this page"
