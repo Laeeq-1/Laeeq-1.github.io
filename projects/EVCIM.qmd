@@ -38,7 +38,7 @@ We started by recovering recycled metal from abandoned mattresses. The springs w
   />
 </a>
 
-<p style="max-width: 700px;">
+<p style="max-width: 600px;">
 Once the concrete dried, the plates were coated in matte black paint. At this stage, we finalized the 5kg weight plate design. However, we could only produce six at a time.
 </p>
 
@@ -100,7 +100,7 @@ We repurposed discarded wooden planks to build a drying rack. This allowed us to
 
 ## Behind the Process
 
-<div style="max-width: 700px; margin: 0 auto;">
+<div style="max-width: 500px; margin: 0 auto;">
   <video controls muted autoplay loop playsinline style="width: 100%; border-radius: 12px;">
     <source src="../Videos/metal-bending.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -139,7 +139,7 @@ At the core of the EVCIM project is a belief that <strong>fitness should be acce
 </p>
 
 <p style="max-width: 700px;">
-We’re not just making plates — we’re building a <strong>movement</strong> where passion meets sustainability. And we’re not stopping until <strong>everyone</strong> can train, lift, and grow without breaking the bank.
+We’re not just making plates — we’re building a <strong>movement</strong> where passion meets sustainability. And we’re not stopping until <strong>everyone</strong> can train, lift, and grow without breaking the bank.If you want to check out our instgarm click on the icon below.
 </p>
 
 <div style="text-align: center; margin-top: 40px;">
