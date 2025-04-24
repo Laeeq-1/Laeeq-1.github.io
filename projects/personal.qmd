@@ -6,16 +6,19 @@ format:
     toc-title: "On this page"
     toc-location: right
     page-layout: full
-    allow-html: true
+    allow-html: true       # <-- enable raw HTML
 ---
+
+## Personal Projects
 
 <div class="project-entry">
   <a href="cricket-journey.html" target="_blank">
     <img src="cricket.jpg" alt="Cricket Journey" class="project-thumb" />
   </a>
   <div class="project-text">
-    <p><strong>Cricket Journey</strong></p>
-    <p><em>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.</em></p>
+    **Cricket Journey**
+
+    *This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.*
   </div>
 </div>
 
@@ -24,10 +27,12 @@ format:
     <img src="weights.jpg" alt="EVCIM Weights Business" class="project-thumb" />
   </a>
   <div class="project-text">
-    <p><strong>EVCIM Weights Business</strong></p>
-    <p><em>My first real-world business using recyclable materials to make concrete weights.</em></p>
+    **EVCIM Weights Business**
+
+    *My first real-world business using recyclable materials to make concrete weights.*
   </div>
 </div>
+
 
 
 
