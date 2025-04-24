@@ -14,9 +14,9 @@ format:
     <img src="cricket.jpg" alt="Cricket Journey" class="project-thumb" />
   </a>
   <div class="project-text" markdown="1">
-**Cricket Journey**
+    <a href="cricket-journey.html" class="project-title" target="_blank">**Cricket Journey**</a>
 
-*This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.*
+    *This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.*
   </div>
 </div>
 
@@ -25,21 +25,8 @@ format:
     <img src="weights.jpg" alt="EVCIM Weights Business" class="project-thumb" />
   </a>
   <div class="project-text" markdown="1">
-**EVCIM Weights Business**
+    <a href="EVCIM.html" class="project-title" target="_blank">**EVCIM Weights Business**</a>
 
-*My first real-world business using recyclable materials to make concrete weights.*
+    *My first real-world business using recyclable materials to make concrete weights.*
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
