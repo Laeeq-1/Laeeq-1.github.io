@@ -16,7 +16,7 @@ website:
             text: Personal Projects
           - href: projects/academic.qmd
             text: Academic Projects
-      - href: achievements.qmd
+      - href: achievements.html
         text: Achievements
       - href: about.qmd
         text: About
