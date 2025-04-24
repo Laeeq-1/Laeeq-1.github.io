@@ -195,3 +195,33 @@ p {
 .project-entry:nth-child(1) { animation-delay: 0s; }
 .project-entry:nth-child(2) { animation-delay: 0.1s; }
 .project-entry:nth-child(3) { animation-delay: 0.2s; }
+.project-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.project-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-thumb {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.project-text {
+  flex: 1;
+}
+
+.video-section {
+  margin-top: 40px;
+  text-align: center;
+}

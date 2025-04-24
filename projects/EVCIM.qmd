@@ -2,23 +2,13 @@
 title: "EVCIM"
 format: 
   html:
-    theme: default
     toc: true
-    html-math-method: katex
-    # 👇👇👇 THIS is the fix
-    include-before-body: false
-    include-after-body: false
-    keep-md: true
-    code-fold: false
-    code-tools: false
-    toc-depth: 2
-    number-sections: false
-    echo: false
+    theme: default
     css: styles.css
-    # 👇 THE IMPORTANT PART 👇
     allow-html: true
-    raw-html: true
+    toc-depth: 2
 ---
+
 
 
 <style>
