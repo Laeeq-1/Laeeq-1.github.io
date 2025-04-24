@@ -16,7 +16,7 @@ page-layout: full
 </a>
 
 <p style="max-width: 700px;">
-  As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most favorite memory from school.
+  As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most memorable memories from secondary school.
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
