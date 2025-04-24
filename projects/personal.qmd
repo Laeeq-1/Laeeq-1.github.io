@@ -1,21 +1,21 @@
 ## Personal Projects
 
-::: {.project-entry}
+<div class="project-entry">
   <img src="cricket.jpg" alt="Cricket Journey" class="project-thumb" />
   <div class="project-text">
     <p><strong><a href="cricket-journey.html">Cricket Journey</a></strong></p>
     <p><em>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player. Click to follow my journey.</em></p>
   </div>
-:::
+</div>
 
-- ::: {.project-entry}
-+ ::: {.project-entry reverse}
+<div class="project-entry reverse">
   <img src="weights.jpg" alt="EVCIM Weights Business" class="project-thumb" />
   <div class="project-text">
     <p><strong><a href="EVCIM.html">EVCIM Weights Business</a></strong></p>
     <p><em>My first real-world business using recyclable materials to make concrete weights. Click to learn more.</em></p>
   </div>
-:::
+</div>
+
 
 
 
