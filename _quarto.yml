@@ -8,9 +8,9 @@ website:
     logo: /favicon.png
     title-href: index.qmd
     right:
-      - href: Laeeq_CV.pdf
-        text: CV
-        download: Laeeq_Ur_Rehman_CV.pdf
+      - icon: file-earmark-person
+        href: Laeeq_CV.pdf
+        text: "CV"
       - text: Projects
         menu:
           - href: projects/personal.qmd
@@ -36,3 +36,4 @@ format:
       - styles.css
       - custom.scss
     toc: true
+
