@@ -10,7 +10,7 @@ page-layout: full
 ## Dairy Gold Strategy
 
 
-<a href="../pdfs/Dairygold.pdf" target="_blank">
+<a href="pdfs/Dairygold.pdf" target="_blank">
   <img 
     src="dairygold.png" 
     alt="Dairy Gold Project Thumbnail" 
@@ -31,7 +31,7 @@ page-layout: full
 ## Vietnamese Coffee Supply Chain Production
 
 
-<a href="../pdfs/Vietnamese-coffee.pdf" target="_blank">
+<a href="pdfs/Vietnamese-coffee.pdf" target="_blank">
   <img 
     src="Vietnamese-coffee.png" 
     alt="Vietnamese Coffee Project Thumbnail" 
@@ -52,7 +52,7 @@ page-layout: full
 ## Vietnamese Sim
 
 
-<a href="../pdfs/Vietnamese-sim.pdf" target="_blank">
+<a href="pdfs/Vietnamese-sim.pdf" target="_blank">
   <img 
     src="Supply-sim.png" 
     alt="Vietnamese Sim Project Thumbnail" 
@@ -72,7 +72,7 @@ page-layout: full
 
 ## WaterWize
 
-<a href="../pdfs/WaterWize.pdf" target="_blank">
+<a href="pdfs/WaterWize.pdf" target="_blank">
   <img 
     src="WaterWize.png" 
     alt="WaterWize Project Thumbnail" 
