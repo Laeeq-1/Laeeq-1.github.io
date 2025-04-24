@@ -3,95 +3,74 @@ title: "Achievements"
 page-layout: full
 ---
 
-<style>
-.achievement-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 40px;
-}
+## CBS Hurling Team Captain
 
-.achievement-item {
-  width: 300px;
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-  text-align: center;
-}
+<a href="images/cbs.jpg" target="_blank">
+  <img 
+    src="images/cbs.jpg" 
+    alt="CBS Hurling Captain" 
+    style="float: left; margin-right: 20px; width: 350px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;"
+    onmouseover="this.style.transform='translateY(-10px)';"
+    onmouseout="this.style.transform='translateY(0)';"
+  />
+</a>
 
-.achievement-item:hover {
-  transform: translateY(-10px);
-}
+<p style="max-width: 700px;">
+  As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most favorite memory from school.
+</p>
 
-.achievement-title {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #004080;
-}
+<div style="clear: both; margin-top: 80px;"></div>
 
-.achievement-description {
-  font-size: 0.95em;
-  color: #444;
-}
+## DCU Access Scholarship
 
-.achievement-photo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 50px;
-  flex-wrap: wrap;
-}
+<a href="images/access.jpg" target="_blank">
+  <img 
+    src="images/access.jpg" 
+    alt="DCU Access Scholarship" 
+    style="float: right; margin-left: 20px; width: 350px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;"
+    onmouseover="this.style.transform='translateY(-10px)';"
+    onmouseout="this.style.transform='translateY(0)';"
+  />
+</a>
 
-.achievement-photo img {
-  width: 300px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
+<p style="max-width: 700px;">
+  Being awarded the <strong>Scholarship</strong> was one of the proudest moments of my academic journey. This scholarship is given to students from the Access programme who have shown outstanding academic achievement, resilience, and promise. Coming from an Access background, I understood the weight of this recognition. It was more than a financial award — it was a statement that my hard work and consistency mattered. I was deeply honoured to be seen as someone worthy of carrying that legacy forward.
+</p>
 
-.achievement-photo-text {
-  max-width: 500px;
-  font-size: 1em;
-  color: #333;
-}
-</style>
+<div style="clear: both; margin-top: 80px;"></div>
 
-# Notable Achievements
+## Ann Brennan Award – Student of the Year
 
-<div class="achievement-photo">
-  <img src="images/cbs.jpg" alt="Captain of the Hurling Team">
-  <div class="achievement-photo-text">
-    As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field.I was the first brown capatin at CBS, and that was a honour.
-  </div>
-</div>
+<a href="images/Ann.jpg" target="_blank">
+  <img 
+    src="images/Ann.jpg" 
+    alt="Ann Award Photo" 
+    style="float: left; margin-right: 20px; width: 350px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;"
+    onmouseover="this.style.transform='translateY(-10px)';"
+    onmouseout="this.style.transform='translateY(0)';"
+  />
+</a>
 
-<div class="achievement-photo">
-  <img src="images/access.jpg" alt="Scholarship">
-  <div class="achievement-photo-text">
-    Being awarded the <strong>Scholarship</strong> was one of the proudest moments of my academic journey. This scholarship is given to students from the Access programme who have shown outstanding academic achievement, resilience, and promise. Coming from an Access background, I understood the weight of this recognition. It was more than a financial award — it was a statement that my hard work and consistency mattered. I was deeply honoured to be seen as someone worthy of carrying that legacy forward.
-  </div>
-</div>
+<p style="max-width: 600px;">
+  The <strong>Ann</strong> award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely "sound" individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I'd come — not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing.
+</p>
 
-<div class="achievement-photo">
-  <img src="images/Ann.jpg" alt="Ann">
-  <div class="achievement-photo-text">
-    The <strong>Ann</strong> award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely "sound" individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I'd come, not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing.
-  </div>
-</div>
+<div style="clear: both; margin-top: 80px;"></div>
 
+## Kubicle Certificates
 
----
+<a href="kubicle_certificates.html" target="_blank">
+  <img 
+    src="images/kubicle.png" 
+    alt="Kubicle Certificates" 
+    style="float: right; margin-left: 20px; width: 350px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;"
+    onmouseover="this.style.transform='translateY(-10px)';"
+    onmouseout="this.style.transform='translateY(0)';"
+  />
+</a>
 
-# Kubicle Certificates
+<p style="max-width: 700px;">
+  I've completed numerous verified certificates from Kubicle, enhancing my skills in data analysis, Power BI, Excel, and more. Click the image to view the full list of certificates and download the PDFs.
+</p>
 
-<div style="text-align: center; margin-top: 40px;">
-  <a href="kubicle_certificates.html">
-    <img src="images/kubicle.png" alt="View My Kubicle Certificates" style="width: 320px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-  </a>
-  <p style="font-size: 1.05em; margin-top: 12px;">Click the image to view all my verified Kubicle certificates.</p>
-</div>
+<div style="clear: both; margin-top: 80px;"></div>
