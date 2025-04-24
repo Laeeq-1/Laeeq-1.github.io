@@ -25,7 +25,7 @@ page-layout: full
 <style>
 .fade-in {
   opacity: 0;
-  animation: fadeIn 1.5s ease-in forwards;
+  animation: fadeIn 1.2s ease-in forwards;
 }
 
 @keyframes fadeIn {
@@ -36,89 +36,62 @@ page-layout: full
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 
-.project, .podcast {
-  flex: 1;
-  text-align: center;
-}
-
-.project img, .podcast iframe {
+.project-container img, .podcast-container iframe {
   width: 100%;
   max-width: 350px;
-  height: 200px;
-  border-radius: 10px;
+  border-radius: 12px;
   transition: transform 0.3s ease;
 }
 
-.project img:hover {
+.project-container img:hover {
   transform: translateY(-10px);
 }
 
 .project-title {
-  margin-top: 12px;
   font-weight: bold;
-  font-size: 1.1em;
+  margin-top: 10px;
 }
 </style>
 
-<div class="fade-in">
+<div class="fade-in" style="text-align:center;">
 
-## Welcome!
+## Hi, I'm Laeeq Ur Rehman!
 
-Hi, I'm **Laeeq Ur Rehman** — currently studying Business Studies & Data Analytics at DCU.  
-Explore my projects and favorite podcasts below!
+Welcome to my personal website—I'm studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!
 
 ---
 
-## Featured Projects
+## My Portfolio
 
 <div class="project-container">
-
-  <div class="project">
-    <a href="projects/academic.html">
-      <img src="images/dairygold.png" alt="Academic Projects">
-      <div class="project-title">Academic Projects</div>
-    </a>
+  <div>
+    <a href="projects/academic.html"><img src="images/dairygold.png"></a>
+    <div class="project-title">Academic Projects</div>
   </div>
 
-  <div class="project">
-    <a href="projects/cricket-journey.html">
-      <img src="images/cricket.jpg" alt="Cricket Journey">
-      <div class="project-title">Cricket Journey</div>
-    </a>
+  <div>
+    <a href="projects/cricket-journey.html"><img src="images/cricket.jpg"></a>
+    <div class="project-title">Cricket Journey</div>
   </div>
 
-  <div class="project">
-    <a href="projects/EVCIM.html">
-      <img src="images/weights.jpg" alt="EVCIM Weights Business">
-      <div class="project-title">EVCIM Weights Business</div>
-    </a>
+  <div>
+    <a href="projects/EVCIM.html"><img src="images/weights.jpg"></a>
+    <div class="project-title">EVCIM Weights Business</div>
   </div>
-
 </div>
 
 ---
 
-## My Favorite Podcasts
+## Podcasts That I like
 
 <div class="podcast-container">
-
-  <div class="podcast">
-    <iframe src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
-  </div>
-
-  <div class="podcast">
-    <iframe src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen></iframe>
-  </div>
-
-  <div class="podcast">
-    <iframe src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen></iframe>
-  </div>
-
-</div>
-
+  <iframe src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
