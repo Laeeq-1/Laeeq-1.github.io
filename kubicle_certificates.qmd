@@ -1,1 +1,34 @@
-empty rtn
+---
+title: "Kubicle Certificates"
+page-layout: full
+---
+
+## Verified Kubicle Courses
+
+Below is a full summary of all the certified Kubicle courses I have completed:
+
+| **Subject**             | **Course Name**                                          | **Date Completed**     | **Credits** |
+|-------------------------|----------------------------------------------------------|------------------------|-------------|
+| Data Security           | Handling Data Securely and Responsibly                   | April 24th, 2025       | 1.5         |
+| Data Presentation Skills| Communicating Data Effectively                           | March 19th, 2025       | 1.0         |
+| Data Security           | Keeping Your Information Safe                            | March 19th, 2025       | 1.0         |
+| Data Presentation Skills| Telling Stories with Data                                | March 19th, 2025       | 1.0         |
+| Data Presentation Skills| Presenting Your Data                                     | February 4th, 2025     | 1.0         |
+| Excel                  | Monte Carlo Simulation                                   | April 23rd, 2024       | 2.0         |
+| Statistical Analysis    | Introduction to Predictive Modeling                      | April 19th, 2024       | 2.0         |
+| Python Fundamentals     | Python Fundamentals                                      | April 9th, 2024        | 2.0         |
+| SQL                     | Joining Data with SQL                                    | April 5th, 2024        | 1.5         |
+| Excel                  | Build Your First Model                                   | March 30th, 2024       | 2.0         |
+| SQL                     | Selecting and Filtering Data with SQL                    | March 15th, 2024       | 2.0         |
+| Tableau                 | Introducing Tableau                                      | March 6th, 2024        | 1.5         |
+| SQL                     | Understanding SQL Databases                              | February 28th, 2024    | 1.5         |
+| AI Fundamentals         | Introduction to Artificial Intelligence                  | February 27th, 2024    | 1.0         |
+| AI Fundamentals         | Business Applications of AI                              | February 27th, 2024    | 1.0         |
+| Excel                  | Text, Time, and Dates                                    | February 27th, 2024    | 2.0         |
+| Excel                  | Charts in Depth                                          | February 8th, 2024     | 1.0         |
+| Excel                  | Finance Functions                                        | February 1st, 2024     | 1.0         |
+| Excel                  | Formulas and Functions                                   | January 17th, 2024     | 3.0         |
+| Statistical Analysis    | Probability Distributions                                | October 25th, 2023     | 2.0         |
+| Excel                  | Data Manipulation and Formatting                         | October 23rd, 2022     | 2.0         |
+
+
