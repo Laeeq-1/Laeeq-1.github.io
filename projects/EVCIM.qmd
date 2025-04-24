@@ -27,7 +27,7 @@
 <div class="project-entry">
   <div class="project-text">
     <p><strong>Experimenting with Moulds</strong></p>
-    <p>To scale up, we began developing a more consistent mould using recycled plastics. The aim was to perfect a system that would always produce identical weights.</p>
+    <p>To scale up, we began developing a more consistent mould using recycled plastics. The aim was to perfect a system that would always produce identical weights at a more frequent rate.</p>
   </div>
   <img src="mould.jpg" alt="Plastic Mould Development" class="project-thumb" />
 </div>
