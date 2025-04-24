@@ -1,4 +1,63 @@
-## EVCIM Weights Business
+---
+title: "EVCIM: Recycled Weight Plates"
+format: html
+---
+
+<style>
+  .project-entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px 0;
+    gap: 20px;
+  }
+
+  .project-entry.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .project-thumb {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+
+  .project-thumb:hover {
+    transform: scale(1.03);
+  }
+
+  .project-text {
+    flex: 1;
+    min-width: 250px;
+  }
+
+  video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    margin: 20px 0;
+  }
+
+  .centered-cta {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .centered-cta a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .centered-cta img {
+    width: 30px;
+  }
+</style>
 
 <div class="project-entry">
   <img src="no-paint.jpg" alt="Metal and Concrete Mixing" class="project-thumb" />
@@ -8,12 +67,12 @@
   </div>
 </div>
 
-<div class="project-entry">
+<div class="project-entry reverse">
+  <img src="painting.jpg" alt="Painting Process" class="project-thumb" />
   <div class="project-text">
     <p><strong>Painting the Weights</strong></p>
     <p>Once the concrete dried, the plates were coated in matte black paint. At this stage, we finalized the 5kg weight plate design. However, we could only produce six at a time.</p>
   </div>
-  <img src="painting.jpg" alt="Painting Process" class="project-thumb" />
 </div>
 
 <div class="project-entry">
@@ -24,12 +83,12 @@
   </div>
 </div>
 
-<div class="project-entry">
+<div class="project-entry reverse">
+  <img src="mould.jpg" alt="Plastic Mould Development" class="project-thumb" />
   <div class="project-text">
     <p><strong>Experimenting with Moulds</strong></p>
     <p>To scale up, we began developing a more consistent mould using recycled plastics. The aim was to perfect a system that would always produce identical weights at a more frequent rate.</p>
   </div>
-  <img src="mould.jpg" alt="Plastic Mould Development" class="project-thumb" />
 </div>
 
 <div class="project-entry">
@@ -44,19 +103,18 @@
 
 ### Behind the Process
 
-<video controls muted autoplay loop playsinline style="width: 100%; border-radius: 12px;">
+<video controls muted autoplay loop playsinline>
   <source src="../Videos/metal-bending.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 <p><em>This clip shows part of our early-stage process: heating and bending metal taken from mattress springs — a key reinforcement element in the final weight.</em></p>
 
-
 ---
 
 ### Transport Tactics
 
-<div class="project-entry">
+<div class="project-entry reverse">
   <img src="transport.jpg" alt="Transporting Mattress" class="project-thumb" />
   <div class="project-text">
     <p><em>You might be wondering how we brought the mattresses home...</em></p>
@@ -64,15 +122,17 @@
   </div>
 </div>
 
+---
+
 ### Reflection
 
-At the core of the EVCIM project is a belief that **fitness should be accessible to everyone**. Gym equipment, especially weights, can be expensive — but through recycling, creativity, and sheer trial-and-error, we’ve managed to design **affordable, functional weights** from materials that would’ve ended up in landfills.
+<p>At the core of the EVCIM project is a belief that <strong>fitness should be accessible to everyone</strong>. Gym equipment, especially weights, can be expensive — but through recycling, creativity, and sheer trial-and-error, we’ve managed to design <strong>affordable, functional weights</strong> from materials that would’ve ended up in landfills.</p>
 
-We’re not just making plates — we’re building a **movement** where passion meets sustainability. And we’re not stopping until **everyone** can train, lift, and grow without breaking the bank.
+<p>We’re not just making plates — we’re building a <strong>movement</strong> where passion meets sustainability. And we’re not stopping until <strong>everyone</strong> can train, lift, and grow without breaking the bank.</p>
 
-<div style="text-align: center; margin-top: 20px;">
-  <a href="https://www.instagram.com/_evcim_" target="_blank" style="text-decoration: none; color: inherit;">
-    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="30" style="vertical-align: middle; margin-right: 8px;">
-    <strong>Follow us on Instagram: @_evcim_</strong>
+<div class="centered-cta">
+  <a href="https://www.instagram.com/_evcim_" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+    Follow us on Instagram: @_evcim_
   </a>
 </div>
