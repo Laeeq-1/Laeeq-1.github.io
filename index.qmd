@@ -24,11 +24,14 @@ page-layout: full
 
 <style>
 .fade-in {
-  animation: fadeIn 1.2s ease-in;
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in forwards;
 }
+
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  to {
+    opacity: 1;
+  }
 }
 
 .grid-container {
@@ -44,14 +47,17 @@ page-layout: full
   text-align: center;
   transition: transform 0.3s ease;
 }
+
 .grid-item:hover {
   transform: translateY(-8px);
 }
+
 .grid-item img {
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
 .grid-item-title {
   font-weight: bold;
   margin-top: 10px;
@@ -111,3 +117,4 @@ I have a keen interest in Cricket, entrepreneurship and analytics.
 </div>
 
 </div>
+
