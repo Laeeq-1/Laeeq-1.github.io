@@ -135,6 +135,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
   <li><a href="#explore-my-work" id="toc-explore-my-work" class="nav-link" data-scroll-target="#explore-my-work">Explore My Work</a></li>
+  <li><a href="#podcasts-that-interest-me" id="toc-podcasts-that-interest-me" class="nav-link" data-scroll-target="#podcasts-that-interest-me">Podcasts That Interest Me</a></li>
+  <li><a href="#contact-me" id="toc-contact-me" class="nav-link" data-scroll-target="#contact-me">Contact Me</a></li>
   </ul>
 </nav>
     </div>
@@ -169,6 +171,35 @@ ul.task-list li input[type="checkbox"] {
 </div>
       <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
 
+<style>
+.fade-in {
+  animation: fadeIn 1.5s ease-in forwards;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+.card-grid a {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card-grid a:hover {
+  transform: translateY(-8px);
+}
+.card-grid img {
+  width: 350px;
+  border-radius: 12px;
+}
+</style>
 <section id="welcome" class="level1 fade-in">
 <h1>Welcome!</h1>
 <p>Hi, I’m <strong>Laeeq</strong>, a student at Dublin City University studying Business Studies, with a specialization in Data Analytics.<br>
@@ -177,15 +208,37 @@ I have a keen interest in Cricket, entrepreneurship and analytics.</p>
 <hr>
 <section id="explore-my-work" class="level2">
 <h2 data-anchor-id="explore-my-work">Explore My Work</h2>
-<ul>
-<li><a href="./cv.html"><strong>My CV</strong></a><br>
-</li>
-<li><a href="./projects.html"><strong>My Projects</strong></a><br>
-</li>
-<li><a href="./about.html"><strong>More About Me</strong></a></li>
-</ul>
+<div class="card-grid">
+<a href="projects/academic.html"> <img src="images/dairygold.png" alt="Academic Projects">
+<p>
+<strong>Academic Projects</strong>
+</p>
+</a> <a href="projects/cricket-journey.html"> <img src="images/cricket.jpg" alt="Cricket Journey">
+<p>
+<strong>Cricket Journey</strong>
+</p>
+</a> <a href="projects/EVCIM.html"> <img src="images/weights.jpg" alt="EVCIM Weights Business">
+<p>
+<strong>EVCIM Weights Business</strong>
+</p>
+</a><p><a href="projects/EVCIM.html"></a></p>
+</div>
+<hr>
+</section>
+<section id="podcasts-that-interest-me" class="level2">
+<h2 data-anchor-id="podcasts-that-interest-me">Podcasts That Interest Me</h2>
+<div style="margin-top: 40px; text-align: center;">
+<p><iframe width="350" height="197" src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen="" style="margin: 10px;"></iframe> <iframe width="350" height="197" src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen="" style="margin: 10px;"></iframe> <iframe width="350" height="197" src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen="" style="margin: 10px;"></iframe></p>
+</div>
+<hr>
+</section>
+<section id="contact-me" class="level2">
+<h2 data-anchor-id="contact-me">Contact Me</h2>
+<div style="text-align: center; margin-top: 20px;">
+<p><a href="https://github.com/Laeeq-1" style="margin: 0 15px; font-size: 2em;"><i class="fa-brands fa-github"></i></a> &lt;a href=“mailto:Laeeq.urrehman2@mail.dcu.ie” style=“margin:</p>
 
 
+</div>
 </section>
 </main></div>
     </div>
