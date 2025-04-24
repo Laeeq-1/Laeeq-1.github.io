@@ -67,21 +67,35 @@ Welcome to my personal website—I'm studying Business Studies at DCU with a spe
 
 ## My Portfolio
 
-<div class="project-container">
-  <div>
-    <a href="projects/academic.html"><img src="images/dairygold.png"></a>
-    <div class="project-title">Academic Projects</div>
-  </div>
-
-  <div>
-    <a href="projects/cricket-journey.html"><img src="images/cricket.jpg"></a>
-    <div class="project-title">Cricket Journey</div>
-  </div>
-
-  <div>
-    <a href="projects/EVCIM.html"><img src="images/weights.jpg"></a>
-    <div class="project-title">EVCIM Weights Business</div>
-  </div>
+<div style="text-align: center;">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">
+  <a href="projects/academic.html">
+    <img src="images/dairygold.png" class="img-fluid" width="350">
+  </a>
+</th>
+<th style="text-align: center;">
+  <a href="projects/cricket-journey.html">
+    <img src="images/cricket.jpg" class="img-fluid" width="350">
+  </a>
+</th>
+<th style="text-align: center;">
+  <a href="projects/EVCIM.html">
+    <img src="images/weights.jpg" class="img-fluid" width="350">
+  </a>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Academic Projects</td>
+<td style="text-align: center;">Cricket Journey</td>
+<td style="text-align: center;">EVCIM</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 ---
