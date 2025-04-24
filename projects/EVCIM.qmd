@@ -2,11 +2,10 @@
 title: "EVCIM"
 format: 
   html:
-    toc: true
     theme: default
+    toc: false
     css: styles.css
     allow-html: true
-    toc-depth: 2
 ---
 
 <style>
@@ -68,11 +67,10 @@ format:
   }
 </style>
 
-:::{=html}
 <div class="project-entry">
   <img src="no-paint.jpg" alt="Metal and Concrete Mixing" class="project-thumb" />
   <div class="project-text">
-    <p><strong>Creating the Foundation</strong></p>
+    <strong>Creating the Foundation</strong>
     <p>We started by recovering recycled metal from abandoned mattresses. The springs were heated to straighten them and then cut using a plier. This metal was mixed with concrete to create our homemade weight plates.</p>
   </div>
 </div>
@@ -80,7 +78,7 @@ format:
 <div class="project-entry reverse">
   <img src="painting.jpg" alt="Painting Process" class="project-thumb" />
   <div class="project-text">
-    <p><strong>Painting the Weights</strong></p>
+    <strong>Painting the Weights</strong>
     <p>Once the concrete dried, the plates were coated in matte black paint. At this stage, we finalized the 5kg weight plate design. However, we could only produce six at a time.</p>
   </div>
 </div>
@@ -88,7 +86,7 @@ format:
 <div class="project-entry">
   <img src="final-image.jpg" alt="Stack of Finished Plates" class="project-thumb" />
   <div class="project-text">
-    <p><strong>Our Finished Product</strong></p>
+    <strong>Our Finished Product</strong>
     <p>The result: clean, consistent 5kg concrete weights reinforced with metal. A major milestone, but we weren’t done yet.</p>
   </div>
 </div>
@@ -96,7 +94,7 @@ format:
 <div class="project-entry reverse">
   <img src="mould.jpg" alt="Plastic Mould Development" class="project-thumb" />
   <div class="project-text">
-    <p><strong>Experimenting with Moulds</strong></p>
+    <strong>Experimenting with Moulds</strong>
     <p>To scale up, we began developing a more consistent mould using recycled plastics. The aim was to perfect a system that would always produce identical weights at a more frequent rate.</p>
   </div>
 </div>
@@ -104,15 +102,12 @@ format:
 <div class="project-entry">
   <img src="finised-weight.jpg" alt="Weight Plate Drying" class="project-thumb" />
   <div class="project-text">
-    <p><strong>Drying Rack Innovation</strong></p>
+    <strong>Drying Rack Innovation</strong>
     <p>We repurposed discarded wooden planks to build a drying rack. This allowed us to cure multiple weights simultaneously and improve our workflow.</p>
   </div>
 </div>
-:::
 
----
-
-### Behind the Process
+<h3>Behind the Process</h3>
 
 <video controls muted autoplay loop playsinline>
   <source src="../Videos/metal-bending.mp4" type="video/mp4">
@@ -121,33 +116,25 @@ format:
 
 <p><em>This clip shows part of our early-stage process: heating and bending metal taken from mattress springs — a key reinforcement element in the final weight.</em></p>
 
----
+<h3>Transport Tactics</h3>
 
-### Transport Tactics
-
-:::{=html}
 <div class="project-entry reverse">
   <img src="transport.jpg" alt="Transporting Mattress" class="project-thumb" />
   <div class="project-text">
-    <p><em>You might be wondering how we brought the mattresses home...</em></p>
+    <em>You might be wondering how we brought the mattresses home...</em>
     <p><strong>This is how.</strong> Do not try this at home — unless you're feeling lucky and you have a very good excuse to the guards.</p>
   </div>
 </div>
-:::
 
----
-
-### Reflection
+<h3>Reflection</h3>
 
 <p>At the core of the EVCIM project is a belief that <strong>fitness should be accessible to everyone</strong>. Gym equipment, especially weights, can be expensive — but through recycling, creativity, and sheer trial-and-error, we’ve managed to design <strong>affordable, functional weights</strong> from materials that would’ve ended up in landfills.</p>
 
 <p>We’re not just making plates — we’re building a <strong>movement</strong> where passion meets sustainability. And we’re not stopping until <strong>everyone</strong> can train, lift, and grow without breaking the bank.</p>
 
-:::{=html}
 <div class="centered-cta">
   <a href="https://www.instagram.com/_evcim_" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
     Follow us on Instagram: @_evcim_
   </a>
 </div>
-:::
