@@ -4,13 +4,11 @@ format: html
 page-layout: full
 ---
 
-
-
 <div style="text-align:center; margin-top: 20px;">
   <img src="images/about-me.jpg" alt="Laeeq profile" style="width:180px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;" />
 </div>
 
-I'm a **Business Studies & Data Analytics** student at **Dublin City University**. Passionate about cricket, data, and creating solutions — whether through sport, code, or business.
+I'm a **Business Studies & Data Analytics** student at **Dublin City University**, passionate about transforming ideas into impact. Whether through cricket, code, or entrepreneurial ventures — I’m always building, testing, and growing.
 
 ---
 
@@ -18,11 +16,11 @@ I'm a **Business Studies & Data Analytics** student at **Dublin City University*
 
 <div class="card">
   <p>
-    Cricket has been at the heart of my life. Over the years, I’ve moved clubs and climbed divisions — pushing myself physically and mentally.
-    I use analytics and self-review to track my performances and grow as a player.
+    Cricket has shaped my discipline and mindset. Over the years, I’ve moved between clubs, progressed through divisions, and grown both mentally and physically.  
+    I use data-driven self-analysis to track performances and refine my game.
   </p>
   <p>
-    Check out my story: [**Laeeq’s Cricketing Journey →**](projects/cricket-journey.qmd)
+    🔗 [**Laeeq’s Cricketing Journey →**](projects/cricket-journey.qmd)
   </p>
 </div>
 
@@ -33,22 +31,22 @@ I'm a **Business Studies & Data Analytics** student at **Dublin City University*
 <div class="card">
   <img src="projects/weights.jpg" alt="EVCIM weights" style="width:100%; max-width:400px; border-radius: 10px; display:block; margin: 10px auto;" />
   <p>
-    I co-founded a startup repurposing scrap metal into recyclable weights.  
-    I handled everything from door-to-door sales to backend logic and automation systems — learning how lean businesses truly run.
+    EVCIM is a weights business I co-founded — turning scrap into smart, recycled solutions.  
+    I managed everything from hands-on manufacturing to sales and backend automation. It taught me the realities of lean startup life.
   </p>
 </div>
 
 ---
 
-## Real-World Work Experience 
+## Work Experience
 
 <div class="card">
   <p>
-    For 4+ years, I’ve worked at Golden Grill, a family-run restaurant in Carlow.  
-    There I manage tills, assist with stock, and even jump into the kitchen at times.
+    For over 4 years, I’ve worked at **Golden Grill** in Carlow — a local family-owned restaurant.  
+    I’ve taken on roles across customer service, stock control, and even kitchen work during peak hours.
   </p>
   <p>
-    It’s taught me the importance of customer service, teamwork, and community engagement — things no textbook can teach.
+    That experience grounded me in teamwork, adaptability, and real-world business problem solving.
   </p>
 </div>
 
@@ -60,24 +58,38 @@ I'm a **Business Studies & Data Analytics** student at **Dublin City University*
   <ul>
     <li>Python Programming</li>
     <li>Power BI & Tableau</li>
-    <li>Cloud Computing</li>
-    <li>Automation (for business ops)</li>
-    <li>Strategic Thinking & Analytics</li>
+    <li>SQL & Data Pipelines</li>
+    <li>Business Analytics & Automation</li>
   </ul>
+</div>
+
+---
+
+## Achievements
+
+<div class="card">
+  <p>
+    From captaincy honors in sport to winning scholarships and peer-nominated awards — I’ve had the privilege of being recognized for both leadership and character.
+  </p>
+  <p>
+    🏆 [**View Achievements →**](achievements.html)
+  </p>
 </div>
 
 ---
 
 ## Why This Portfolio?
 
-> This isn’t just a portfolio — it’s my journey.
+> This site documents more than just skills — it captures my journey.
 
-Every page reflects how I combine data, discipline, and creativity to grow as a student, entrepreneur, and cricketer.
+Every project reflects a mindset of growth, curiosity, and perseverance — from the pitch to the page.
 
 ---
 
 ## Connect & Explore
 
-- [**My CV →**](cv.qmd)  
-- [**My Projects →**](projects.qmd)
+- 📄 [**My CV →**](cv.qmd)  
+- 📁 [**My Projects →**](projects.qmd)  
+- 🏅 [**My Achievements →**](achievements.html)
+
 
