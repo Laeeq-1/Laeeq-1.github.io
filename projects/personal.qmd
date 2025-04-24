@@ -9,14 +9,15 @@ format:
     allow-html: true
 ---
 
+## Personal Projects
+
 <div class="project-entry">
   <a href="cricket-journey.html" target="_blank">
     <img src="cricket.jpg" alt="Cricket Journey" class="project-thumb" />
   </a>
-  <div class="project-text" markdown="block">
-    [**Cricket Journey**](cricket-journey.html){.project-title target="_blank"}
-
-    *This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.*
+  <div class="project-text" markdown="1">
+    <p><strong><a href="cricket-journey.html" target="_blank">Cricket Journey</a></strong></p>
+    <p>This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.</p>
   </div>
 </div>
 
@@ -24,10 +25,10 @@ format:
   <a href="EVCIM.html" target="_blank">
     <img src="weights.jpg" alt="EVCIM Weights Business" class="project-thumb" />
   </a>
-  <div class="project-text" markdown="block">
-    [**EVCIM Weights Business**](EVCIM.html){.project-title target="_blank"}
-
-    *My first real-world business using recyclable materials to make concrete weights.*
+  <div class="project-text" markdown="1">
+    <p><strong><a href="EVCIM.html" target="_blank">EVCIM Weights Business</a></strong></p>
+    <p>My first real-world business using recyclable materials to make concrete weights.</p>
   </div>
 </div>
+
 
