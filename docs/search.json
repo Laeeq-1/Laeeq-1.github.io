@@ -77,6 +77,34 @@
     "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
   },
   {
+    "objectID": "projects/academic.html#dairy-gold-strategy",
+    "href": "projects/academic.html#dairy-gold-strategy",
+    "title": "Academic projects",
+    "section": "",
+    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#vietnamese-coffee-supply-chain-production",
+    "href": "projects/academic.html#vietnamese-coffee-supply-chain-production",
+    "title": "Academic projects",
+    "section": "Vietnamese Coffee Supply Chain Production",
+    "text": "Vietnamese Coffee Supply Chain Production\n  \n\nWe analyzed the supply chain production of Vietnamese coffee—evaluating sourcing, production costs, and sustainability. We provided strategic recommendations to enhance efficiency, quality, and environmental responsibility.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#vietnamese-sim",
+    "href": "projects/academic.html#vietnamese-sim",
+    "title": "Academic projects",
+    "section": "Vietnamese Sim",
+    "text": "Vietnamese Sim\n  \n\nThis project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#waterwize",
+    "href": "projects/academic.html#waterwize",
+    "title": "Academic projects",
+    "section": "WaterWize",
+    "text": "WaterWize\n  \n\nWaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.\nClick On The Image To Read The Full Report!"
+  },
+  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "My CV",
@@ -140,11 +168,18 @@
     "text": "Hi, I’m Laeeq, a student at Dublin City University studying Business Studies, with a specialization in Data Analytics.\nI have a keen interest in Cricket, entrepreneurship and analytics."
   },
   {
-    "objectID": "index.html#explore-my-work",
-    "href": "index.html#explore-my-work",
+    "objectID": "index.html#portfolio-highlights",
+    "href": "index.html#portfolio-highlights",
     "title": "Laeeq Ur Rehman",
-    "section": "Explore My Work",
-    "text": "Explore My Work\n\nMy CV\n\nMy Projects\n\nMore About Me"
+    "section": "Portfolio Highlights",
+    "text": "Portfolio Highlights\n\n  Academic Projects \n  Cricket Journey \n  EVCIM Weights Business"
+  },
+  {
+    "objectID": "index.html#podcasts-i-enjoy",
+    "href": "index.html#podcasts-i-enjoy",
+    "title": "Laeeq Ur Rehman",
+    "section": "Podcasts I Enjoy",
+    "text": "Podcasts I Enjoy"
   },
   {
     "objectID": "projects/cricket-journey.html",
@@ -170,43 +205,22 @@
   {
     "objectID": "projects/personal.html",
     "href": "projects/personal.html",
-    "title": "Laeeq Ur Rehman",
+    "title": "Personal Projects",
     "section": "",
-    "text": "Cricket Journey\n\n\nThis is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player. Click to follow my journey.\n\n\n\n\n\n\n\nEVCIM Weights Business\n\n\nMy first real-world business using recyclable materials to make concrete weights. Click to learn more."
+    "text": "This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.\nClick on the image to follow my journey."
   },
   {
-    "objectID": "projects/personal.html#personal-projects",
-    "href": "projects/personal.html#personal-projects",
-    "title": "Laeeq Ur Rehman",
+    "objectID": "projects/personal.html#cricket-journey",
+    "href": "projects/personal.html#cricket-journey",
+    "title": "Personal Projects",
     "section": "",
-    "text": "Cricket Journey\n\n\nThis is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player. Click to follow my journey.\n\n\n\n\n\n\n\nEVCIM Weights Business\n\n\nMy first real-world business using recyclable materials to make concrete weights. Click to learn more."
+    "text": "This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.\nClick on the image to follow my journey."
   },
   {
-    "objectID": "projects/academic.html#dairy-gold-strategy",
-    "href": "projects/academic.html#dairy-gold-strategy",
-    "title": "Academic projects",
-    "section": "",
-    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#vietnamese-coffee-supply-chain-production",
-    "href": "projects/academic.html#vietnamese-coffee-supply-chain-production",
-    "title": "Academic projects",
-    "section": "Vietnamese Coffee Supply Chain Production",
-    "text": "Vietnamese Coffee Supply Chain Production\n  \n\nWe analyzed the supply chain production of Vietnamese coffee—evaluating sourcing, production costs, and sustainability. We provided strategic recommendations to enhance efficiency, quality, and environmental responsibility.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#vietnamese-sim",
-    "href": "projects/academic.html#vietnamese-sim",
-    "title": "Academic projects",
-    "section": "Vietnamese Sim",
-    "text": "Vietnamese Sim\n  \n\nThis project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#waterwize",
-    "href": "projects/academic.html#waterwize",
-    "title": "Academic projects",
-    "section": "WaterWize",
-    "text": "WaterWize\n  \n\nWaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.\nClick On The Image To Read The Full Report!"
+    "objectID": "projects/personal.html#evcim",
+    "href": "projects/personal.html#evcim",
+    "title": "Personal Projects",
+    "section": "EVCIM",
+    "text": "EVCIM\n  \n\nMy first real-world business using recyclable materials to make concrete weights.\nClick on the image to learn more."
   }
 ]

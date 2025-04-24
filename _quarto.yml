@@ -33,3 +33,6 @@ format:
       - styles.css
       - custom.scss
     toc: true
+
+resources:
+  - docs/pdfs/*.pdf
