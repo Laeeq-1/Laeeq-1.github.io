@@ -25,96 +25,100 @@ page-layout: full
 <style>
 .fade-in {
   opacity: 0;
-  animation: fadeIn 1.2s ease-in forwards;
+  animation: fadeIn 1.5s ease-in forwards;
 }
 
 @keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+  to { opacity: 1; }
 }
 
-.grid-container {
+.project-container, .podcast-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
-  margin-top: 40px;
+  gap: 20px;
+  margin-bottom: 50px;
 }
 
-.grid-item {
-  width: 300px;
+.project, .podcast {
+  flex: 1;
   text-align: center;
+}
+
+.project img, .podcast iframe {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  border-radius: 10px;
   transition: transform 0.3s ease;
 }
 
-.grid-item:hover {
-  transform: translateY(-8px);
+.project img:hover {
+  transform: translateY(-10px);
 }
 
-.grid-item img {
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.grid-item-title {
+.project-title {
+  margin-top: 12px;
   font-weight: bold;
-  margin-top: 10px;
-  display: block;
   font-size: 1.1em;
 }
 </style>
 
 <div class="fade-in">
 
-# Welcome!
+## Welcome!
 
-Hi, I’m **Laeeq**, a student at Dublin City University studying Business Studies, with a specialization in Data Analytics.  
-I have a keen interest in Cricket, entrepreneurship and analytics.
+Hi, I'm **Laeeq Ur Rehman** — currently studying Business Studies & Data Analytics at DCU.  
+Explore my projects and favorite podcasts below!
+
+---
+
+## Featured Projects
+
+<div class="project-container">
+
+  <div class="project">
+    <a href="projects/academic.html">
+      <img src="images/dairygold.png" alt="Academic Projects">
+      <div class="project-title">Academic Projects</div>
+    </a>
+  </div>
+
+  <div class="project">
+    <a href="projects/cricket-journey.html">
+      <img src="images/cricket.jpg" alt="Cricket Journey">
+      <div class="project-title">Cricket Journey</div>
+    </a>
+  </div>
+
+  <div class="project">
+    <a href="projects/EVCIM.html">
+      <img src="images/weights.jpg" alt="EVCIM Weights Business">
+      <div class="project-title">EVCIM Weights Business</div>
+    </a>
+  </div>
 
 </div>
 
 ---
 
-## Portfolio Highlights
+## My Favorite Podcasts
 
-<div class="grid-container">
+<div class="podcast-container">
 
-<a href="projects/academic.html" class="grid-item">
-  <img src="images/dairygold.png" alt="Academic Projects Thumbnail" />
-  <span class="grid-item-title">Academic Projects</span>
-</a>
+  <div class="podcast">
+    <iframe src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
+  </div>
 
-<a href="projects/cricket-journey.html" class="grid-item">
-  <img src="images/cricket.jpg" alt="Cricket Journey Thumbnail" />
-  <span class="grid-item-title">Cricket Journey</span>
-</a>
+  <div class="podcast">
+    <iframe src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen></iframe>
+  </div>
 
-<a href="projects/EVCIM.html" class="grid-item">
-  <img src="images/weights.jpg" alt="EVCIM Project Thumbnail" />
-  <span class="grid-item-title">EVCIM Weights Business</span>
-</a>
+  <div class="podcast">
+    <iframe src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen></iframe>
+  </div>
 
 </div>
 
----
-
-## Podcasts I Enjoy
-
-<div class="grid-container" style="justify-content: center; margin-top: 30px;">
-
-<div class="grid-item" style="width: 350px;">
-  <iframe width="100%" height="197" src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="grid-item" style="width: 350px;">
-  <iframe width="100%" height="197" src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<div class="grid-item" style="width: 350px;">
-  <iframe width="100%" height="197" src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen></iframe>
-</div>
-
-</div>
 

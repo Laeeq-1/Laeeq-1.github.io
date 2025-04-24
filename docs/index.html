@@ -129,18 +129,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
-  <li><a href="#portfolio-highlights" id="toc-portfolio-highlights" class="nav-link" data-scroll-target="#portfolio-highlights">Portfolio Highlights</a></li>
-  <li><a href="#podcasts-i-enjoy" id="toc-podcasts-i-enjoy" class="nav-link" data-scroll-target="#podcasts-i-enjoy">Podcasts I Enjoy</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-solana column-page-left">
+<div class="quarto-about-solana column-page">
   <div class="about-entity">
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
@@ -148,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Laeeq Ur Rehman</h1>
 <p class="subtitle lead">Business Studies &amp; Data Analytics Student at DCU</p>
 </div>
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
   </div>
 </header> <div class="about-links">
   <a href="https://github.com/Laeeq-1" class="about-link" rel="" target="">
@@ -168,76 +159,89 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text">Email</span>
   </a>
 </div>
-      <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
-
+      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
 <style>
 .fade-in {
   opacity: 0;
-  animation: fadeIn 1.2s ease-in forwards;
+  animation: fadeIn 1.5s ease-in forwards;
 }
 @keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+  to { opacity: 1; }
 }
-.grid-container {
+.project-container, .podcast-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
-  margin-top: 40px;
+  gap: 20px;
+  margin-bottom: 50px;
 }
-.grid-item {
-  width: 300px;
+.project, .podcast {
+  flex: 1;
   text-align: center;
+}
+.project img, .podcast iframe {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  border-radius: 10px;
   transition: transform 0.3s ease;
 }
-.grid-item:hover {
-  transform: translateY(-8px);
+.project img:hover {
+  transform: translateY(-10px);
 }
-.grid-item img {
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-.grid-item-title {
+.project-title {
+  margin-top: 12px;
   font-weight: bold;
-  margin-top: 10px;
-  display: block;
   font-size: 1.1em;
 }
 </style>
-<section id="welcome" class="level1 fade-in">
-<h1>Welcome!</h1>
-<p>Hi, I’m <strong>Laeeq</strong>, a student at Dublin City University studying Business Studies, with a specialization in Data Analytics.<br>
-I have a keen interest in Cricket, entrepreneurship and analytics.</p>
-</section>
-<hr>
-<section id="portfolio-highlights" class="level2">
-<h2 data-anchor-id="portfolio-highlights">Portfolio Highlights</h2>
-<div class="grid-container">
-<p><a href="projects/academic.html" class="grid-item"> <img src="images/dairygold.png" alt="Academic Projects Thumbnail"> <span class="grid-item-title">Academic Projects</span> </a></p>
-<p><a href="projects/cricket-journey.html" class="grid-item"> <img src="images/cricket.jpg" alt="Cricket Journey Thumbnail"> <span class="grid-item-title">Cricket Journey</span> </a></p>
-<p><a href="projects/EVCIM.html" class="grid-item"> <img src="images/weights.jpg" alt="EVCIM Project Thumbnail"> <span class="grid-item-title">EVCIM Weights Business</span> </a></p>
-</div>
+<div class="fade-in">
+<section id="welcome" class="level2">
+<h2 data-anchor-id="welcome">Welcome!</h2>
+<p>Hi, I’m <strong>Laeeq Ur Rehman</strong> — currently studying Business Studies &amp; Data Analytics at DCU.<br>
+Explore my projects and favorite podcasts below!</p>
 <hr>
 </section>
-<section id="podcasts-i-enjoy" class="level2">
-<h2 data-anchor-id="podcasts-i-enjoy">Podcasts I Enjoy</h2>
-<div class="grid-container" style="justify-content: center; margin-top: 30px;">
-<div class="grid-item" style="width: 350px;">
-<p><iframe width="100%" height="197" src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen=""></iframe></p>
+<section id="featured-projects" class="level2">
+<h2 data-anchor-id="featured-projects">Featured Projects</h2>
+<div class="project-container">
+<div class="project">
+<pre><code>&lt;a href="projects/academic.html"&gt;
+  &lt;img src="images/dairygold.png" alt="Academic Projects"&gt;
+  &lt;div class="project-title"&gt;Academic Projects&lt;/div&gt;
+&lt;/a&gt;</code></pre>
 </div>
-<div class="grid-item" style="width: 350px;">
-<p><iframe width="100%" height="197" src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen=""></iframe></p>
+<div class="project">
+<pre><code>&lt;a href="projects/cricket-journey.html"&gt;
+  &lt;img src="images/cricket.jpg" alt="Cricket Journey"&gt;
+  &lt;div class="project-title"&gt;Cricket Journey&lt;/div&gt;
+&lt;/a&gt;</code></pre>
 </div>
-<div class="grid-item" style="width: 350px;">
-<p><iframe width="100%" height="197" src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen=""></iframe></p>
+<div class="project">
+<pre><code>&lt;a href="projects/EVCIM.html"&gt;
+  &lt;img src="images/weights.jpg" alt="EVCIM Weights Business"&gt;
+  &lt;div class="project-title"&gt;EVCIM Weights Business&lt;/div&gt;
+&lt;/a&gt;</code></pre>
 </div>
+</div>
+<hr>
+</section>
+<section id="my-favorite-podcasts" class="level2">
+<h2 data-anchor-id="my-favorite-podcasts">My Favorite Podcasts</h2>
+<div class="podcast-container">
+<div class="podcast">
+<pre><code>&lt;iframe src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+</div>
+<div class="podcast">
+<pre><code>&lt;iframe src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+</div>
+<div class="podcast">
+<pre><code>&lt;iframe src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+</div>
+</div>
+</section>
 </div>
 
 
-</section>
 </main></div>
     </div>
     <img src="images/profile.jpg" class="about-image
