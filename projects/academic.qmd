@@ -9,6 +9,7 @@ page-layout: full
 
 ## Dairy Gold Strategy
 
+
 <a href="../pdfs/Dairygold.pdf" target="_blank">
   <img 
     src="dairygold.png" 
@@ -28,6 +29,7 @@ page-layout: full
 <div style="clear: both; margin-top: 80px;"></div>
 
 ## Vietnamese Coffee Supply Chain Production
+
 
 <a href="../pdfs/Vietnamese-coffee.pdf" target="_blank">
   <img 
@@ -49,6 +51,7 @@ page-layout: full
 
 ## Vietnamese Sim
 
+
 <a href="../pdfs/Vietnamese-sim.pdf" target="_blank">
   <img 
     src="Supply-sim.png" 
@@ -67,7 +70,9 @@ page-layout: full
 
 <div style="clear: both; margin-top: 80px;"></div>
 
-## WaterWize – Water Testing Device
+## WaterWize
+
+**Key Metrics:** 👥 4 | 📦 Prototype Built | 📊 Real-time Alerts
 
 <a href="../pdfs/WaterWize.pdf" target="_blank">
   <img 
@@ -86,3 +91,4 @@ page-layout: full
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
+
