@@ -29,7 +29,7 @@ My journey blends business thinking with technical skills, leadership roles, and
 
 ## My Business Hustle – EVCIM
 
-<a href="projects/weights-project.qmd" style="text-decoration: none; color: inherit;">
+<a href="projects/EVCIM.qmd" style="text-decoration: none; color: inherit;">
 <div class="card">
   <img src="projects/weights.jpg" alt="EVCIM weights" style="width:100%; max-width:400px; border-radius: 10px; display:block; margin: 10px auto;" />
   <p>
