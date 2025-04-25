@@ -140,10 +140,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#coffee-supply-chain-simulation-code" id="toc-coffee-supply-chain-simulation-code" class="nav-link active" data-scroll-target="#coffee-supply-chain-simulation-code">Coffee Supply Chain Simulation Code</a>
-  <ul class="collapse">
+  <li><a href="#vietnamese-coffee-supply-chain-simulation" id="toc-vietnamese-coffee-supply-chain-simulation" class="nav-link active" data-scroll-target="#vietnamese-coffee-supply-chain-simulation">Vietnamese Coffee Supply Chain Simulation</a></li>
   <li><a href="#python-code" id="toc-python-code" class="nav-link" data-scroll-target="#python-code">Python Code</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -169,10 +167,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="coffee-supply-chain-simulation-code" class="level1">
-<h1>Coffee Supply Chain Simulation Code</h1>
-<p>This simulation models the coffee production, processing, transport, and storage stages in Vietnam’s supply chain, capturing random variations like monsoon impacts on yield.</p>
+<section id="vietnamese-coffee-supply-chain-simulation" class="level2">
+<h2 class="anchored" data-anchor-id="vietnamese-coffee-supply-chain-simulation">Vietnamese Coffee Supply Chain Simulation</h2>
+<p>This simulation models the supply chain for Vietnamese coffee production — including farming, processing, transport, and warehousing.<br>
+It was developed as part of our coursework to better understand how different events (e.g., weather disruptions like monsoons) could affect production flow and operational costs.<br>
+The code was written in Python using the SimPy library and produces a full year of data for analysis.</p>
 <hr>
+</section>
 <section id="python-code" class="level2">
 <h2 class="anchored" data-anchor-id="python-code">Python Code</h2>
 <p>```python import simpy import pandas as pd import random</p>
@@ -243,7 +244,6 @@ return df_results</code></pre>
 <p>if <strong>name</strong> == “<strong>main</strong>”: df_results = run_simulation() print(df_results.head()) df_results.to_csv(“coffee_supply_chain_simulation_results.csv”, index=False) df_results.plot(x=“day”, y=[“produced_coffee”, “processed_coffee”, “storage”], title=“Coffee Supply Chain Simulation”)</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -3,10 +3,11 @@ title: "Vietnamese Coffee Production Supply Chain Simulation"
 format: html
 page-layout: full
 ---
+## Vietnamese Coffee Supply Chain Simulation
 
-# Coffee Supply Chain Simulation Code
-
-This simulation models the coffee production, processing, transport, and storage stages in Vietnam’s supply chain, capturing random variations like monsoon impacts on yield.
+This simulation models the supply chain for Vietnamese coffee production — including farming, processing, transport, and warehousing.  
+It was developed as part of our coursework to better understand how different events (e.g., weather disruptions like monsoons) could affect production flow and operational costs.  
+The code was written in Python using the SimPy library and produces a full year of data for analysis.
 
 ---
 
