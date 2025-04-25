@@ -2,6 +2,9 @@
 title: "Vietnamese Coffee Supply Chain Simulation"
 format: html
 page-layout: full
+toc: true
+toc-title: "On this page"
+toc-location: right
 ---
 
 # Vietnamese Coffee Supply Chain Simulation
@@ -11,7 +14,7 @@ It helps understand how production delays, transport times, and warehouse capaci
 
 ---
 
-# Simulation Code
+## Simulation Code
 
 ```python
 import simpy
@@ -132,9 +135,13 @@ if __name__ == "__main__":
     print(df_results.head())
     df_results.to_csv("coffee_supply_chain_simulation_results.csv", index=False)
     df_results.plot(x="day", y=["produced_coffee", "processed_coffee", "storage"], title="Coffee Supply Chain Simulation")
+```
 
+---
 
-# Conclusion
+## Conclusion
 
-By simulating the Vietnamese coffee supply chain, we can visualize how production cycles, transportation delays, and warehouse capacity limitations impact the overall supply and export performance.
+By simulating the Vietnamese coffee supply chain, we can visualize how production cycles, transportation delays, and warehouse capacity limitations impact the overall supply and export performance.  
 This model can be extended to include seasonal variations like monsoon effects, price fluctuations, or supply chain disruptions for deeper analysis.
+
+---
