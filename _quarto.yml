@@ -25,6 +25,9 @@ website:
       - icon: award
         href: achievements.html
         text: "Achievements"
+      - icon: list-check
+        href: Skills.qmd
+        text: "Skills"
       - icon: person
         href: about.qmd
         text: "About"
@@ -43,6 +46,3 @@ format:
       - styles.css
       - custom.scss
     toc: true
-
-
-
