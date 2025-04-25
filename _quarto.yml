@@ -13,14 +13,21 @@ website:
         text: "CV"
       - text: Projects
         menu:
-          - href: projects/personal.qmd
-            text: Personal Projects
-          - href: projects/academic.qmd
-            text: Academic Projects
-      - href: achievements.html
-        text: Achievements
-      - href: about.qmd
-        text: About
+          - icon: laptop
+            href: projects/personal.qmd
+            text: "Personal Projects"
+          - icon: mortarboard
+            href: projects/academic.qmd
+            text: "Academic Projects"
+          - icon: compass
+            href: Future.qmd
+            text: "Future Plans"
+      - icon: award
+        href: achievements.html
+        text: "Achievements"
+      - icon: person
+        href: about.qmd
+        text: "About"
 
   page-footer:
     center: "Copyright © 2025 Laeeq"
@@ -36,5 +43,5 @@ format:
       - styles.css
       - custom.scss
     toc: true
-    
+
 
