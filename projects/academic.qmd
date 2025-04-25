@@ -9,7 +9,6 @@ page-layout: full
 
 ## Dairy Gold Strategy
 
-
 <a href="../pdfs/Dairygold.pdf" target="_blank">
   <img 
     src="dairygold.png" 
@@ -29,7 +28,6 @@ page-layout: full
 <div style="clear: both; margin-top: 80px;"></div>
 
 ## Vietnamese Coffee Supply Chain Production
-
 
 <a href="../pdfs/Vietnamese-coffee.pdf" target="_blank">
   <img 
@@ -51,7 +49,6 @@ page-layout: full
 
 ## Vietnamese Sim
 
-
 <a href="../pdfs/Vietnamese-sim.pdf" target="_blank">
   <img 
     src="Supply-sim.png" 
@@ -65,7 +62,8 @@ page-layout: full
 <p style="max-width: 700px;">
   This project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.
 
-  **<span style="color: var(--bs-primary);">Click On The Image To Read The Report!</span>**
+  <br><br>
+  <a href="coffee-sim.html" style="color: var(--bs-primary); font-weight: bold;">Click here to view the full Python simulation code →</a>
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
@@ -112,4 +110,5 @@ page-layout: full
   **<span style="color: var(--bs-primary);">Click the image to read the full report.</span>**
 </p>
 
-<div style="clear: both; margin-top: 80px;"></div>
+<div style="clear: both; margin-top: 80px;"></div> 
+
