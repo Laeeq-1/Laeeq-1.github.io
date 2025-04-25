@@ -88,8 +88,8 @@ Every project reflects a mindset of growth, curiosity, and perseverance — from
 
 ## Connect & Explore
 
-- 📄 [**My CV →**](cv.qmd)  
-- 📁 [**My Projects →**](projects.qmd)  
+- 📄 [**My CV →**](Laeeq_CV.pdf)
+- 📁 [**My Projects →**](projects.qmd)
 - 🏅 [**My Achievements →**](achievements.html)
 
 

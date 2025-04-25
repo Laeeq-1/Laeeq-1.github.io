@@ -105,11 +105,25 @@
     "text": "WaterWize\n  \n\nWaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.\nClick On The Image To Read The Full Report!"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "My CV",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Laeeq Ur Rehman",
     "section": "",
-    "text": "📄 My CV\nDownload my CV"
+    "text": "Welcome to my personal website—I’m studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!"
+  },
+  {
+    "objectID": "index.html#my-portfolio",
+    "href": "index.html#my-portfolio",
+    "title": "Laeeq Ur Rehman",
+    "section": "My Portfolio",
+    "text": "My Portfolio\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n\n\n\n\nAcademic Projects\n\n\nCricket Journey\n\n\nEVCIM"
+  },
+  {
+    "objectID": "index.html#podcasts-that-i-like",
+    "href": "index.html#podcasts-that-i-like",
+    "title": "Laeeq Ur Rehman",
+    "section": "Podcasts That I like",
+    "text": "Podcasts That I like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
   },
   {
     "objectID": "about.html",
@@ -133,11 +147,11 @@
     "text": "My Business Hustle – EVCIM\n\n\n\nEVCIM is a weights business I co-founded — turning scrap into smart, recycled solutions.\nI managed everything from hands-on manufacturing to sales and backend automation. It taught me the realities of lean startup life."
   },
   {
-    "objectID": "about.html#real-world-work-experience",
-    "href": "about.html#real-world-work-experience",
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
     "title": "About Me",
-    "section": "Real-World Work Experience",
-    "text": "Real-World Work Experience\n\n\nFor 4+ years, I’ve worked at Golden Grill, a family-run restaurant in Carlow.\nThere I manage tills, assist with stock, and even jump into the kitchen at times.\n\n\nIt’s taught me the importance of customer service, teamwork, and community engagement — things no textbook can teach."
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\nFor over 4 years, I’ve worked at Golden Grill in Carlow — a local family-owned restaurant.\nI’ve taken on roles across customer service, stock control, and even kitchen work during peak hours.\n\n\nThat experience grounded me in teamwork, adaptability, and real-world business problem solving."
   },
   {
     "objectID": "about.html#my-tech-stack",
@@ -145,6 +159,13 @@
     "title": "About Me",
     "section": "My Tech Stack",
     "text": "My Tech Stack\n\n\n\nPython Programming\n\n\nPower BI & Tableau\n\n\nSQL & Data Pipelines\n\n\nBusiness Analytics & Automation"
+  },
+  {
+    "objectID": "about.html#achievements",
+    "href": "about.html#achievements",
+    "title": "About Me",
+    "section": "Achievements",
+    "text": "Achievements\n\n\nFrom captaincy honors in sport to winning scholarships and peer-nominated awards — I’ve had the privilege of being recognized for both leadership and character.\n\n\n🏆 View Achievements →"
   },
   {
     "objectID": "about.html#why-this-portfolio",
@@ -158,7 +179,7 @@
     "href": "about.html#connect-explore",
     "title": "About Me",
     "section": "Connect & Explore",
-    "text": "Connect & Explore\n\n📄 My CV →\n\n📁 My Projects →\n\n🏅 My Achievements →"
+    "text": "Connect & Explore\n\n📄 My CV →\n📁 My Projects →\n🏅 My Achievements →"
   },
   {
     "objectID": "achievements.html",
@@ -168,25 +189,46 @@
     "text": "As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most memorable memories from secondary school."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Laeeq Ur Rehman",
+    "objectID": "achievements.html#cbs-hurling-team-captain",
+    "href": "achievements.html#cbs-hurling-team-captain",
+    "title": "Achievements",
     "section": "",
-    "text": "Welcome to my personal website—I’m studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!"
+    "text": "As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most memorable memories from secondary school."
   },
   {
-    "objectID": "index.html#my-portfolio",
-    "href": "index.html#my-portfolio",
-    "title": "Laeeq Ur Rehman",
-    "section": "My Portfolio",
-    "text": "My Portfolio\n\n\n\n\n\n  \n\n\n  \n\n\n  \n\n\n\n\n\n\nAcademic Projects\n\n\nCricket Journey\n\n\nEVCIM"
+    "objectID": "achievements.html#dcu-access-scholarship",
+    "href": "achievements.html#dcu-access-scholarship",
+    "title": "Achievements",
+    "section": "DCU Access Scholarship",
+    "text": "DCU Access Scholarship\n  \n\nBeing awarded the Scholarship was one of the proudest moments of my academic journey. This scholarship is given to students from the Access programme who have shown outstanding academic achievement, resilience, and promise. Coming from an Access background, I understood the weight of this recognition. It was more than a financial award — it was a statement that my hard work and consistency mattered. I was deeply honoured to be seen as someone worthy of carrying that legacy forward."
   },
   {
-    "objectID": "index.html#podcasts-that-i-like",
-    "href": "index.html#podcasts-that-i-like",
-    "title": "Laeeq Ur Rehman",
-    "section": "Podcasts That I like",
-    "text": "Podcasts That I like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
+    "objectID": "achievements.html#ann-award-student-of-the-year",
+    "href": "achievements.html#ann-award-student-of-the-year",
+    "title": "Achievements",
+    "section": "Ann Award – Student of the Year",
+    "text": "Ann Award – Student of the Year\n  \n\nThe Ann award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely “sound” individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I’d come — not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing."
+  },
+  {
+    "objectID": "achievements.html#kubicle-certificates",
+    "href": "achievements.html#kubicle-certificates",
+    "title": "Achievements",
+    "section": "Kubicle Certificates",
+    "text": "Kubicle Certificates\n  \n\nI’ve completed numerous verified certificates from Kubicle, enhancing my skills in data analysis, Power BI, Excel, and more. Click the image to view the full list of certificates and download the PDFs."
+  },
+  {
+    "objectID": "kubicle_certificates.html",
+    "href": "kubicle_certificates.html",
+    "title": "Kubicle Certificates",
+    "section": "",
+    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
+  },
+  {
+    "objectID": "kubicle_certificates.html#verified-kubicle-courses",
+    "href": "kubicle_certificates.html#verified-kubicle-courses",
+    "title": "Kubicle Certificates",
+    "section": "",
+    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
   },
   {
     "objectID": "projects/cricket-journey.html",
@@ -229,68 +271,5 @@
     "title": "Personal Projects",
     "section": "EVCIM",
     "text": "EVCIM\n  \n\nMy first real-world business using recyclable materials to make concrete weights.\nClick on the image to learn more."
-  },
-  {
-    "objectID": "achievements.html#cbs-hurling-team-captain",
-    "href": "achievements.html#cbs-hurling-team-captain",
-    "title": "Achievements",
-    "section": "",
-    "text": "As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most memorable memories from secondary school."
-  },
-  {
-    "objectID": "achievements.html#dcu-access-scholarship",
-    "href": "achievements.html#dcu-access-scholarship",
-    "title": "Achievements",
-    "section": "DCU Access Scholarship",
-    "text": "DCU Access Scholarship\n  \n\nBeing awarded the Scholarship was one of the proudest moments of my academic journey. This scholarship is given to students from the Access programme who have shown outstanding academic achievement, resilience, and promise. Coming from an Access background, I understood the weight of this recognition. It was more than a financial award — it was a statement that my hard work and consistency mattered. I was deeply honoured to be seen as someone worthy of carrying that legacy forward."
-  },
-  {
-    "objectID": "achievements.html#ann-brennan-award-student-of-the-year",
-    "href": "achievements.html#ann-brennan-award-student-of-the-year",
-    "title": "Achievements",
-    "section": "Ann Brennan Award – Student of the Year",
-    "text": "Ann Brennan Award – Student of the Year\n  \n\nThe Ann award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely “sound” individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I’d come — not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing."
-  },
-  {
-    "objectID": "achievements.html#kubicle-certificates",
-    "href": "achievements.html#kubicle-certificates",
-    "title": "Achievements",
-    "section": "Kubicle Certificates",
-    "text": "Kubicle Certificates\n  \n\nI’ve completed numerous verified certificates from Kubicle, enhancing my skills in data analysis, Power BI, Excel, and more. Click the image to view the full list of certificates and download the PDFs."
-  },
-  {
-    "objectID": "achievements.html#ann-award-student-of-the-year",
-    "href": "achievements.html#ann-award-student-of-the-year",
-    "title": "Achievements",
-    "section": "Ann Award – Student of the Year",
-    "text": "Ann Award – Student of the Year\n  \n\nThe Ann award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely “sound” individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I’d come — not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing."
-  },
-  {
-    "objectID": "kubicle_certificates.html",
-    "href": "kubicle_certificates.html",
-    "title": "Kubicle Certificates",
-    "section": "",
-    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
-  },
-  {
-    "objectID": "kubicle_certificates.html#verified-kubicle-courses",
-    "href": "kubicle_certificates.html#verified-kubicle-courses",
-    "title": "Kubicle Certificates",
-    "section": "",
-    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
-  },
-  {
-    "objectID": "about.html#work-experience",
-    "href": "about.html#work-experience",
-    "title": "About Me",
-    "section": "Work Experience",
-    "text": "Work Experience\n\n\nFor over 4 years, I’ve worked at Golden Grill in Carlow — a local family-owned restaurant.\nI’ve taken on roles across customer service, stock control, and even kitchen work during peak hours.\n\n\nThat experience grounded me in teamwork, adaptability, and real-world business problem solving."
-  },
-  {
-    "objectID": "about.html#achievements",
-    "href": "about.html#achievements",
-    "title": "About Me",
-    "section": "Achievements",
-    "text": "Achievements\n\n\nFrom captaincy honors in sport to winning scholarships and peer-nominated awards — I’ve had the privilege of being recognized for both leadership and character.\n\n\n🏆 View Achievements →"
   }
 ]
