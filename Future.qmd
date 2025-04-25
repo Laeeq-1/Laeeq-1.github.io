@@ -1,0 +1,33 @@
+---
+title: "Future Pathway: Pursuing a Career in Cricket and Business"
+format:
+  html:
+    page-layout: article
+page-layout: full
+---
+
+::: {style="text-align: justify;"}
+With a strong foundation in cricket and an entrepreneurial mindset, my future pathway is shaped by both athletic ambition and business vision.  
+From a young age, cricket has been more than just a game for me — it’s been a way of life.  
+As I continue to develop my skills, my next big goal is to pursue cricket professionally.
+
+To achieve this, I am planning to train even harder, push my physical and mental limits, and potentially explore opportunities to train abroad, where I can be exposed to higher competition and better facilities.  
+I believe that challenging myself in new environments will accelerate my growth and help me reach international standards.
+
+At the same time, I’m not just building my career on the field — I’m also building it off the field.  
+Through this web development project (as part of my academic work), I’ve realised how valuable technical skills can be in growing a personal brand or business.
+
+Going forward, I intend to launch my own cricket coaching business or cricket-related initiative.  
+Building a professional website for it — using the skills I gained during this module — will be one of my first steps.  
+Having an online presence will allow me to showcase my journey, attract clients, and expand my impact beyond just local communities.
+
+Ultimately, my goal is to blend my passion for cricket with entrepreneurship, creating a career where I can lead, inspire, and keep growing — both on the pitch and in business.
+:::
+
+<div style="margin-top: 30px; text-align: center;">
+
+[Find out more about my journey &rarr;](projects/cricket-journey.html){.btn .btn-outline-warning style="padding: 10px 20px; font-size: 16px; border-radius: 5px; color: #3a3931; display: inline-block;"}
+
+[Explore the projects and skills I've developed &rarr;](projects/academic.html){.btn .btn-outline-warning style="padding: 10px 20px; font-size: 16px; border-radius: 5px; color: #3a3931; display: inline-block;"}
+
+</div>
