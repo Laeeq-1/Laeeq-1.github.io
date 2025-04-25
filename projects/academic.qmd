@@ -90,4 +90,26 @@ page-layout: full
 
 <div style="clear: both; margin-top: 80px;"></div> 
 
+## Predicting Heart Disease Using Machine Learning
 
+<a href="../pdfs/ML_Report.pdf" target="_blank">
+  <img 
+    src="heart.png" 
+    alt="Heart Disease ML Project Thumbnail" 
+    style="float: left; margin-right: 20px; width: 350px; transition: transform 0.3s ease;"
+    onmouseover="this.style.transform='translateY(-10px)';"
+    onmouseout="this.style.transform='translateY(0)';"
+  />
+</a>
+
+<p style="max-width: 700px;">
+  This individual project involved building and evaluating classification models to predict heart disease using the Cleveland dataset. I implemented Logistic Regression, SVM, and Random Forest in Python, and compared performance using metrics such as F1 score, recall, and ROC AUC.
+</p>
+
+<p style="max-width: 700px;">
+  The focus was on balancing predictive accuracy with interpretability. I also produced a 3,000-word reflective report covering methodology, KPI analysis, and the ethical context of using AI in healthcare.
+
+  **<span style="color: var(--bs-primary);">Click the image to read the full report.</span>**
+</p>
+
+<div style="clear: both; margin-top: 80px;"></div>
