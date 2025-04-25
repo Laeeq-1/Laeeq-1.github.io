@@ -13,7 +13,7 @@ Whether it’s cricket, code, or creative ventures — I build, test, and grow w
 
 ---
 
-## 🏏 My Cricket Journey
+##  My Cricket Journey
 
 <div class="card">
   <p>
@@ -27,7 +27,7 @@ Whether it’s cricket, code, or creative ventures — I build, test, and grow w
 
 ---
 
-## 🧱 My Business Hustle – EVCIM
+##  My Business Hustle – EVCIM
 
 <div class="card">
   <img src="projects/weights.jpg" alt="EVCIM weights" style="width:100%; max-width:400px; border-radius: 10px; display:block; margin: 10px auto;" />
@@ -40,7 +40,7 @@ Whether it’s cricket, code, or creative ventures — I build, test, and grow w
 
 ---
 
-## 🍟 Work Experience
+## Work Experience
 
 <div class="card">
   <p>
@@ -54,7 +54,7 @@ Whether it’s cricket, code, or creative ventures — I build, test, and grow w
 
 ---
 
-## 💻 My Tech Stack
+## 💻My Tech Stack
 
 <div class="card">
   <ul>
@@ -67,20 +67,20 @@ Whether it’s cricket, code, or creative ventures — I build, test, and grow w
 
 ---
 
-## 🏅 Achievements
+##  Achievements
 
 <div class="card">
   <p>
     I’ve been honoured with leadership roles, peer awards, and the **Colm and Paula Delves Scholarship** — recognizing both academic merit and character.
   </p>
   <p>
-    🏆 [**View Achievements →**](achievements.html)
+     [**View Achievements →**](achievements.html)
   </p>
 </div>
 
 ---
 
-## 🧭 Why This Portfolio?
+## Why This Portfolio?
 
 > This site isn’t just about showcasing skills — it captures growth.
 
@@ -88,7 +88,7 @@ Each project reflects curiosity, discipline, and a willingness to push boundarie
 
 ---
 
-## 🔗 Connect & Explore
+## Connect & Explore
 
 - 📄 [**My CV →**](Laeeq_CV.pdf)
 - 📁 [**My Projects →**](projects.qmd)
