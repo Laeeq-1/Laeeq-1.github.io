@@ -134,17 +134,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#my-portfolio" id="toc-my-portfolio" class="nav-link active" data-scroll-target="#my-portfolio">My Portfolio</a></li>
-  <li><a href="#podcasts-that-i-like" id="toc-podcasts-that-i-like" class="nav-link" data-scroll-target="#podcasts-that-i-like">Podcasts That I like</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-solana column-page-left">
+<div class="quarto-about-solana column-page">
   <div class="about-entity">
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
@@ -152,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Laeeq Ur Rehman</h1>
 <p class="subtitle lead">Business Studies &amp; Data Analytics Student at DCU</p>
 </div>
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
   </div>
 </header> <div class="about-links">
   <a href="https://github.com/Laeeq-1" class="about-link" rel="" target="">
@@ -172,8 +164,7 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text">Email</span>
   </a>
 </div>
-      <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
-
+      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
 <style>
 .fade-in {
   opacity: 0;
@@ -211,6 +202,12 @@ ul.task-list li input[type="checkbox"] {
   display: inline-block;
   margin: 10px;
   text-decoration: none;
+}
+/* Keep 3 podcasts side by side on larger screens */
+@media (min-width: 1100px) {
+  .podcast-container {
+    flex-wrap: nowrap;
+  }
 }
 </style>
 <div class="fade-in" style="text-align: center; margin-bottom: 30px;">
