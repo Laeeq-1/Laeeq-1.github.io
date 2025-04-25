@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -140,15 +174,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#vietnamese-coffee-supply-chain-simulation" id="toc-vietnamese-coffee-supply-chain-simulation" class="nav-link active" data-scroll-target="#vietnamese-coffee-supply-chain-simulation">Vietnamese Coffee Supply Chain Simulation</a></li>
-  <li><a href="#simulation-code" id="toc-simulation-code" class="nav-link" data-scroll-target="#simulation-code">Simulation Code</a></li>
-  <li><a href="#constants" id="toc-constants" class="nav-link" data-scroll-target="#constants">Constants</a></li>
-  <li><a href="#farmer-class" id="toc-farmer-class" class="nav-link" data-scroll-target="#farmer-class">Farmer Class</a></li>
-  <li><a href="#processing-facility-class" id="toc-processing-facility-class" class="nav-link" data-scroll-target="#processing-facility-class">Processing Facility Class</a></li>
-  <li><a href="#transport-class" id="toc-transport-class" class="nav-link" data-scroll-target="#transport-class">Transport Class</a></li>
-  <li><a href="#warehouse-class" id="toc-warehouse-class" class="nav-link" data-scroll-target="#warehouse-class">Warehouse Class</a></li>
-  <li><a href="#run-simulation" id="toc-run-simulation" class="nav-link" data-scroll-target="#run-simulation">Run Simulation</a></li>
-  <li><a href="#main-execution" id="toc-main-execution" class="nav-link" data-scroll-target="#main-execution">Main Execution</a></li>
+  <li><a href="#simulation-code" id="toc-simulation-code" class="nav-link active" data-scroll-target="#simulation-code">Simulation Code</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
@@ -175,110 +201,136 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="vietnamese-coffee-supply-chain-simulation" class="level1">
-<h1>Vietnamese Coffee Supply Chain Simulation</h1>
 <p>This project simulates key stages of the Vietnamese coffee supply chain: farming, processing, transportation, and warehousing.<br>
 It helps understand how production delays, transport times, and warehouse capacity affect the overall system efficiency.</p>
 <hr>
+<section id="simulation-code" class="level2">
+<h2 class="anchored" data-anchor-id="simulation-code">Simulation Code</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> simpy</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Constants</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>SIMULATION_TIME <span class="op">=</span> <span class="dv">365</span>  <span class="co"># days (1 year)</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>PRODUCTION_CAPACITY <span class="op">=</span> <span class="dv">100</span>  <span class="co"># tons of coffee per month per farm</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>PROCESSING_COST_PER_TON <span class="op">=</span> <span class="dv">50</span>  <span class="co"># USD per ton</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>TRANSPORT_COST_PER_KM <span class="op">=</span> <span class="dv">1</span>  <span class="co"># USD per kilometer per ton</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>WAREHOUSE_CAPACITY <span class="op">=</span> <span class="dv">500</span>  <span class="co"># tons</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>TRANSPORT_DISTANCE <span class="op">=</span> <span class="dv">200</span>  <span class="co"># km from processing to export port</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>EXPORT_TARIFF <span class="op">=</span> <span class="fl">0.05</span>  <span class="co"># 5% of export value</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>COFFEE_PRICE_PER_TON <span class="op">=</span> <span class="dv">1200</span>  <span class="co"># USD on the international market</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Farmer Class</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Farmer:</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, env, production_capacity):</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env <span class="op">=</span> env</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.production_capacity <span class="op">=</span> production_capacity</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.coffee_ready <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.production_process <span class="op">=</span> env.process(<span class="va">self</span>.produce_coffee())</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> produce_coffee(<span class="va">self</span>):</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> <span class="va">self</span>.env.timeout(<span class="dv">30</span>)  <span class="co"># 1 month production cycle</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.coffee_ready <span class="op">+=</span> random.uniform(<span class="fl">0.8</span>, <span class="fl">1.2</span>) <span class="op">*</span> <span class="va">self</span>.production_capacity</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"Day </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>env<span class="sc">.</span>now<span class="sc">}</span><span class="ss">: Farmer produced </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>coffee_ready<span class="sc">}</span><span class="ss"> tons of coffee."</span>)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Processing Facility Class</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> ProcessingFacility:</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, env, processing_cost_per_ton):</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env <span class="op">=</span> env</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.processing_cost_per_ton <span class="op">=</span> processing_cost_per_ton</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> process_coffee(<span class="va">self</span>, coffee_amount):</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>        processing_cost <span class="op">=</span> coffee_amount <span class="op">*</span> <span class="va">self</span>.processing_cost_per_ton</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>        <span class="cf">yield</span> <span class="va">self</span>.env.timeout(<span class="dv">10</span>)  <span class="co"># Processing time for each batch</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Day </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>env<span class="sc">.</span>now<span class="sc">}</span><span class="ss">: Processed </span><span class="sc">{</span>coffee_amount<span class="sc">}</span><span class="ss"> tons at cost </span><span class="sc">{</span>processing_cost<span class="sc">}</span><span class="ss">."</span>)</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> processing_cost</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="co"># Transport Class</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Transport:</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, env, cost_per_km):</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env <span class="op">=</span> env</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.cost_per_km <span class="op">=</span> cost_per_km</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> transport_coffee(<span class="va">self</span>, distance, amount):</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>        transport_cost <span class="op">=</span> distance <span class="op">*</span> <span class="va">self</span>.cost_per_km <span class="op">*</span> amount</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>        <span class="cf">yield</span> <span class="va">self</span>.env.timeout(distance <span class="op">/</span> <span class="dv">100</span>)  <span class="co"># Assume 100 km/day travel speed</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Day </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>env<span class="sc">.</span>now<span class="sc">}</span><span class="ss">: Transported </span><span class="sc">{</span>amount<span class="sc">}</span><span class="ss"> tons at cost </span><span class="sc">{</span>transport_cost<span class="sc">}</span><span class="ss">."</span>)</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> transport_cost</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="co"># Warehouse Class</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Warehouse:</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, capacity):</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.capacity <span class="op">=</span> capacity</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.current_storage <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> store_coffee(<span class="va">self</span>, amount):</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.current_storage <span class="op">+</span> amount <span class="op">&lt;=</span> <span class="va">self</span>.capacity:</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.current_storage <span class="op">+=</span> amount</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"Stored </span><span class="sc">{</span>amount<span class="sc">}</span><span class="ss"> tons of coffee. Current storage: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>current_storage<span class="sc">}</span><span class="ss"> tons."</span>)</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"Warehouse full, cannot store more coffee."</span>)</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> retrieve_coffee(<span class="va">self</span>, amount):</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> amount <span class="op">&lt;=</span> <span class="va">self</span>.current_storage:</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.current_storage <span class="op">-=</span> amount</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"Retrieved </span><span class="sc">{</span>amount<span class="sc">}</span><span class="ss"> tons of coffee. Remaining storage: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>current_storage<span class="sc">}</span><span class="ss"> tons."</span>)</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> amount</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"Not enough coffee in storage."</span>)</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="dv">0</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="co"># Run Simulation</span></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> run_simulation():</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>    env <span class="op">=</span> simpy.Environment()</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>    farmer <span class="op">=</span> Farmer(env, PRODUCTION_CAPACITY)</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>    processing_facility <span class="op">=</span> ProcessingFacility(env, PROCESSING_COST_PER_TON)</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>    transport <span class="op">=</span> Transport(env, TRANSPORT_COST_PER_KM)</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>    warehouse <span class="op">=</span> Warehouse(WAREHOUSE_CAPACITY)</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> {</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>        <span class="st">"day"</span>: [],</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>        <span class="st">"produced_coffee"</span>: [],</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>        <span class="st">"processed_coffee"</span>: [],</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>        <span class="st">"transport_cost"</span>: [],</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>        <span class="st">"storage"</span>: []</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> env.now <span class="op">&lt;</span> SIMULATION_TIME:</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>        coffee_amount <span class="op">=</span> farmer.coffee_ready</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">"produced_coffee"</span>].append(coffee_amount)</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>        processing_cost <span class="op">=</span> <span class="cf">yield</span> env.process(processing_facility.process_coffee(coffee_amount))</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">"processed_coffee"</span>].append(coffee_amount)</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>        transport_cost <span class="op">=</span> <span class="cf">yield</span> env.process(transport.transport_coffee(TRANSPORT_DISTANCE, coffee_amount))</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">"transport_cost"</span>].append(transport_cost)</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>        warehouse.store_coffee(coffee_amount)</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">"storage"</span>].append(warehouse.current_storage)</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>        farmer.coffee_ready <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">"day"</span>].append(env.now)</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>        <span class="cf">yield</span> env.timeout(<span class="dv">30</span>)</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a>    df_results <span class="op">=</span> pd.DataFrame(results)</span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df_results</span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="co"># Main Execution</span></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>    df_results <span class="op">=</span> run_simulation()</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(df_results.head())</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>    df_results.to_csv(<span class="st">"coffee_supply_chain_simulation_results.csv"</span>, index<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>    df_results.plot(x<span class="op">=</span><span class="st">"day"</span>, y<span class="op">=</span>[<span class="st">"produced_coffee"</span>, <span class="st">"processed_coffee"</span>, <span class="st">"storage"</span>], title<span class="op">=</span><span class="st">"Coffee Supply Chain Simulation"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
 </section>
-<section id="simulation-code" class="level1">
-<h1>Simulation Code</h1>
-<p>```python import simpy import pandas as pd import random</p>
-</section>
-<section id="constants" class="level1">
-<h1>Constants</h1>
-<p>SIMULATION_TIME = 365 # days (1 year) PRODUCTION_CAPACITY = 100 # tons of coffee per month per farm PROCESSING_COST_PER_TON = 50 # USD per ton TRANSPORT_COST_PER_KM = 1 # USD per kilometer per ton WAREHOUSE_CAPACITY = 500 # tons TRANSPORT_DISTANCE = 200 # km from processing to export port EXPORT_TARIFF = 0.05 # 5% of export value COFFEE_PRICE_PER_TON = 1200 # USD on the international market</p>
-</section>
-<section id="farmer-class" class="level1">
-<h1>Farmer Class</h1>
-<p>class Farmer: def <strong>init</strong>(self, env, production_capacity): self.env = env self.production_capacity = production_capacity self.coffee_ready = 0 self.production_process = env.process(self.produce_coffee())</p>
-<pre><code>def produce_coffee(self):
-    while True:
-        yield self.env.timeout(30)  # 1 month production cycle
-        self.coffee_ready += random.uniform(0.8, 1.2) * self.production_capacity
-        print(f"Day {self.env.now}: Farmer produced {self.coffee_ready} tons of coffee.")</code></pre>
-</section>
-<section id="processing-facility-class" class="level1">
-<h1>Processing Facility Class</h1>
-<p>class ProcessingFacility: def <strong>init</strong>(self, env, processing_cost_per_ton): self.env = env self.processing_cost_per_ton = processing_cost_per_ton</p>
-<pre><code>def process_coffee(self, coffee_amount):
-    processing_cost = coffee_amount * self.processing_cost_per_ton
-    yield self.env.timeout(10)  # Processing time for each batch
-    print(f"Day {self.env.now}: Processed {coffee_amount} tons at cost {processing_cost}.")
-    return processing_cost</code></pre>
-</section>
-<section id="transport-class" class="level1">
-<h1>Transport Class</h1>
-<p>class Transport: def <strong>init</strong>(self, env, cost_per_km): self.env = env self.cost_per_km = cost_per_km</p>
-<pre><code>def transport_coffee(self, distance, amount):
-    transport_cost = distance * self.cost_per_km * amount
-    yield self.env.timeout(distance / 100)  # Assume 100 km/day travel speed
-    print(f"Day {self.env.now}: Transported {amount} tons at cost {transport_cost}.")
-    return transport_cost</code></pre>
-</section>
-<section id="warehouse-class" class="level1">
-<h1>Warehouse Class</h1>
-<p>class Warehouse: def <strong>init</strong>(self, capacity): self.capacity = capacity self.current_storage = 0</p>
-<pre><code>def store_coffee(self, amount):
-    if self.current_storage + amount &lt;= self.capacity:
-        self.current_storage += amount
-        print(f"Stored {amount} tons of coffee. Current storage: {self.current_storage} tons.")
-    else:
-        print("Warehouse full, cannot store more coffee.")
-
-def retrieve_coffee(self, amount):
-    if amount &lt;= self.current_storage:
-        self.current_storage -= amount
-        print(f"Retrieved {amount} tons of coffee. Remaining storage: {self.current_storage} tons.")
-        return amount
-    else:
-        print("Not enough coffee in storage.")
-        return 0</code></pre>
-</section>
-<section id="run-simulation" class="level1">
-<h1>Run Simulation</h1>
-<p>def run_simulation(): env = simpy.Environment()</p>
-<pre><code>farmer = Farmer(env, PRODUCTION_CAPACITY)
-processing_facility = ProcessingFacility(env, PROCESSING_COST_PER_TON)
-transport = Transport(env, TRANSPORT_COST_PER_KM)
-warehouse = Warehouse(WAREHOUSE_CAPACITY)
-
-results = {
-    "day": [],
-    "produced_coffee": [],
-    "processed_coffee": [],
-    "transport_cost": [],
-    "storage": []
-}
-
-while env.now &lt; SIMULATION_TIME:
-    coffee_amount = farmer.coffee_ready
-    results["produced_coffee"].append(coffee_amount)
-    
-    processing_cost = yield env.process(processing_facility.process_coffee(coffee_amount))
-    results["processed_coffee"].append(coffee_amount)
-    
-    transport_cost = yield env.process(transport.transport_coffee(TRANSPORT_DISTANCE, coffee_amount))
-    results["transport_cost"].append(transport_cost)
-    
-    warehouse.store_coffee(coffee_amount)
-    results["storage"].append(warehouse.current_storage)
-    
-    farmer.coffee_ready = 0
-    results["day"].append(env.now)
-    
-    yield env.timeout(30)
-
-df_results = pd.DataFrame(results)
-return df_results</code></pre>
-</section>
-<section id="main-execution" class="level1">
-<h1>Main Execution</h1>
-<p>if <strong>name</strong> == “<strong>main</strong>”: df_results = run_simulation() print(df_results.head()) df_results.to_csv(“coffee_supply_chain_simulation_results.csv”, index=False) df_results.plot(x=“day”, y=[“produced_coffee”, “processed_coffee”, “storage”], title=“Coffee Supply Chain Simulation”)</p>
-</section>
-<section id="conclusion" class="level1">
-<h1>Conclusion</h1>
-<p>By simulating the Vietnamese coffee supply chain, we can visualize how production cycles, transportation delays, and warehouse capacity limitations impact the overall supply and export performance. This model can be extended to include seasonal variations like monsoon effects, price fluctuations, or supply chain disruptions for deeper analysis.</p>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>By simulating the Vietnamese coffee supply chain, we can visualize how production cycles, transportation delays, and warehouse capacity limitations impact the overall supply and export performance.<br>
+This model can be extended to include seasonal variations like monsoon effects, price fluctuations, or supply chain disruptions for deeper analysis.</p>
+<hr>
 
 
 </section>
