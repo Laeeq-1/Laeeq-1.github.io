@@ -7,7 +7,6 @@ toc-title: "On this page"
 toc-location: right
 ---
 
-# Vietnamese Coffee Supply Chain Simulation
 
 This project simulates key stages of the Vietnamese coffee supply chain: farming, processing, transportation, and warehousing.  
 It helps understand how production delays, transport times, and warehouse capacity affect the overall system efficiency.
