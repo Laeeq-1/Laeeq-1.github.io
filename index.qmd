@@ -109,19 +109,14 @@ page-layout: full
 </div>
 
 ---
+## Podcasts That I like
 
-## Podcasts That I Like
-
-
-<div class="fade-in">
-  <div class="podcast-container">
-    <iframe src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen></iframe>
-  </div>
+<div class="podcast-container">
+  <iframe src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/fJGYxQEpv6o" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/VSceuiPBpxY" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div style="text-align: center; margin-top: 20px; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.05em;">
-  I picked these podcasts because they delve into the mind of an athlete, tackle performance anxiety, and highlight what separates the average from the elite. 
+  I picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best.
 </div>
-
