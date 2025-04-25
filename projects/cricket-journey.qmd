@@ -4,51 +4,93 @@ format: html
 page-layout: full
 ---
 
-Since I can remember, I’ve always loved cricket — it’s been a way of life for me. It allowed me to express myself, stay active, and build lifelong friendships. Every summer as a kid, whether in Ireland or visiting Pakistan, I’d spend hours playing cricket, often with family and friends.
+<style>
+.card {
+  display: block;
+  margin: 30px auto;
+  max-width: 90%;
+  text-align: center;
+}
 
-Cricket was never just a game — it was a dream. But dreams require hard work. Over the past year, I’ve taken that seriously: analyzing my technique, reviewing my match performances, and breaking down what I need to improve — both mentally and physically.
+.card img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.stats-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+</style>
+
+## 🏏 Passion, Data & Development
+
+Since I can remember, cricket has been a way of life. It let me express myself, stay active, and build lifelong friendships. Every summer — whether in Ireland or visiting Pakistan — I’d spend hours playing, often with family and friends.
+
+But cricket was never just a game. It was a dream. And dreams demand hard work.
+
+Over the last year, I’ve taken things seriously: analyzing technique, reviewing matches, and working on both my physical game and mental mindset.
+
+---
+
+## 📊 Performance Metrics & Stats
+
+Over the last two seasons, I’ve represented **Carlow (2023)** and moved to **North County (2024)**. This move was about growth — playing higher-level cricket and pushing myself beyond comfort zones.
+
+Here's how my performance evolved:
 
 ---
 
-## Performance Metrics & Stats
-
-Over the last two seasons, I’ve played for **Carlow (2023)** and then moved to **North County (2024)**. I moved to experience a higher level of cricket. Here are some stats and breakdowns of my performance — from batting scores to wicket-taking form.
-
----
-
-### North County (2024–2024)
+### 🟦 North County (2024)
 
 <div class="card">
-  <img src="northcounty2024.png" alt="North County Stats" style="display:block; margin:auto; max-width:100%; width:80%;" />
+  <img src="northcounty2024.png" alt="North County Stats">
 </div>
 
 <div class="card">
-  <img src="2024dismissals.png" alt="Dismissal Breakdown 2024" style="display:block; margin:auto; max-width:100%; width:80%;" />
+  <img src="2024dismissals.png" alt="Dismissal Breakdown 2024">
 </div>
 
 ---
 
-### Carlow (2023)
+### 🟧 Carlow (2023)
 
 <div class="card">
-  <img src="carlow2023.png" alt="Carlow Stats" style="display:block; margin:auto; max-width:100%; width:90%;" />
+  <img src="carlow2023.png" alt="Carlow Stats">
 </div>
 
 <div class="card">
-  <img src="2023dismissals.png" alt="Dismissal Breakdown 2023" style="display:block; margin:auto; max-width:100%; width:80%;" />
+  <img src="2023dismissals.png" alt="Dismissal Breakdown 2023">
 </div>
 
 ---
-The move from Carlow to North County was a much-needed change. North County’s ground (The Inch) provided a far better playing environment, and I got the opportunity to compete at a higher level — going from Division 16 in Carlow to regularly playing Division 4 at North County.
 
-This 12-division jump in just one year reflects the hard work and dedication I’ve put in, and it continues to motivate me. My total runs increased from 267 in 2023 to 567 in 2024, and my average also improved significantly — all while playing at a higher level.
+### 📈 Interpreting the Journey
 
-The pie charts played a huge role in helping me understand how I was getting out. For example, frequent LBWs helped me realize that my head was falling across the stumps, making me unbalanced. By identifying these patterns, I was able to make technical corrections and improve my consistency.
+Moving from **Division 16** at Carlow to **Division 4** at North County was a 12-division leap in one year — something I’m incredibly proud of.
 
-I still have a long way to go, but the data has given me the clarity and confidence that I’m moving in the right direction.
+My total runs jumped from **267 in 2023** to **567 in 2024**, with a major bump in batting average — all while facing better bowlers on tougher wickets.
 
-## Reflection
+The data helped me massively:
+- High LBW rates in 2023 told me my head was falling across the stumps.
+- I used that to fix my alignment, improve balance, and find more consistency.
 
-Each year of cricket has taught me something new. I’ve used **coding** to visualize performance trends and stats, helping me identify weaknesses and build confidence. This is just the beginning of my journey.
+---
 
-Stay tuned — this is only the start.
+## 🧠 Reflection
+
+Every season teaches something new. This time, I brought in **coding** to visualize my stats, study my dismissals, and shape my goals.
+
+It's helped me improve technically, mentally, and tactically — and it’s only the beginning.
+
+> *“Cricket’s taught me to stay grounded, stay hungry, and use setbacks as stepping stones.”*
+
+---
+
+## 📬 Follow My Journey
+
+Want to chat cricket?  
+📸 Follow me on [Instagram](https://www.instagram.com/laeeq3x/) for match-day updates, training sessions, and stories from the field.
+
