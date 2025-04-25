@@ -25,7 +25,7 @@ page-layout: full
 }
 </style>
 
-## 🏏 Passion, Data & Development
+## Passion
 
 Since I can remember, cricket has been a way of life. It let me express myself, stay active, and build lifelong friendships. Every summer — whether in Ireland or visiting Pakistan — I’d spend hours playing, often with family and friends.
 
@@ -35,7 +35,7 @@ Over the last year, I’ve taken things seriously: analyzing technique, reviewin
 
 ---
 
-## 📊 Performance Metrics & Stats
+## Performance Metrics & Stats
 
 Over the last two seasons, I’ve represented **Carlow (2023)** and moved to **North County (2024)**. This move was about growth — playing higher-level cricket and pushing myself beyond comfort zones.
 
@@ -43,7 +43,7 @@ Here's how my performance evolved:
 
 ---
 
-### 🟦 North County (2024)
+### North County (2024)
 
 <div class="card">
   <img src="northcounty2024.png" alt="North County Stats">
@@ -55,7 +55,7 @@ Here's how my performance evolved:
 
 ---
 
-### 🟧 Carlow (2023)
+### Carlow (2023)
 
 <div class="card">
   <img src="carlow2023.png" alt="Carlow Stats">
@@ -67,7 +67,7 @@ Here's how my performance evolved:
 
 ---
 
-### 📈 Interpreting the Journey
+### Interpreting the Journey
 
 Moving from **Division 16** at Carlow to **Division 4** at North County was a 12-division leap in one year — something I’m incredibly proud of.
 
@@ -79,7 +79,7 @@ The data helped me massively:
 
 ---
 
-## 🧠 Reflection
+##  Reflection
 
 Every season teaches something new. This time, I brought in **coding** to visualize my stats, study my dismissals, and shape my goals.
 
@@ -89,7 +89,7 @@ It's helped me improve technically, mentally, and tactically — and it’s only
 
 ---
 
-## 📬 Follow My Journey
+## Follow My Journey
 
 Want to chat cricket?  
 📸 Follow me on [Instagram](https://www.instagram.com/laeeq3x/) for match-day updates, training sessions, and stories from the field.
