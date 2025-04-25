@@ -19,9 +19,9 @@ website:
           - icon: mortarboard
             href: projects/academic.qmd
             text: "Academic Projects"
-          - icon: compass
-            href: Future.qmd
-            text: "Future Plans"
+      - icon: compass
+        href: Future.qmd
+        text: "Future Plans"
       - icon: award
         href: achievements.html
         text: "Achievements"
@@ -43,5 +43,6 @@ format:
       - styles.css
       - custom.scss
     toc: true
+
 
 
