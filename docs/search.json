@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "My Projects\nsome of my most meaningful work combining real-world experience with backend and data-driven development.\n\n\n\nPersonal Projects\n\n\nExplore personal ventures like cricket performance analysis, business automation, and self-taught coding experiments.\n\n\n\n\nAcademic Projects\n\n\nSee coursework projects from DCU — including data analytics, backend dev, and full-stack assignments."
+    "text": "My Projects\nsome of my most meaningful work combining real-world experience with backend and data-driven development.\n\n\n\nPersonal Projects\n\n\nExplore personal ventures like cricket performance analysis, business automation, and self-taught coding experiments.\n\n\n\n\nAcademic Projects\n\n\nSee coursework from DCU — including data analytics, backend systems, and full-stack assignments with real clients."
   },
   {
     "objectID": "projects/EVCIM.html",
@@ -130,49 +130,49 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m a Business Studies & Data Analytics student at Dublin City University, passionate about transforming ideas into impact. Whether through cricket, code, or entrepreneurial ventures — I’m always building, testing, and growing."
+    "text": "I’m a Business Studies & Data Analytics student at Dublin City University, passionate about turning ideas into action.\nWhether it’s cricket, code, or creative ventures — I build, test, and grow with purpose."
   },
   {
     "objectID": "about.html#my-cricket-journey",
     "href": "about.html#my-cricket-journey",
     "title": "About Me",
     "section": "My Cricket Journey",
-    "text": "My Cricket Journey\n\n\nCricket has shaped my discipline and mindset. Over the years, I’ve moved between clubs, progressed through divisions, and grown both mentally and physically.\nI use data-driven self-analysis to track performances and refine my game.\n\n\n🔗 Laeeq’s Cricketing Journey →"
+    "text": "My Cricket Journey\n\n\nCricket shaped who I am. I’ve progressed through clubs and divisions, growing both mentally and physically.\nI now use data-driven self-analysis to track my performances, refine technique, and lead by example.\n\n\n🔗 Laeeq’s Cricketing Journey →"
   },
   {
     "objectID": "about.html#my-business-hustle-evcim",
     "href": "about.html#my-business-hustle-evcim",
     "title": "About Me",
     "section": "My Business Hustle – EVCIM",
-    "text": "My Business Hustle – EVCIM\n\n\n\nEVCIM is a weights business I co-founded — turning scrap into smart, recycled solutions.\nI managed everything from hands-on manufacturing to sales and backend automation. It taught me the realities of lean startup life."
+    "text": "My Business Hustle – EVCIM\n\n\n\nEVCIM is a recycled weights business I co-founded — transforming scrap into smart, sustainable products.\nI handled everything from design and manufacturing to customer outreach and backend automation.\nThis project taught me how to build from the ground up, with limited resources but limitless drive."
   },
   {
     "objectID": "about.html#work-experience",
     "href": "about.html#work-experience",
     "title": "About Me",
     "section": "Work Experience",
-    "text": "Work Experience\n\n\nFor over 4 years, I’ve worked at Golden Grill in Carlow — a local family-owned restaurant.\nI’ve taken on roles across customer service, stock control, and even kitchen work during peak hours.\n\n\nThat experience grounded me in teamwork, adaptability, and real-world business problem solving."
+    "text": "Work Experience\n\n\nFor over 4 years, I worked at Golden Grill in Carlow — a family-owned Italian restaurant.\nI gained hands-on experience in customer service, stock management, and kitchen operations during peak hours.\n\n\nIt taught me the value of consistency, clear communication, and staying calm under pressure."
   },
   {
     "objectID": "about.html#my-tech-stack",
     "href": "about.html#my-tech-stack",
     "title": "About Me",
-    "section": "My Tech Stack",
-    "text": "My Tech Stack\n\n\n\nPython Programming\n\n\nPower BI & Tableau\n\n\nSQL & Data Pipelines\n\n\nBusiness Analytics & Automation"
+    "section": "💻My Tech Stack",
+    "text": "💻My Tech Stack\n\n\n\nPython Programming\n\n\nPower BI & Tableau\n\n\nSQL & Data Pipelines\n\n\nBusiness Analytics & Automation"
   },
   {
     "objectID": "about.html#achievements",
     "href": "about.html#achievements",
     "title": "About Me",
     "section": "Achievements",
-    "text": "Achievements\n\n\nFrom captaincy honors in sport to winning scholarships and peer-nominated awards — I’ve had the privilege of being recognized for both leadership and character.\n\n\n🏆 View Achievements →"
+    "text": "Achievements\n\n\nI’ve been honoured with leadership roles, peer awards, and the Colm and Paula Delves Scholarship — recognizing both academic merit and character.\n\n\nView Achievements →"
   },
   {
     "objectID": "about.html#why-this-portfolio",
     "href": "about.html#why-this-portfolio",
     "title": "About Me",
     "section": "Why This Portfolio?",
-    "text": "Why This Portfolio?\n\nThis site documents more than just skills — it captures my journey.\n\nEvery project reflects a mindset of growth, curiosity, and perseverance — from the pitch to the page."
+    "text": "Why This Portfolio?\n\nThis site isn’t just about showcasing skills — it captures growth.\n\nEach project reflects curiosity, discipline, and a willingness to push boundaries — whether on the pitch or in the classroom."
   },
   {
     "objectID": "about.html#connect-explore",
@@ -285,5 +285,12 @@
     "title": "Personal Projects",
     "section": "EVCIM",
     "text": "EVCIM\n  \n\nMy first real-world business using recyclable materials to make concrete weights.\nClick on the image to learn more."
+  },
+  {
+    "objectID": "projects/academic.html#predicting-heart-disease-using-machine-learning",
+    "href": "projects/academic.html#predicting-heart-disease-using-machine-learning",
+    "title": "Academic projects",
+    "section": "Predicting Heart Disease Using Machine Learning",
+    "text": "Predicting Heart Disease Using Machine Learning\n  \n\nThis individual project involved building and evaluating classification models to predict heart disease using the Cleveland dataset. I implemented Logistic Regression, SVM, and Random Forest in Python, and compared performance using metrics such as F1 score, recall, and ROC AUC.\n\n\nThe focus was on balancing predictive accuracy with interpretability. I also produced a 3,000-word reflective report covering methodology, KPI analysis, and the ethical context of using AI in healthcare.\nClick the image to read the full report."
   }
 ]
