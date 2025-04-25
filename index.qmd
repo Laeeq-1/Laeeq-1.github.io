@@ -20,6 +20,10 @@ about:
       text: Email
       href: mailto:Laeeq.urrehman2@mail.dcu.ie
 page-layout: full
+
+format:
+  html:
+    toc: false
 ---
 
 <style>
@@ -67,6 +71,13 @@ page-layout: full
   margin: 10px;
   text-decoration: none;
 }
+
+/* Keep 3 podcasts side by side on larger screens */
+@media (min-width: 1100px) {
+  .podcast-container {
+    flex-wrap: nowrap;
+  }
+}
 </style>
 
 <div class="fade-in" style="text-align: center; margin-bottom: 30px;">
@@ -109,6 +120,7 @@ page-layout: full
 </div>
 
 ---
+
 ## Podcasts That I like
 
 <div class="podcast-container">
@@ -120,3 +132,4 @@ page-layout: full
 <div style="text-align: center; margin-top: 20px; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.05em;">
   I picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best.
 </div>
+
