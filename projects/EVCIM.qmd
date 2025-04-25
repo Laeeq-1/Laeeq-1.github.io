@@ -139,7 +139,11 @@ At the core of the EVCIM project is a belief that <strong>fitness should be acce
 </p>
 
 <p style="max-width: 700px;">
-We’re not just making plates — we’re building a <strong>movement</strong> where passion meets sustainability. And we’re not stopping until <strong>everyone</strong> can train, lift, and grow without breaking the bank.If you want to check out our instgarm click on the icon below.
+We’re not just making plates — we’re building a <strong>movement</strong> where passion meets sustainability. And we’re not stopping until <strong>everyone</strong> can train, lift, and grow without breaking the bank. If you want to check out our Instagram, click the icon below.
+</p>
+
+<p style="text-align: center; margin-top: 30px;">
+Have an idea or want to collaborate? Let’s chat.
 </p>
 
 <div style="text-align: center; margin-top: 40px;">
@@ -154,5 +158,6 @@ We’re not just making plates — we’re building a <strong>movement</strong> 
     />
   </a>
 </div>
+
 
 
