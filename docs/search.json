@@ -70,60 +70,46 @@
     "text": "Reflection\n\nAt the core of the EVCIM project is a belief that fitness should be accessible to everyone. Gym equipment, especially weights, can be expensive — but through recycling, creativity, and sheer trial-and-error, we’ve managed to design affordable, functional weights from materials that would’ve ended up in landfills.\n\n\nWe’re not just making plates — we’re building a movement where passion meets sustainability. And we’re not stopping until everyone can train, lift, and grow without breaking the bank. If you want to check out our Instagram, click the icon below.\n\n\nHave an idea or want to collaborate? Let’s chat."
   },
   {
-    "objectID": "projects/academic.html",
-    "href": "projects/academic.html",
-    "title": "Academic projects",
+    "objectID": "projects/coffee-sim.html",
+    "href": "projects/coffee-sim.html",
+    "title": "Vietnamese Coffee Supply Chain Simulation",
     "section": "",
-    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
+    "text": "This project simulates key stages of the Vietnamese coffee supply chain: farming, processing, transportation, and warehousing.\nIt helps understand how production delays, transport times, and warehouse capacity affect the overall system efficiency."
   },
   {
-    "objectID": "projects/academic.html#dairy-gold-strategy",
-    "href": "projects/academic.html#dairy-gold-strategy",
-    "title": "Academic projects",
+    "objectID": "projects/coffee-sim.html#simulation-code",
+    "href": "projects/coffee-sim.html#simulation-code",
+    "title": "Vietnamese Coffee Supply Chain Simulation",
+    "section": "Simulation Code",
+    "text": "Simulation Code\nimport simpy\nimport pandas as pd\nimport random\n\n# Constants\nSIMULATION_TIME = 365  # days (1 year)\nPRODUCTION_CAPACITY = 100  # tons of coffee per month per farm\nPROCESSING_COST_PER_TON = 50  # USD per ton\nTRANSPORT_COST_PER_KM = 1  # USD per kilometer per ton\nWAREHOUSE_CAPACITY = 500  # tons\nTRANSPORT_DISTANCE = 200  # km from processing to export port\nEXPORT_TARIFF = 0.05  # 5% of export value\nCOFFEE_PRICE_PER_TON = 1200  # USD on the international market\n\n# Farmer Class\nclass Farmer:\n    def __init__(self, env, production_capacity):\n        self.env = env\n        self.production_capacity = production_capacity\n        self.coffee_ready = 0\n        self.production_process = env.process(self.produce_coffee())\n\n    def produce_coffee(self):\n        while True:\n            yield self.env.timeout(30)  # 1 month production cycle\n            self.coffee_ready += random.uniform(0.8, 1.2) * self.production_capacity\n            print(f\"Day {self.env.now}: Farmer produced {self.coffee_ready} tons of coffee.\")\n\n# Processing Facility Class\nclass ProcessingFacility:\n    def __init__(self, env, processing_cost_per_ton):\n        self.env = env\n        self.processing_cost_per_ton = processing_cost_per_ton\n\n    def process_coffee(self, coffee_amount):\n        processing_cost = coffee_amount * self.processing_cost_per_ton\n        yield self.env.timeout(10)  # Processing time for each batch\n        print(f\"Day {self.env.now}: Processed {coffee_amount} tons at cost {processing_cost}.\")\n        return processing_cost\n\n# Transport Class\nclass Transport:\n    def __init__(self, env, cost_per_km):\n        self.env = env\n        self.cost_per_km = cost_per_km\n\n    def transport_coffee(self, distance, amount):\n        transport_cost = distance * self.cost_per_km * amount\n        yield self.env.timeout(distance / 100)  # Assume 100 km/day travel speed\n        print(f\"Day {self.env.now}: Transported {amount} tons at cost {transport_cost}.\")\n        return transport_cost\n\n# Warehouse Class\nclass Warehouse:\n    def __init__(self, capacity):\n        self.capacity = capacity\n        self.current_storage = 0\n\n    def store_coffee(self, amount):\n        if self.current_storage + amount &lt;= self.capacity:\n            self.current_storage += amount\n            print(f\"Stored {amount} tons of coffee. Current storage: {self.current_storage} tons.\")\n        else:\n            print(\"Warehouse full, cannot store more coffee.\")\n\n    def retrieve_coffee(self, amount):\n        if amount &lt;= self.current_storage:\n            self.current_storage -= amount\n            print(f\"Retrieved {amount} tons of coffee. Remaining storage: {self.current_storage} tons.\")\n            return amount\n        else:\n            print(\"Not enough coffee in storage.\")\n            return 0\n\n# Run Simulation\ndef run_simulation():\n    env = simpy.Environment()\n    \n    farmer = Farmer(env, PRODUCTION_CAPACITY)\n    processing_facility = ProcessingFacility(env, PROCESSING_COST_PER_TON)\n    transport = Transport(env, TRANSPORT_COST_PER_KM)\n    warehouse = Warehouse(WAREHOUSE_CAPACITY)\n    \n    results = {\n        \"day\": [],\n        \"produced_coffee\": [],\n        \"processed_coffee\": [],\n        \"transport_cost\": [],\n        \"storage\": []\n    }\n    \n    while env.now &lt; SIMULATION_TIME:\n        coffee_amount = farmer.coffee_ready\n        results[\"produced_coffee\"].append(coffee_amount)\n        \n        processing_cost = yield env.process(processing_facility.process_coffee(coffee_amount))\n        results[\"processed_coffee\"].append(coffee_amount)\n        \n        transport_cost = yield env.process(transport.transport_coffee(TRANSPORT_DISTANCE, coffee_amount))\n        results[\"transport_cost\"].append(transport_cost)\n        \n        warehouse.store_coffee(coffee_amount)\n        results[\"storage\"].append(warehouse.current_storage)\n        \n        farmer.coffee_ready = 0\n        results[\"day\"].append(env.now)\n        \n        yield env.timeout(30)\n    \n    df_results = pd.DataFrame(results)\n    return df_results\n\n# Main Execution\nif __name__ == \"__main__\":\n    df_results = run_simulation()\n    print(df_results.head())\n    df_results.to_csv(\"coffee_supply_chain_simulation_results.csv\", index=False)\n    df_results.plot(x=\"day\", y=[\"produced_coffee\", \"processed_coffee\", \"storage\"], title=\"Coffee Supply Chain Simulation\")"
+  },
+  {
+    "objectID": "projects/coffee-sim.html#conclusion",
+    "href": "projects/coffee-sim.html#conclusion",
+    "title": "Vietnamese Coffee Supply Chain Simulation",
+    "section": "Conclusion",
+    "text": "Conclusion\nBy simulating the Vietnamese coffee supply chain, we can visualize how production cycles, transportation delays, and warehouse capacity limitations impact the overall supply and export performance.\nThis model can be extended to include seasonal variations like monsoon effects, price fluctuations, or supply chain disruptions for deeper analysis."
+  },
+  {
+    "objectID": "kubicle_certificates.html",
+    "href": "kubicle_certificates.html",
+    "title": "Kubicle Certificates",
     "section": "",
-    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
+    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
   },
   {
-    "objectID": "projects/academic.html#vietnamese-coffee-supply-chain-production",
-    "href": "projects/academic.html#vietnamese-coffee-supply-chain-production",
-    "title": "Academic projects",
-    "section": "Vietnamese Coffee Supply Chain Production",
-    "text": "Vietnamese Coffee Supply Chain Production\n  \n\nWe analyzed the supply chain production of Vietnamese coffee—evaluating sourcing, production costs, and sustainability. We provided strategic recommendations to enhance efficiency, quality, and environmental responsibility.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#vietnamese-sim",
-    "href": "projects/academic.html#vietnamese-sim",
-    "title": "Academic projects",
-    "section": "Vietnamese Sim",
-    "text": "Vietnamese Sim\n  \n\nThis project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#waterwize",
-    "href": "projects/academic.html#waterwize",
-    "title": "Academic projects",
-    "section": "WaterWize",
-    "text": "WaterWize\n  \n\nWaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.\nClick On The Image To Read The Full Report!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Laeeq Ur Rehman",
+    "objectID": "kubicle_certificates.html#verified-kubicle-courses",
+    "href": "kubicle_certificates.html#verified-kubicle-courses",
+    "title": "Kubicle Certificates",
     "section": "",
-    "text": "Welcome! I’m a final-year Business Studies student at DCU, specialising in Data Analytics.\nI lead on and off the field — as a club & university cricket captain, speaker, and coder.\nBelow are highlights from my academic journey, cricket life, and startup projects."
+    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
   },
   {
-    "objectID": "index.html#my-portfolio",
-    "href": "index.html#my-portfolio",
-    "title": "Laeeq Ur Rehman",
-    "section": "My Portfolio",
-    "text": "My Portfolio\n\n\n\n\n\n \n\nAcademic Projects\n\n\n\n\n \n\nCricket Journey\n\n\n\n\n \n\nEVCIM: Recycled Weights"
-  },
-  {
-    "objectID": "index.html#podcasts-that-i-like",
-    "href": "index.html#podcasts-that-i-like",
-    "title": "Laeeq Ur Rehman",
-    "section": "Podcasts That I Like",
-    "text": "Podcasts That I Like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
+    "objectID": "Future.html",
+    "href": "Future.html",
+    "title": "Future Pathway: Pursuing a Career in Cricket and Business",
+    "section": "",
+    "text": "With a strong foundation in cricket and an entrepreneurial mindset, my future pathway is shaped by both athletic ambition and business vision.\nFrom a young age, cricket has been more than just a game for me — it’s been a way of life.\nAs I continue to develop my skills, my next big goal is to pursue cricket professionally.\nTo achieve this, I am planning to train even harder, push my physical and mental limits, and potentially explore opportunities to train abroad, where I can be exposed to higher competition and better facilities.\nI believe that challenging myself in new environments will accelerate my growth and help me reach international standards.\nAt the same time, I’m not just building my career on the field — I’m also building it off the field.\nThrough this web development project (as part of my academic work), I’ve realised how valuable technical skills can be in growing a personal brand or business.\nGoing forward, I intend to launch my own cricket coaching business or cricket-related initiative.\nBuilding a professional website for it — using the skills I gained during this module — will be one of my first steps.\nHaving an online presence will allow me to showcase my journey, attract clients, and expand my impact beyond just local communities.\nUltimately, my goal is to blend my passion for cricket with entrepreneurship, creating a career where I can lead, inspire, and keep growing — both on the pitch and in business.\n\n\nFind out more about my journey →\nExplore the projects and skills I’ve developed →"
   },
   {
     "objectID": "about.html",
@@ -217,18 +203,67 @@
     "text": "Kubicle Certificates\n  \n\nI’ve completed numerous verified certificates from Kubicle, enhancing my skills in data analysis, Power BI, Excel, and more. Click the image to view the full list of certificates and download the PDFs."
   },
   {
-    "objectID": "kubicle_certificates.html",
-    "href": "kubicle_certificates.html",
-    "title": "Kubicle Certificates",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Laeeq Ur Rehman",
     "section": "",
-    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
+    "text": "Welcome! I’m a final-year Business Studies student at DCU, specialising in Data Analytics.\nI lead on and off the field — as a club & university cricket captain, speaker, and coder.\nBelow are highlights from my academic journey, cricket life, and startup projects."
   },
   {
-    "objectID": "kubicle_certificates.html#verified-kubicle-courses",
-    "href": "kubicle_certificates.html#verified-kubicle-courses",
-    "title": "Kubicle Certificates",
+    "objectID": "index.html#my-portfolio",
+    "href": "index.html#my-portfolio",
+    "title": "Laeeq Ur Rehman",
+    "section": "My Portfolio",
+    "text": "My Portfolio\n\n\n\n\n\n \n\nAcademic Projects\n\n\n\n\n \n\nCricket Journey\n\n\n\n\n \n\nEVCIM: Recycled Weights"
+  },
+  {
+    "objectID": "index.html#podcasts-that-i-like",
+    "href": "index.html#podcasts-that-i-like",
+    "title": "Laeeq Ur Rehman",
+    "section": "Podcasts That I Like",
+    "text": "Podcasts That I Like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
+  },
+  {
+    "objectID": "projects/academic.html",
+    "href": "projects/academic.html",
+    "title": "Academic projects",
     "section": "",
-    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
+    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#dairy-gold-strategy",
+    "href": "projects/academic.html#dairy-gold-strategy",
+    "title": "Academic projects",
+    "section": "",
+    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#vietnamese-coffee-supply-chain-production",
+    "href": "projects/academic.html#vietnamese-coffee-supply-chain-production",
+    "title": "Academic projects",
+    "section": "Vietnamese Coffee Supply Chain Production",
+    "text": "Vietnamese Coffee Supply Chain Production\n  \n\nWe analyzed the supply chain production of Vietnamese coffee—evaluating sourcing, production costs, and sustainability. We provided strategic recommendations to enhance efficiency, quality, and environmental responsibility.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#vietnamese-sim",
+    "href": "projects/academic.html#vietnamese-sim",
+    "title": "Academic projects",
+    "section": "Vietnamese Sim",
+    "text": "Vietnamese Sim\n  \n\nThis project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.\n Click here to view the full Python simulation code →"
+  },
+  {
+    "objectID": "projects/academic.html#waterwize",
+    "href": "projects/academic.html#waterwize",
+    "title": "Academic projects",
+    "section": "WaterWize",
+    "text": "WaterWize\n  \n\nWaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.\nClick On The Image To Read The Full Report!"
+  },
+  {
+    "objectID": "projects/academic.html#predicting-heart-disease-using-machine-learning",
+    "href": "projects/academic.html#predicting-heart-disease-using-machine-learning",
+    "title": "Academic projects",
+    "section": "Predicting Heart Disease Using Machine Learning",
+    "text": "Predicting Heart Disease Using Machine Learning\n  \n\nThis individual project involved building and evaluating classification models to predict heart disease using the Cleveland dataset. I implemented Logistic Regression, SVM, and Random Forest in Python, and compared performance using metrics such as F1 score, recall, and ROC AUC.\n\n\nThe focus was on balancing predictive accuracy with interpretability. I also produced a 3,000-word reflective report covering methodology, KPI analysis, and the ethical context of using AI in healthcare.\nClick the image to read the full report."
   },
   {
     "objectID": "projects/cricket-journey.html",
@@ -285,12 +320,5 @@
     "title": "Personal Projects",
     "section": "EVCIM",
     "text": "EVCIM\n  \n\nMy first real-world business using recyclable materials to make concrete weights.\nClick on the image to learn more."
-  },
-  {
-    "objectID": "projects/academic.html#predicting-heart-disease-using-machine-learning",
-    "href": "projects/academic.html#predicting-heart-disease-using-machine-learning",
-    "title": "Academic projects",
-    "section": "Predicting Heart Disease Using Machine Learning",
-    "text": "Predicting Heart Disease Using Machine Learning\n  \n\nThis individual project involved building and evaluating classification models to predict heart disease using the Cleveland dataset. I implemented Logistic Regression, SVM, and Random Forest in Python, and compared performance using metrics such as F1 score, recall, and ROC AUC.\n\n\nThe focus was on balancing predictive accuracy with interpretability. I also produced a 3,000-word reflective report covering methodology, KPI analysis, and the ethical context of using AI in healthcare.\nClick the image to read the full report."
   }
 ]
