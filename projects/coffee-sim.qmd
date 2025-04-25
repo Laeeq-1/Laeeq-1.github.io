@@ -6,18 +6,19 @@ page-layout: full
 
 # Vietnamese Coffee Supply Chain Simulation
 
-This project models a simplified version of the Vietnamese coffee production supply chain using Python and SimPy.  
-It tracks key stages: farming, processing, transport, and storage — helping understand bottlenecks and cost dynamics over time.
-
-You can view the full Python simulation code below.
+This project simulates key stages of the Vietnamese coffee supply chain: farming, processing, transportation, and warehousing.  
+It helps understand how production delays, transport times, and warehouse capacity affect the overall system efficiency.
 
 ---
+
+# Simulation Code
 
 ```python
 import simpy
 import pandas as pd
 import random
 
+# Constants
 SIMULATION_TIME = 365  # days (1 year)
 PRODUCTION_CAPACITY = 100  # tons of coffee per month per farm
 PROCESSING_COST_PER_TON = 50  # USD per ton
@@ -27,6 +28,7 @@ TRANSPORT_DISTANCE = 200  # km from processing to export port
 EXPORT_TARIFF = 0.05  # 5% of export value
 COFFEE_PRICE_PER_TON = 1200  # USD on the international market
 
+# Farmer Class
 class Farmer:
     def __init__(self, env, production_capacity):
         self.env = env
@@ -40,6 +42,7 @@ class Farmer:
             self.coffee_ready += random.uniform(0.8, 1.2) * self.production_capacity
             print(f"Day {self.env.now}: Farmer produced {self.coffee_ready} tons of coffee.")
 
+# Processing Facility Class
 class ProcessingFacility:
     def __init__(self, env, processing_cost_per_ton):
         self.env = env
@@ -51,6 +54,7 @@ class ProcessingFacility:
         print(f"Day {self.env.now}: Processed {coffee_amount} tons at cost {processing_cost}.")
         return processing_cost
 
+# Transport Class
 class Transport:
     def __init__(self, env, cost_per_km):
         self.env = env
@@ -62,6 +66,7 @@ class Transport:
         print(f"Day {self.env.now}: Transported {amount} tons at cost {transport_cost}.")
         return transport_cost
 
+# Warehouse Class
 class Warehouse:
     def __init__(self, capacity):
         self.capacity = capacity
@@ -83,16 +88,15 @@ class Warehouse:
             print("Not enough coffee in storage.")
             return 0
 
+# Run Simulation
 def run_simulation():
     env = simpy.Environment()
     
-    # Initialize agents
     farmer = Farmer(env, PRODUCTION_CAPACITY)
     processing_facility = ProcessingFacility(env, PROCESSING_COST_PER_TON)
     transport = Transport(env, TRANSPORT_COST_PER_KM)
     warehouse = Warehouse(WAREHOUSE_CAPACITY)
     
-    # Data storage for results
     results = {
         "day": [],
         "produced_coffee": [],
@@ -101,42 +105,36 @@ def run_simulation():
         "storage": []
     }
     
-    # Main simulation process
     while env.now < SIMULATION_TIME:
-        # Coffee production
         coffee_amount = farmer.coffee_ready
         results["produced_coffee"].append(coffee_amount)
         
-        # Coffee processing
         processing_cost = yield env.process(processing_facility.process_coffee(coffee_amount))
         results["processed_coffee"].append(coffee_amount)
         
-        # Transport to export port
         transport_cost = yield env.process(transport.transport_coffee(TRANSPORT_DISTANCE, coffee_amount))
         results["transport_cost"].append(transport_cost)
         
-        # Store coffee in warehouse
         warehouse.store_coffee(coffee_amount)
         results["storage"].append(warehouse.current_storage)
         
-        # Reset farmer's coffee
         farmer.coffee_ready = 0
-        
-        # Record day and advance time
         results["day"].append(env.now)
-        yield env.timeout(30)  # Advance to the next production cycle
+        
+        yield env.timeout(30)
     
-    # Convert results to DataFrame
     df_results = pd.DataFrame(results)
     return df_results
 
+# Main Execution
 if __name__ == "__main__":
-    # Run the simulation
     df_results = run_simulation()
-    
-    # Print or save the results
     print(df_results.head())
     df_results.to_csv("coffee_supply_chain_simulation_results.csv", index=False)
-    
-    # Plot results if needed
     df_results.plot(x="day", y=["produced_coffee", "processed_coffee", "storage"], title="Coffee Supply Chain Simulation")
+
+
+# Conclusion
+
+By simulating the Vietnamese coffee supply chain, we can visualize how production cycles, transportation delays, and warehouse capacity limitations impact the overall supply and export performance.
+This model can be extended to include seasonal variations like monsoon effects, price fluctuations, or supply chain disruptions for deeper analysis.
