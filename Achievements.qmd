@@ -39,23 +39,24 @@ page-layout: full
 
 <div style="clear: both; margin-top: 80px;"></div>
 
-## Ann Brennan Award – Student of the Year
+## Ann Award – Student of the Year
 
 <a href="images/Ann.jpg" target="_blank">
   <img 
     src="images/Ann.jpg" 
     alt="Ann Award Photo" 
-    style="float: left; margin-right: 20px; width: 350px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;"
+    style="float: left; margin-right: 20px; width: 300px; height: 250px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;"
     onmouseover="this.style.transform='translateY(-10px)';"
     onmouseout="this.style.transform='translateY(0)';"
   />
 </a>
 
-<p style="max-width: 600px;">
+<p style="max-width: 700px;">
   The <strong>Ann</strong> award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely "sound" individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I'd come — not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing.
 </p>
 
 <div style="clear: both; margin-top: 80px;"></div>
+
 
 ## Kubicle Certificates
 
