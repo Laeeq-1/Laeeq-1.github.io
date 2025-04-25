@@ -246,3 +246,63 @@ p {
   width: 100%;
   border-radius: 12px;
 }
+/* Progress bar container */
+.container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/* Actual skill bar */
+.skills {
+  text-align: right;
+  padding-right: 10px;
+  line-height: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 10px;
+  animation: loadSkill 2s ease forwards;
+}
+
+/* Different colors for different skills */
+.excel {
+  width: 95%;
+  background-color: #4CAF50;
+}
+
+.sql {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+.python {
+  width: 75%;
+  background-color: #f39c12;
+}
+
+.dataviz {
+  width: 70%;
+  background-color: #9b59b6;
+}
+
+.ml {
+  width: 65%;
+  background-color: #e67e22;
+}
+
+.webdev {
+  width: 60%;
+  background-color: #2ecc71;
+}
+
+/* Animation keyframes */
+@keyframes loadSkill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: inherit;
+  }
+}

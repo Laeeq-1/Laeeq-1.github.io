@@ -1,10 +1,276 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "Skills.html#languages",
+    "href": "Skills.html#languages",
+    "title": "Skills",
+    "section": "Languages",
+    "text": "Languages\n\n\n\nLanguage\nProficiency\n\n\n\n\nEnglish\nFluent\n\n\nUrdu\nFluent\n\n\nArabic\nIntermediate\n\n\nGerman\nBeginner"
+  },
+  {
+    "objectID": "Skills.html#technological-skills",
+    "href": "Skills.html#technological-skills",
+    "title": "Skills",
+    "section": "Technological Skills",
+    "text": "Technological Skills\n\nMicrosoft Excel\n\n\n\n95%\n\n\n\nSQL\n\n\n\n80%\n\n\n\nPython\n\n\n\n75%\n\n\n\nData Visualization (Tableau, Power BI)\n\n\n\n70%\n\n\n\nMachine Learning (Scikit-Learn)\n\n\n\n65%\n\n\n\nWeb Development (HTML, CSS, JavaScript)\n\n\n\n60%"
+  },
+  {
+    "objectID": "Skills.html#professional-skills",
+    "href": "Skills.html#professional-skills",
+    "title": "Skills",
+    "section": "Professional Skills",
+    "text": "Professional Skills\n\n\n\n\n\n\n\nSkill\nDescription\n\n\n\n\nCommunication\nDelivered motivational talks and collaborated effectively in academic, sports, and professional environments.\n\n\nLeadership\nCaptain of university and club cricket teams, leading and motivating diverse groups towards shared goals.\n\n\nPublic Speaking\nComfortable speaking at events, giving motivational talks, and presenting academic projects.\n\n\nTeamwork\nWorked effectively in teams for group assignments, cricket leadership, and project collaboration.\n\n\nProject Management\nSuccessfully led and coordinated projects in academic and personal ventures like “EVCIM” weights business.\n\n\nProblem Solving\nAnalyzed technical and project challenges, developing creative solutions quickly and efficiently.\n\n\nAdaptability\nQuickly learned new technical tools (e.g., Web Dev, SQL, Machine Learning) and adjusted to changing project needs.\n\n\nTime Management\nBalanced academics, sports leadership, and personal business projects within tight deadlines."
+  },
+  {
+    "objectID": "projects/personal.html",
+    "href": "projects/personal.html",
+    "title": "Personal Projects",
     "section": "",
-    "text": "My Projects\nsome of my most meaningful work combining real-world experience with backend and data-driven development.\n\n\n\nPersonal Projects\n\n\nExplore personal ventures like cricket performance analysis, business automation, and self-taught coding experiments.\n\n\n\n\nAcademic Projects\n\n\nSee coursework from DCU — including data analytics, backend systems, and full-stack assignments with real clients."
+    "text": "This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.\nClick on the image to follow my journey."
+  },
+  {
+    "objectID": "projects/personal.html#cricket-journey",
+    "href": "projects/personal.html#cricket-journey",
+    "title": "Personal Projects",
+    "section": "",
+    "text": "This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.\nClick on the image to follow my journey."
+  },
+  {
+    "objectID": "projects/personal.html#evcim",
+    "href": "projects/personal.html#evcim",
+    "title": "Personal Projects",
+    "section": "EVCIM",
+    "text": "EVCIM\n  \n\nMy first real-world business using recyclable materials to make concrete weights.\nClick on the image to learn more."
+  },
+  {
+    "objectID": "projects/cricket-journey.html",
+    "href": "projects/cricket-journey.html",
+    "title": "Laeeq’s Cricketing Journey",
+    "section": "",
+    "text": "Since I can remember, cricket has been a way of life. It let me express myself, stay active, and build lifelong friendships. Every summer — whether in Ireland or visiting Pakistan — I’d spend hours playing, often with family and friends.\nBut cricket was never just a game. It was a dream. And dreams demand hard work.\nOver the last year, I’ve taken things seriously: analyzing technique, reviewing matches, and working on both my physical game and mental mindset."
+  },
+  {
+    "objectID": "projects/cricket-journey.html#passion",
+    "href": "projects/cricket-journey.html#passion",
+    "title": "Laeeq’s Cricketing Journey",
+    "section": "",
+    "text": "Since I can remember, cricket has been a way of life. It let me express myself, stay active, and build lifelong friendships. Every summer — whether in Ireland or visiting Pakistan — I’d spend hours playing, often with family and friends.\nBut cricket was never just a game. It was a dream. And dreams demand hard work.\nOver the last year, I’ve taken things seriously: analyzing technique, reviewing matches, and working on both my physical game and mental mindset."
+  },
+  {
+    "objectID": "projects/cricket-journey.html#performance-metrics-stats",
+    "href": "projects/cricket-journey.html#performance-metrics-stats",
+    "title": "Laeeq’s Cricketing Journey",
+    "section": "Performance Metrics & Stats",
+    "text": "Performance Metrics & Stats\nOver the last two seasons, I’ve represented Carlow (2023) and moved to North County (2024). This move was about growth — playing higher-level cricket and pushing myself beyond comfort zones.\nHere’s how my performance evolved:\n\n\nNorth County (2024)\n\n\n\n\n\n\n\n\n\nCarlow (2023)\n\n\n\n\n\n\n\n\n\nInterpreting the Journey\nMoving from Division 16 at Carlow to Division 4 at North County was a 12-division leap in one year — something I’m incredibly proud of.\nMy total runs jumped from 267 in 2023 to 567 in 2024, with a major bump in batting average — all while facing better bowlers on tougher wickets.\nThe data helped me massively: - High LBW rates in 2023 told me my head was falling across the stumps. - I used that to fix my alignment, improve balance, and find more consistency."
+  },
+  {
+    "objectID": "projects/cricket-journey.html#reflection",
+    "href": "projects/cricket-journey.html#reflection",
+    "title": "Laeeq’s Cricketing Journey",
+    "section": "Reflection",
+    "text": "Reflection\nEvery season teaches something new. This time, I brought in coding to visualize my stats, study my dismissals, and shape my goals.\nIt’s helped me improve technically, mentally, and tactically — and it’s only the beginning.\n\n“Cricket’s taught me to stay grounded, stay hungry, and use setbacks as stepping stones.”"
+  },
+  {
+    "objectID": "projects/cricket-journey.html#follow-my-journey",
+    "href": "projects/cricket-journey.html#follow-my-journey",
+    "title": "Laeeq’s Cricketing Journey",
+    "section": "Follow My Journey",
+    "text": "Follow My Journey\nWant to chat cricket?\n📸 Follow me on Instagram for match-day updates, training sessions, and stories from the field."
+  },
+  {
+    "objectID": "projects/academic.html",
+    "href": "projects/academic.html",
+    "title": "Academic projects",
+    "section": "",
+    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#dairy-gold-strategy",
+    "href": "projects/academic.html#dairy-gold-strategy",
+    "title": "Academic projects",
+    "section": "",
+    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#vietnamese-coffee-supply-chain-production",
+    "href": "projects/academic.html#vietnamese-coffee-supply-chain-production",
+    "title": "Academic projects",
+    "section": "Vietnamese Coffee Supply Chain Production",
+    "text": "Vietnamese Coffee Supply Chain Production\n  \n\nWe analyzed the supply chain production of Vietnamese coffee—evaluating sourcing, production costs, and sustainability. We provided strategic recommendations to enhance efficiency, quality, and environmental responsibility.\nClick On The Image To Read The Report!"
+  },
+  {
+    "objectID": "projects/academic.html#vietnamese-sim",
+    "href": "projects/academic.html#vietnamese-sim",
+    "title": "Academic projects",
+    "section": "Vietnamese Sim",
+    "text": "Vietnamese Sim\n  \n\nThis project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.\n Click here to view the full Python simulation code →"
+  },
+  {
+    "objectID": "projects/academic.html#waterwize",
+    "href": "projects/academic.html#waterwize",
+    "title": "Academic projects",
+    "section": "WaterWize",
+    "text": "WaterWize\n  \n\nWaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.\nClick On The Image To Read The Full Report!"
+  },
+  {
+    "objectID": "projects/academic.html#predicting-heart-disease-using-machine-learning",
+    "href": "projects/academic.html#predicting-heart-disease-using-machine-learning",
+    "title": "Academic projects",
+    "section": "Predicting Heart Disease Using Machine Learning",
+    "text": "Predicting Heart Disease Using Machine Learning\n  \n\nThis individual project involved building and evaluating classification models to predict heart disease using the Cleveland dataset. I implemented Logistic Regression, SVM, and Random Forest in Python, and compared performance using metrics such as F1 score, recall, and ROC AUC.\n\n\nThe focus was on balancing predictive accuracy with interpretability. I also produced a 3,000-word reflective report covering methodology, KPI analysis, and the ethical context of using AI in healthcare.\nClick the image to read the full report."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Laeeq Ur Rehman",
+    "section": "",
+    "text": "Welcome! I’m a final-year Business Studies student at DCU, specialising in Data Analytics.\nI lead on and off the field — as a club & university cricket captain, speaker, and coder.\nBelow are highlights from my academic journey, cricket life, and startup projects."
+  },
+  {
+    "objectID": "index.html#my-portfolio",
+    "href": "index.html#my-portfolio",
+    "title": "Laeeq Ur Rehman",
+    "section": "My Portfolio",
+    "text": "My Portfolio\n\n\n\n\n\n \n\nAcademic Projects\n\n\n\n\n \n\nCricket Journey\n\n\n\n\n \n\nEVCIM: Recycled Weights"
+  },
+  {
+    "objectID": "index.html#podcasts-that-i-like",
+    "href": "index.html#podcasts-that-i-like",
+    "title": "Laeeq Ur Rehman",
+    "section": "Podcasts That I Like",
+    "text": "Podcasts That I Like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
+  },
+  {
+    "objectID": "achievements.html",
+    "href": "achievements.html",
+    "title": "Achievements",
+    "section": "",
+    "text": "As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most memorable memories from secondary school."
+  },
+  {
+    "objectID": "achievements.html#cbs-hurling-team-captain",
+    "href": "achievements.html#cbs-hurling-team-captain",
+    "title": "Achievements",
+    "section": "",
+    "text": "As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most memorable memories from secondary school."
+  },
+  {
+    "objectID": "achievements.html#dcu-access-scholarship",
+    "href": "achievements.html#dcu-access-scholarship",
+    "title": "Achievements",
+    "section": "DCU Access Scholarship",
+    "text": "DCU Access Scholarship\n  \n\nBeing awarded the Scholarship was one of the proudest moments of my academic journey. This scholarship is given to students from the Access programme who have shown outstanding academic achievement, resilience, and promise. Coming from an Access background, I understood the weight of this recognition. It was more than a financial award — it was a statement that my hard work and consistency mattered. I was deeply honoured to be seen as someone worthy of carrying that legacy forward."
+  },
+  {
+    "objectID": "achievements.html#ann-award-student-of-the-year",
+    "href": "achievements.html#ann-award-student-of-the-year",
+    "title": "Achievements",
+    "section": "Ann Award – Student of the Year",
+    "text": "Ann Award – Student of the Year\n  \n\nThe Ann award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely “sound” individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I’d come — not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing."
+  },
+  {
+    "objectID": "achievements.html#kubicle-certificates",
+    "href": "achievements.html#kubicle-certificates",
+    "title": "Achievements",
+    "section": "Kubicle Certificates",
+    "text": "Kubicle Certificates\n  \n\nI’ve completed numerous verified certificates from Kubicle, enhancing my skills in data analysis, Power BI, Excel, and more. Click the image to view the full list of certificates and download the PDFs."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a Business Studies & Data Analytics student at Dublin City University, passionate about turning ideas into action.\nWhether it’s cricket, code, or creative ventures — I build, test, and grow with purpose."
+  },
+  {
+    "objectID": "about.html#my-cricket-journey",
+    "href": "about.html#my-cricket-journey",
+    "title": "About Me",
+    "section": "My Cricket Journey",
+    "text": "My Cricket Journey\n\n\nCricket shaped who I am. I’ve progressed through clubs and divisions, growing both mentally and physically.\nI now use data-driven self-analysis to track my performances, refine technique, and lead by example.\n\n\n🔗 Laeeq’s Cricketing Journey →"
+  },
+  {
+    "objectID": "about.html#my-business-hustle-evcim",
+    "href": "about.html#my-business-hustle-evcim",
+    "title": "About Me",
+    "section": "My Business Hustle – EVCIM",
+    "text": "My Business Hustle – EVCIM\n\n\n\nEVCIM is a recycled weights business I co-founded — transforming scrap into smart, sustainable products.\nI handled everything from design and manufacturing to customer outreach and backend automation.\nThis project taught me how to build from the ground up, with limited resources but limitless drive."
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "About Me",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\nFor over 4 years, I worked at Golden Grill in Carlow — a family-owned Italian restaurant.\nI gained hands-on experience in customer service, stock management, and kitchen operations during peak hours.\n\n\nIt taught me the value of consistency, clear communication, and staying calm under pressure."
+  },
+  {
+    "objectID": "about.html#my-tech-stack",
+    "href": "about.html#my-tech-stack",
+    "title": "About Me",
+    "section": "💻My Tech Stack",
+    "text": "💻My Tech Stack\n\n\n\nPython Programming\n\n\nPower BI & Tableau\n\n\nSQL & Data Pipelines\n\n\nBusiness Analytics & Automation"
+  },
+  {
+    "objectID": "about.html#achievements",
+    "href": "about.html#achievements",
+    "title": "About Me",
+    "section": "Achievements",
+    "text": "Achievements\n\n\nI’ve been honoured with leadership roles, peer awards, and the Colm and Paula Delves Scholarship — recognizing both academic merit and character.\n\n\nView Achievements →"
+  },
+  {
+    "objectID": "about.html#why-this-portfolio",
+    "href": "about.html#why-this-portfolio",
+    "title": "About Me",
+    "section": "Why This Portfolio?",
+    "text": "Why This Portfolio?\n\nThis site isn’t just about showcasing skills — it captures growth.\n\nEach project reflects curiosity, discipline, and a willingness to push boundaries — whether on the pitch or in the classroom."
+  },
+  {
+    "objectID": "about.html#connect-explore",
+    "href": "about.html#connect-explore",
+    "title": "About Me",
+    "section": "Connect & Explore",
+    "text": "Connect & Explore\n\n📄 My CV →\n📁 My Projects →\n🏅 My Achievements →"
+  },
+  {
+    "objectID": "Future.html",
+    "href": "Future.html",
+    "title": "Future Pathway: Pursuing a Career in Cricket and Business",
+    "section": "",
+    "text": "With a strong foundation in cricket and an entrepreneurial mindset, my future pathway is shaped by both athletic ambition and business vision.\nFrom a young age, cricket has been more than just a game for me — it’s been a way of life.\nAs I continue to develop my skills, my next big goal is to pursue cricket professionally.\nTo achieve this, I am planning to train even harder, push my physical and mental limits, and potentially explore opportunities to train abroad, where I can be exposed to higher competition and better facilities.\nI believe that challenging myself in new environments will accelerate my growth and help me reach international standards.\nAt the same time, I’m not just building my career on the field — I’m also building it off the field.\nThrough this web development project (as part of my academic work), I’ve realised how valuable technical skills can be in growing a personal brand or business.\nGoing forward, I intend to launch my own cricket coaching business or cricket-related initiative.\nBuilding a professional website for it — using the skills I gained during this module — will be one of my first steps.\nHaving an online presence will allow me to showcase my journey, attract clients, and expand my impact beyond just local communities.\nUltimately, my goal is to blend my passion for cricket with entrepreneurship, creating a career where I can lead, inspire, and keep growing — both on the pitch and in business.\n\n\nFind out more about my journey →\nExplore the projects and skills I’ve developed →"
+  },
+  {
+    "objectID": "kubicle_certificates.html",
+    "href": "kubicle_certificates.html",
+    "title": "Kubicle Certificates",
+    "section": "",
+    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
+  },
+  {
+    "objectID": "kubicle_certificates.html#verified-kubicle-courses",
+    "href": "kubicle_certificates.html#verified-kubicle-courses",
+    "title": "Kubicle Certificates",
+    "section": "",
+    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
+  },
+  {
+    "objectID": "projects/coffee-sim.html",
+    "href": "projects/coffee-sim.html",
+    "title": "Vietnamese Coffee Supply Chain Simulation",
+    "section": "",
+    "text": "This project simulates key stages of the Vietnamese coffee supply chain: farming, processing, transportation, and warehousing.\nIt helps understand how production delays, transport times, and warehouse capacity affect the overall system efficiency."
+  },
+  {
+    "objectID": "projects/coffee-sim.html#simulation-code",
+    "href": "projects/coffee-sim.html#simulation-code",
+    "title": "Vietnamese Coffee Supply Chain Simulation",
+    "section": "Simulation Code",
+    "text": "Simulation Code\nimport simpy\nimport pandas as pd\nimport random\n\n# Constants\nSIMULATION_TIME = 365  # days (1 year)\nPRODUCTION_CAPACITY = 100  # tons of coffee per month per farm\nPROCESSING_COST_PER_TON = 50  # USD per ton\nTRANSPORT_COST_PER_KM = 1  # USD per kilometer per ton\nWAREHOUSE_CAPACITY = 500  # tons\nTRANSPORT_DISTANCE = 200  # km from processing to export port\nEXPORT_TARIFF = 0.05  # 5% of export value\nCOFFEE_PRICE_PER_TON = 1200  # USD on the international market\n\n# Farmer Class\nclass Farmer:\n    def __init__(self, env, production_capacity):\n        self.env = env\n        self.production_capacity = production_capacity\n        self.coffee_ready = 0\n        self.production_process = env.process(self.produce_coffee())\n\n    def produce_coffee(self):\n        while True:\n            yield self.env.timeout(30)  # 1 month production cycle\n            self.coffee_ready += random.uniform(0.8, 1.2) * self.production_capacity\n            print(f\"Day {self.env.now}: Farmer produced {self.coffee_ready} tons of coffee.\")\n\n# Processing Facility Class\nclass ProcessingFacility:\n    def __init__(self, env, processing_cost_per_ton):\n        self.env = env\n        self.processing_cost_per_ton = processing_cost_per_ton\n\n    def process_coffee(self, coffee_amount):\n        processing_cost = coffee_amount * self.processing_cost_per_ton\n        yield self.env.timeout(10)  # Processing time for each batch\n        print(f\"Day {self.env.now}: Processed {coffee_amount} tons at cost {processing_cost}.\")\n        return processing_cost\n\n# Transport Class\nclass Transport:\n    def __init__(self, env, cost_per_km):\n        self.env = env\n        self.cost_per_km = cost_per_km\n\n    def transport_coffee(self, distance, amount):\n        transport_cost = distance * self.cost_per_km * amount\n        yield self.env.timeout(distance / 100)  # Assume 100 km/day travel speed\n        print(f\"Day {self.env.now}: Transported {amount} tons at cost {transport_cost}.\")\n        return transport_cost\n\n# Warehouse Class\nclass Warehouse:\n    def __init__(self, capacity):\n        self.capacity = capacity\n        self.current_storage = 0\n\n    def store_coffee(self, amount):\n        if self.current_storage + amount &lt;= self.capacity:\n            self.current_storage += amount\n            print(f\"Stored {amount} tons of coffee. Current storage: {self.current_storage} tons.\")\n        else:\n            print(\"Warehouse full, cannot store more coffee.\")\n\n    def retrieve_coffee(self, amount):\n        if amount &lt;= self.current_storage:\n            self.current_storage -= amount\n            print(f\"Retrieved {amount} tons of coffee. Remaining storage: {self.current_storage} tons.\")\n            return amount\n        else:\n            print(\"Not enough coffee in storage.\")\n            return 0\n\n# Run Simulation\ndef run_simulation():\n    env = simpy.Environment()\n    \n    farmer = Farmer(env, PRODUCTION_CAPACITY)\n    processing_facility = ProcessingFacility(env, PROCESSING_COST_PER_TON)\n    transport = Transport(env, TRANSPORT_COST_PER_KM)\n    warehouse = Warehouse(WAREHOUSE_CAPACITY)\n    \n    results = {\n        \"day\": [],\n        \"produced_coffee\": [],\n        \"processed_coffee\": [],\n        \"transport_cost\": [],\n        \"storage\": []\n    }\n    \n    while env.now &lt; SIMULATION_TIME:\n        coffee_amount = farmer.coffee_ready\n        results[\"produced_coffee\"].append(coffee_amount)\n        \n        processing_cost = yield env.process(processing_facility.process_coffee(coffee_amount))\n        results[\"processed_coffee\"].append(coffee_amount)\n        \n        transport_cost = yield env.process(transport.transport_coffee(TRANSPORT_DISTANCE, coffee_amount))\n        results[\"transport_cost\"].append(transport_cost)\n        \n        warehouse.store_coffee(coffee_amount)\n        results[\"storage\"].append(warehouse.current_storage)\n        \n        farmer.coffee_ready = 0\n        results[\"day\"].append(env.now)\n        \n        yield env.timeout(30)\n    \n    df_results = pd.DataFrame(results)\n    return df_results\n\n# Main Execution\nif __name__ == \"__main__\":\n    df_results = run_simulation()\n    print(df_results.head())\n    df_results.to_csv(\"coffee_supply_chain_simulation_results.csv\", index=False)\n    df_results.plot(x=\"day\", y=[\"produced_coffee\", \"processed_coffee\", \"storage\"], title=\"Coffee Supply Chain Simulation\")"
+  },
+  {
+    "objectID": "projects/coffee-sim.html#conclusion",
+    "href": "projects/coffee-sim.html#conclusion",
+    "title": "Vietnamese Coffee Supply Chain Simulation",
+    "section": "Conclusion",
+    "text": "Conclusion\nBy simulating the Vietnamese coffee supply chain, we can visualize how production cycles, transportation delays, and warehouse capacity limitations impact the overall supply and export performance.\nThis model can be extended to include seasonal variations like monsoon effects, price fluctuations, or supply chain disruptions for deeper analysis."
   },
   {
     "objectID": "projects/EVCIM.html",
@@ -70,255 +336,10 @@
     "text": "Reflection\n\nAt the core of the EVCIM project is a belief that fitness should be accessible to everyone. Gym equipment, especially weights, can be expensive — but through recycling, creativity, and sheer trial-and-error, we’ve managed to design affordable, functional weights from materials that would’ve ended up in landfills.\n\n\nWe’re not just making plates — we’re building a movement where passion meets sustainability. And we’re not stopping until everyone can train, lift, and grow without breaking the bank. If you want to check out our Instagram, click the icon below.\n\n\nHave an idea or want to collaborate? Let’s chat."
   },
   {
-    "objectID": "projects/coffee-sim.html",
-    "href": "projects/coffee-sim.html",
-    "title": "Vietnamese Coffee Supply Chain Simulation",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "This project simulates key stages of the Vietnamese coffee supply chain: farming, processing, transportation, and warehousing.\nIt helps understand how production delays, transport times, and warehouse capacity affect the overall system efficiency."
-  },
-  {
-    "objectID": "projects/coffee-sim.html#simulation-code",
-    "href": "projects/coffee-sim.html#simulation-code",
-    "title": "Vietnamese Coffee Supply Chain Simulation",
-    "section": "Simulation Code",
-    "text": "Simulation Code\nimport simpy\nimport pandas as pd\nimport random\n\n# Constants\nSIMULATION_TIME = 365  # days (1 year)\nPRODUCTION_CAPACITY = 100  # tons of coffee per month per farm\nPROCESSING_COST_PER_TON = 50  # USD per ton\nTRANSPORT_COST_PER_KM = 1  # USD per kilometer per ton\nWAREHOUSE_CAPACITY = 500  # tons\nTRANSPORT_DISTANCE = 200  # km from processing to export port\nEXPORT_TARIFF = 0.05  # 5% of export value\nCOFFEE_PRICE_PER_TON = 1200  # USD on the international market\n\n# Farmer Class\nclass Farmer:\n    def __init__(self, env, production_capacity):\n        self.env = env\n        self.production_capacity = production_capacity\n        self.coffee_ready = 0\n        self.production_process = env.process(self.produce_coffee())\n\n    def produce_coffee(self):\n        while True:\n            yield self.env.timeout(30)  # 1 month production cycle\n            self.coffee_ready += random.uniform(0.8, 1.2) * self.production_capacity\n            print(f\"Day {self.env.now}: Farmer produced {self.coffee_ready} tons of coffee.\")\n\n# Processing Facility Class\nclass ProcessingFacility:\n    def __init__(self, env, processing_cost_per_ton):\n        self.env = env\n        self.processing_cost_per_ton = processing_cost_per_ton\n\n    def process_coffee(self, coffee_amount):\n        processing_cost = coffee_amount * self.processing_cost_per_ton\n        yield self.env.timeout(10)  # Processing time for each batch\n        print(f\"Day {self.env.now}: Processed {coffee_amount} tons at cost {processing_cost}.\")\n        return processing_cost\n\n# Transport Class\nclass Transport:\n    def __init__(self, env, cost_per_km):\n        self.env = env\n        self.cost_per_km = cost_per_km\n\n    def transport_coffee(self, distance, amount):\n        transport_cost = distance * self.cost_per_km * amount\n        yield self.env.timeout(distance / 100)  # Assume 100 km/day travel speed\n        print(f\"Day {self.env.now}: Transported {amount} tons at cost {transport_cost}.\")\n        return transport_cost\n\n# Warehouse Class\nclass Warehouse:\n    def __init__(self, capacity):\n        self.capacity = capacity\n        self.current_storage = 0\n\n    def store_coffee(self, amount):\n        if self.current_storage + amount &lt;= self.capacity:\n            self.current_storage += amount\n            print(f\"Stored {amount} tons of coffee. Current storage: {self.current_storage} tons.\")\n        else:\n            print(\"Warehouse full, cannot store more coffee.\")\n\n    def retrieve_coffee(self, amount):\n        if amount &lt;= self.current_storage:\n            self.current_storage -= amount\n            print(f\"Retrieved {amount} tons of coffee. Remaining storage: {self.current_storage} tons.\")\n            return amount\n        else:\n            print(\"Not enough coffee in storage.\")\n            return 0\n\n# Run Simulation\ndef run_simulation():\n    env = simpy.Environment()\n    \n    farmer = Farmer(env, PRODUCTION_CAPACITY)\n    processing_facility = ProcessingFacility(env, PROCESSING_COST_PER_TON)\n    transport = Transport(env, TRANSPORT_COST_PER_KM)\n    warehouse = Warehouse(WAREHOUSE_CAPACITY)\n    \n    results = {\n        \"day\": [],\n        \"produced_coffee\": [],\n        \"processed_coffee\": [],\n        \"transport_cost\": [],\n        \"storage\": []\n    }\n    \n    while env.now &lt; SIMULATION_TIME:\n        coffee_amount = farmer.coffee_ready\n        results[\"produced_coffee\"].append(coffee_amount)\n        \n        processing_cost = yield env.process(processing_facility.process_coffee(coffee_amount))\n        results[\"processed_coffee\"].append(coffee_amount)\n        \n        transport_cost = yield env.process(transport.transport_coffee(TRANSPORT_DISTANCE, coffee_amount))\n        results[\"transport_cost\"].append(transport_cost)\n        \n        warehouse.store_coffee(coffee_amount)\n        results[\"storage\"].append(warehouse.current_storage)\n        \n        farmer.coffee_ready = 0\n        results[\"day\"].append(env.now)\n        \n        yield env.timeout(30)\n    \n    df_results = pd.DataFrame(results)\n    return df_results\n\n# Main Execution\nif __name__ == \"__main__\":\n    df_results = run_simulation()\n    print(df_results.head())\n    df_results.to_csv(\"coffee_supply_chain_simulation_results.csv\", index=False)\n    df_results.plot(x=\"day\", y=[\"produced_coffee\", \"processed_coffee\", \"storage\"], title=\"Coffee Supply Chain Simulation\")"
-  },
-  {
-    "objectID": "projects/coffee-sim.html#conclusion",
-    "href": "projects/coffee-sim.html#conclusion",
-    "title": "Vietnamese Coffee Supply Chain Simulation",
-    "section": "Conclusion",
-    "text": "Conclusion\nBy simulating the Vietnamese coffee supply chain, we can visualize how production cycles, transportation delays, and warehouse capacity limitations impact the overall supply and export performance.\nThis model can be extended to include seasonal variations like monsoon effects, price fluctuations, or supply chain disruptions for deeper analysis."
-  },
-  {
-    "objectID": "kubicle_certificates.html",
-    "href": "kubicle_certificates.html",
-    "title": "Kubicle Certificates",
-    "section": "",
-    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
-  },
-  {
-    "objectID": "kubicle_certificates.html#verified-kubicle-courses",
-    "href": "kubicle_certificates.html#verified-kubicle-courses",
-    "title": "Kubicle Certificates",
-    "section": "",
-    "text": "Below is a full summary of all the certified Kubicle courses I have completed:\n\n\n\n\n\n\n\n\n\nSubject\nCourse Name\nDate Completed\nCredits\n\n\n\n\nData Security\nHandling Data Securely and Responsibly\nApril 24th, 2025\n1.5\n\n\nData Presentation Skills\nCommunicating Data Effectively\nMarch 19th, 2025\n1.0\n\n\nData Security\nKeeping Your Information Safe\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nTelling Stories with Data\nMarch 19th, 2025\n1.0\n\n\nData Presentation Skills\nPresenting Your Data\nFebruary 4th, 2025\n1.0\n\n\nExcel\nMonte Carlo Simulation\nApril 23rd, 2024\n2.0\n\n\nStatistical Analysis\nIntroduction to Predictive Modeling\nApril 19th, 2024\n2.0\n\n\nPython Fundamentals\nPython Fundamentals\nApril 9th, 2024\n2.0\n\n\nSQL\nJoining Data with SQL\nApril 5th, 2024\n1.5\n\n\nExcel\nBuild Your First Model\nMarch 30th, 2024\n2.0\n\n\nSQL\nSelecting and Filtering Data with SQL\nMarch 15th, 2024\n2.0\n\n\nTableau\nIntroducing Tableau\nMarch 6th, 2024\n1.5\n\n\nSQL\nUnderstanding SQL Databases\nFebruary 28th, 2024\n1.5\n\n\nAI Fundamentals\nIntroduction to Artificial Intelligence\nFebruary 27th, 2024\n1.0\n\n\nAI Fundamentals\nBusiness Applications of AI\nFebruary 27th, 2024\n1.0\n\n\nExcel\nText, Time, and Dates\nFebruary 27th, 2024\n2.0\n\n\nExcel\nCharts in Depth\nFebruary 8th, 2024\n1.0\n\n\nExcel\nFinance Functions\nFebruary 1st, 2024\n1.0\n\n\nExcel\nFormulas and Functions\nJanuary 17th, 2024\n3.0\n\n\nStatistical Analysis\nProbability Distributions\nOctober 25th, 2023\n2.0\n\n\nExcel\nData Manipulation and Formatting\nOctober 23rd, 2022\n2.0"
-  },
-  {
-    "objectID": "Future.html",
-    "href": "Future.html",
-    "title": "Future Pathway: Pursuing a Career in Cricket and Business",
-    "section": "",
-    "text": "With a strong foundation in cricket and an entrepreneurial mindset, my future pathway is shaped by both athletic ambition and business vision.\nFrom a young age, cricket has been more than just a game for me — it’s been a way of life.\nAs I continue to develop my skills, my next big goal is to pursue cricket professionally.\nTo achieve this, I am planning to train even harder, push my physical and mental limits, and potentially explore opportunities to train abroad, where I can be exposed to higher competition and better facilities.\nI believe that challenging myself in new environments will accelerate my growth and help me reach international standards.\nAt the same time, I’m not just building my career on the field — I’m also building it off the field.\nThrough this web development project (as part of my academic work), I’ve realised how valuable technical skills can be in growing a personal brand or business.\nGoing forward, I intend to launch my own cricket coaching business or cricket-related initiative.\nBuilding a professional website for it — using the skills I gained during this module — will be one of my first steps.\nHaving an online presence will allow me to showcase my journey, attract clients, and expand my impact beyond just local communities.\nUltimately, my goal is to blend my passion for cricket with entrepreneurship, creating a career where I can lead, inspire, and keep growing — both on the pitch and in business.\n\n\nFind out more about my journey →\nExplore the projects and skills I’ve developed →"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m a Business Studies & Data Analytics student at Dublin City University, passionate about turning ideas into action.\nWhether it’s cricket, code, or creative ventures — I build, test, and grow with purpose."
-  },
-  {
-    "objectID": "about.html#my-cricket-journey",
-    "href": "about.html#my-cricket-journey",
-    "title": "About Me",
-    "section": "My Cricket Journey",
-    "text": "My Cricket Journey\n\n\nCricket shaped who I am. I’ve progressed through clubs and divisions, growing both mentally and physically.\nI now use data-driven self-analysis to track my performances, refine technique, and lead by example.\n\n\n🔗 Laeeq’s Cricketing Journey →"
-  },
-  {
-    "objectID": "about.html#my-business-hustle-evcim",
-    "href": "about.html#my-business-hustle-evcim",
-    "title": "About Me",
-    "section": "My Business Hustle – EVCIM",
-    "text": "My Business Hustle – EVCIM\n\n\n\nEVCIM is a recycled weights business I co-founded — transforming scrap into smart, sustainable products.\nI handled everything from design and manufacturing to customer outreach and backend automation.\nThis project taught me how to build from the ground up, with limited resources but limitless drive."
-  },
-  {
-    "objectID": "about.html#work-experience",
-    "href": "about.html#work-experience",
-    "title": "About Me",
-    "section": "Work Experience",
-    "text": "Work Experience\n\n\nFor over 4 years, I worked at Golden Grill in Carlow — a family-owned Italian restaurant.\nI gained hands-on experience in customer service, stock management, and kitchen operations during peak hours.\n\n\nIt taught me the value of consistency, clear communication, and staying calm under pressure."
-  },
-  {
-    "objectID": "about.html#my-tech-stack",
-    "href": "about.html#my-tech-stack",
-    "title": "About Me",
-    "section": "💻My Tech Stack",
-    "text": "💻My Tech Stack\n\n\n\nPython Programming\n\n\nPower BI & Tableau\n\n\nSQL & Data Pipelines\n\n\nBusiness Analytics & Automation"
-  },
-  {
-    "objectID": "about.html#achievements",
-    "href": "about.html#achievements",
-    "title": "About Me",
-    "section": "Achievements",
-    "text": "Achievements\n\n\nI’ve been honoured with leadership roles, peer awards, and the Colm and Paula Delves Scholarship — recognizing both academic merit and character.\n\n\nView Achievements →"
-  },
-  {
-    "objectID": "about.html#why-this-portfolio",
-    "href": "about.html#why-this-portfolio",
-    "title": "About Me",
-    "section": "Why This Portfolio?",
-    "text": "Why This Portfolio?\n\nThis site isn’t just about showcasing skills — it captures growth.\n\nEach project reflects curiosity, discipline, and a willingness to push boundaries — whether on the pitch or in the classroom."
-  },
-  {
-    "objectID": "about.html#connect-explore",
-    "href": "about.html#connect-explore",
-    "title": "About Me",
-    "section": "Connect & Explore",
-    "text": "Connect & Explore\n\n📄 My CV →\n📁 My Projects →\n🏅 My Achievements →"
-  },
-  {
-    "objectID": "achievements.html",
-    "href": "achievements.html",
-    "title": "Achievements",
-    "section": "",
-    "text": "As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most memorable memories from secondary school."
-  },
-  {
-    "objectID": "achievements.html#cbs-hurling-team-captain",
-    "href": "achievements.html#cbs-hurling-team-captain",
-    "title": "Achievements",
-    "section": "",
-    "text": "As captain of the CBS hurling team, I led our school with pride and commitment. This role taught me responsibility, communication, and leadership both on and off the field. In my final year we won the South leinster final , which was unbelievable and is one of my most memorable memories from secondary school."
-  },
-  {
-    "objectID": "achievements.html#dcu-access-scholarship",
-    "href": "achievements.html#dcu-access-scholarship",
-    "title": "Achievements",
-    "section": "DCU Access Scholarship",
-    "text": "DCU Access Scholarship\n  \n\nBeing awarded the Scholarship was one of the proudest moments of my academic journey. This scholarship is given to students from the Access programme who have shown outstanding academic achievement, resilience, and promise. Coming from an Access background, I understood the weight of this recognition. It was more than a financial award — it was a statement that my hard work and consistency mattered. I was deeply honoured to be seen as someone worthy of carrying that legacy forward."
-  },
-  {
-    "objectID": "achievements.html#ann-award-student-of-the-year",
-    "href": "achievements.html#ann-award-student-of-the-year",
-    "title": "Achievements",
-    "section": "Ann Award – Student of the Year",
-    "text": "Ann Award – Student of the Year\n  \n\nThe Ann award was especially meaningful to me. Voted by my peers in 6th year at CBS, it recognized the person in our year who best embodied kindness, support, and being a genuinely “sound” individual. What made this even more touching was that I started secondary school knowing no one. To end it with this kind of recognition showed me how far I’d come — not just academically, but socially and personally. As part of receiving the award, I had the honour of delivering a speech in front of the entire student body and their parents at our end-of-year ceremony. Receiving a standing ovation at the end was something I’ll never forget — it was truly amazing."
-  },
-  {
-    "objectID": "achievements.html#kubicle-certificates",
-    "href": "achievements.html#kubicle-certificates",
-    "title": "Achievements",
-    "section": "Kubicle Certificates",
-    "text": "Kubicle Certificates\n  \n\nI’ve completed numerous verified certificates from Kubicle, enhancing my skills in data analysis, Power BI, Excel, and more. Click the image to view the full list of certificates and download the PDFs."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Laeeq Ur Rehman",
-    "section": "",
-    "text": "Welcome! I’m a final-year Business Studies student at DCU, specialising in Data Analytics.\nI lead on and off the field — as a club & university cricket captain, speaker, and coder.\nBelow are highlights from my academic journey, cricket life, and startup projects."
-  },
-  {
-    "objectID": "index.html#my-portfolio",
-    "href": "index.html#my-portfolio",
-    "title": "Laeeq Ur Rehman",
-    "section": "My Portfolio",
-    "text": "My Portfolio\n\n\n\n\n\n \n\nAcademic Projects\n\n\n\n\n \n\nCricket Journey\n\n\n\n\n \n\nEVCIM: Recycled Weights"
-  },
-  {
-    "objectID": "index.html#podcasts-that-i-like",
-    "href": "index.html#podcasts-that-i-like",
-    "title": "Laeeq Ur Rehman",
-    "section": "Podcasts That I Like",
-    "text": "Podcasts That I Like\n\n  \n\n\nI picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best."
-  },
-  {
-    "objectID": "projects/academic.html",
-    "href": "projects/academic.html",
-    "title": "Academic projects",
-    "section": "",
-    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#dairy-gold-strategy",
-    "href": "projects/academic.html#dairy-gold-strategy",
-    "title": "Academic projects",
-    "section": "",
-    "text": "For this project, my team and I conducted a strategic analysis of Dairy Gold. We examined their current market position, supply chain efficiency, and brand value. Based on our findings, we provided actionable recommendations to improve their overall strategy in a highly competitive market.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#vietnamese-coffee-supply-chain-production",
-    "href": "projects/academic.html#vietnamese-coffee-supply-chain-production",
-    "title": "Academic projects",
-    "section": "Vietnamese Coffee Supply Chain Production",
-    "text": "Vietnamese Coffee Supply Chain Production\n  \n\nWe analyzed the supply chain production of Vietnamese coffee—evaluating sourcing, production costs, and sustainability. We provided strategic recommendations to enhance efficiency, quality, and environmental responsibility.\nClick On The Image To Read The Report!"
-  },
-  {
-    "objectID": "projects/academic.html#vietnamese-sim",
-    "href": "projects/academic.html#vietnamese-sim",
-    "title": "Academic projects",
-    "section": "Vietnamese Sim",
-    "text": "Vietnamese Sim\n  \n\nThis project involved developing a simulation model for Vietnamese coffee‐supply‐chain management. I used Python (in Spyder) to run simulation tests and examine how different events—such as prolonged monsoons—could affect production.\n Click here to view the full Python simulation code →"
-  },
-  {
-    "objectID": "projects/academic.html#waterwize",
-    "href": "projects/academic.html#waterwize",
-    "title": "Academic projects",
-    "section": "WaterWize",
-    "text": "WaterWize\n  \n\nWaterWize — our NED project — turns slow water testing into instant checks. Our pocket-sized device spots Legionella in seconds and beams results to your phone. Think of it as a Fitbit for your water system — always on, always watching.\nClick On The Image To Read The Full Report!"
-  },
-  {
-    "objectID": "projects/academic.html#predicting-heart-disease-using-machine-learning",
-    "href": "projects/academic.html#predicting-heart-disease-using-machine-learning",
-    "title": "Academic projects",
-    "section": "Predicting Heart Disease Using Machine Learning",
-    "text": "Predicting Heart Disease Using Machine Learning\n  \n\nThis individual project involved building and evaluating classification models to predict heart disease using the Cleveland dataset. I implemented Logistic Regression, SVM, and Random Forest in Python, and compared performance using metrics such as F1 score, recall, and ROC AUC.\n\n\nThe focus was on balancing predictive accuracy with interpretability. I also produced a 3,000-word reflective report covering methodology, KPI analysis, and the ethical context of using AI in healthcare.\nClick the image to read the full report."
-  },
-  {
-    "objectID": "projects/cricket-journey.html",
-    "href": "projects/cricket-journey.html",
-    "title": "Laeeq’s Cricketing Journey",
-    "section": "",
-    "text": "Since I can remember, cricket has been a way of life. It let me express myself, stay active, and build lifelong friendships. Every summer — whether in Ireland or visiting Pakistan — I’d spend hours playing, often with family and friends.\nBut cricket was never just a game. It was a dream. And dreams demand hard work.\nOver the last year, I’ve taken things seriously: analyzing technique, reviewing matches, and working on both my physical game and mental mindset."
-  },
-  {
-    "objectID": "projects/cricket-journey.html#passion",
-    "href": "projects/cricket-journey.html#passion",
-    "title": "Laeeq’s Cricketing Journey",
-    "section": "",
-    "text": "Since I can remember, cricket has been a way of life. It let me express myself, stay active, and build lifelong friendships. Every summer — whether in Ireland or visiting Pakistan — I’d spend hours playing, often with family and friends.\nBut cricket was never just a game. It was a dream. And dreams demand hard work.\nOver the last year, I’ve taken things seriously: analyzing technique, reviewing matches, and working on both my physical game and mental mindset."
-  },
-  {
-    "objectID": "projects/cricket-journey.html#performance-metrics-stats",
-    "href": "projects/cricket-journey.html#performance-metrics-stats",
-    "title": "Laeeq’s Cricketing Journey",
-    "section": "Performance Metrics & Stats",
-    "text": "Performance Metrics & Stats\nOver the last two seasons, I’ve represented Carlow (2023) and moved to North County (2024). This move was about growth — playing higher-level cricket and pushing myself beyond comfort zones.\nHere’s how my performance evolved:\n\n\nNorth County (2024)\n\n\n\n\n\n\n\n\n\nCarlow (2023)\n\n\n\n\n\n\n\n\n\nInterpreting the Journey\nMoving from Division 16 at Carlow to Division 4 at North County was a 12-division leap in one year — something I’m incredibly proud of.\nMy total runs jumped from 267 in 2023 to 567 in 2024, with a major bump in batting average — all while facing better bowlers on tougher wickets.\nThe data helped me massively: - High LBW rates in 2023 told me my head was falling across the stumps. - I used that to fix my alignment, improve balance, and find more consistency."
-  },
-  {
-    "objectID": "projects/cricket-journey.html#reflection",
-    "href": "projects/cricket-journey.html#reflection",
-    "title": "Laeeq’s Cricketing Journey",
-    "section": "Reflection",
-    "text": "Reflection\nEvery season teaches something new. This time, I brought in coding to visualize my stats, study my dismissals, and shape my goals.\nIt’s helped me improve technically, mentally, and tactically — and it’s only the beginning.\n\n“Cricket’s taught me to stay grounded, stay hungry, and use setbacks as stepping stones.”"
-  },
-  {
-    "objectID": "projects/cricket-journey.html#follow-my-journey",
-    "href": "projects/cricket-journey.html#follow-my-journey",
-    "title": "Laeeq’s Cricketing Journey",
-    "section": "Follow My Journey",
-    "text": "Follow My Journey\nWant to chat cricket?\n📸 Follow me on Instagram for match-day updates, training sessions, and stories from the field."
-  },
-  {
-    "objectID": "projects/personal.html",
-    "href": "projects/personal.html",
-    "title": "Personal Projects",
-    "section": "",
-    "text": "This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.\nClick on the image to follow my journey."
-  },
-  {
-    "objectID": "projects/personal.html#cricket-journey",
-    "href": "projects/personal.html#cricket-journey",
-    "title": "Personal Projects",
-    "section": "",
-    "text": "This is my cricketing journey from 2023–2024. I used code to analyze my performance and grow as a player.\nClick on the image to follow my journey."
-  },
-  {
-    "objectID": "projects/personal.html#evcim",
-    "href": "projects/personal.html#evcim",
-    "title": "Personal Projects",
-    "section": "EVCIM",
-    "text": "EVCIM\n  \n\nMy first real-world business using recyclable materials to make concrete weights.\nClick on the image to learn more."
+    "text": "My Projects\nsome of my most meaningful work combining real-world experience with backend and data-driven development.\n\n\n\nPersonal Projects\n\n\nExplore personal ventures like cricket performance analysis, business automation, and self-taught coding experiments.\n\n\n\n\nAcademic Projects\n\n\nSee coursework from DCU — including data analytics, backend systems, and full-stack assignments with real clients."
   }
 ]
