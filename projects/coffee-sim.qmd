@@ -1,0 +1,125 @@
+---
+title: "Vietnamese Coffee Production Supply Chain Simulation"
+format: html
+page-layout: full
+---
+
+# Coffee Supply Chain Simulation Code
+
+This simulation models the coffee production, processing, transport, and storage stages in Vietnam’s supply chain, capturing random variations like monsoon impacts on yield.
+
+---
+
+## Python Code
+
+```python
+import simpy
+import pandas as pd
+import random
+
+SIMULATION_TIME = 365  # days (1 year)
+PRODUCTION_CAPACITY = 100  # tons of coffee per month per farm
+PROCESSING_COST_PER_TON = 50  # USD per ton
+TRANSPORT_COST_PER_KM = 1  # USD per kilometer per ton
+WAREHOUSE_CAPACITY = 500  # tons
+TRANSPORT_DISTANCE = 200  # km from processing to export port
+EXPORT_TARIFF = 0.05  # 5% of export value
+COFFEE_PRICE_PER_TON = 1200  # USD on the international market
+
+class Farmer:
+    def __init__(self, env, production_capacity):
+        self.env = env
+        self.production_capacity = production_capacity
+        self.coffee_ready = 0
+        self.production_process = env.process(self.produce_coffee())
+
+    def produce_coffee(self):
+        while True:
+            yield self.env.timeout(30)  # 1 month production cycle
+            self.coffee_ready += random.uniform(0.8, 1.2) * self.production_capacity
+            print(f"Day {self.env.now}: Farmer produced {self.coffee_ready} tons of coffee.")
+
+class ProcessingFacility:
+    def __init__(self, env, processing_cost_per_ton):
+        self.env = env
+        self.processing_cost_per_ton = processing_cost_per_ton
+
+    def process_coffee(self, coffee_amount):
+        processing_cost = coffee_amount * self.processing_cost_per_ton
+        yield self.env.timeout(10)
+        print(f"Day {self.env.now}: Processed {coffee_amount} tons at cost {processing_cost}.")
+        return processing_cost
+
+class Transport:
+    def __init__(self, env, cost_per_km):
+        self.env = env
+        self.cost_per_km = cost_per_km
+
+    def transport_coffee(self, distance, amount):
+        transport_cost = distance * self.cost_per_km * amount
+        yield self.env.timeout(distance / 100)
+        print(f"Day {self.env.now}: Transported {amount} tons at cost {transport_cost}.")
+        return transport_cost
+
+class Warehouse:
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.current_storage = 0
+
+    def store_coffee(self, amount):
+        if self.current_storage + amount <= self.capacity:
+            self.current_storage += amount
+            print(f"Stored {amount} tons of coffee. Current storage: {self.current_storage} tons.")
+        else:
+            print("Warehouse full, cannot store more coffee.")
+
+    def retrieve_coffee(self, amount):
+        if amount <= self.current_storage:
+            self.current_storage -= amount
+            print(f"Retrieved {amount} tons of coffee. Remaining storage: {self.current_storage} tons.")
+            return amount
+        else:
+            print("Not enough coffee in storage.")
+            return 0
+
+def run_simulation():
+    env = simpy.Environment()
+    farmer = Farmer(env, PRODUCTION_CAPACITY)
+    processing_facility = ProcessingFacility(env, PROCESSING_COST_PER_TON)
+    transport = Transport(env, TRANSPORT_COST_PER_KM)
+    warehouse = Warehouse(WAREHOUSE_CAPACITY)
+
+    results = {
+        "day": [],
+        "produced_coffee": [],
+        "processed_coffee": [],
+        "transport_cost": [],
+        "storage": []
+    }
+
+    while env.now < SIMULATION_TIME:
+        coffee_amount = farmer.coffee_ready
+        results["produced_coffee"].append(coffee_amount)
+
+        processing_cost = yield env.process(processing_facility.process_coffee(coffee_amount))
+        results["processed_coffee"].append(coffee_amount)
+
+        transport_cost = yield env.process(transport.transport_coffee(TRANSPORT_DISTANCE, coffee_amount))
+        results["transport_cost"].append(transport_cost)
+
+        warehouse.store_coffee(coffee_amount)
+        results["storage"].append(warehouse.current_storage)
+
+        farmer.coffee_ready = 0
+
+        results["day"].append(env.now)
+        yield env.timeout(30)
+
+    df_results = pd.DataFrame(results)
+    return df_results
+
+if __name__ == "__main__":
+    df_results = run_simulation()
+    print(df_results.head())
+    df_results.to_csv("coffee_supply_chain_simulation_results.csv", index=False)
+    df_results.plot(x="day", y=["produced_coffee", "processed_coffee", "storage"], title="Coffee Supply Chain Simulation")
