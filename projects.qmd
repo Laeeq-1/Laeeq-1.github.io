@@ -4,6 +4,42 @@ format: html
 page-layout: full
 ---
 
+<style>
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h3 {
+  margin-top: 10px;
+  font-size: 1.3em;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 1.05em;
+  color: #444;
+}
+</style>
+
 # My Projects
 
 _some of my most meaningful work combining real-world experience with backend and data-driven development._
@@ -11,13 +47,13 @@ _some of my most meaningful work combining real-world experience with backend an
 <div class="project-grid">
 
 <div class="project-card">
-  <h3><a href="/projects/personal.html">Personal Projects</a></h3>
+  <h3><a href="projects/personal.html">Personal Projects</a></h3>
   <p>Explore personal ventures like cricket performance analysis, business automation, and self-taught coding experiments.</p>
 </div>
 
 <div class="project-card">
-  <h3><a href="/projects/academic.html">Academic Projects</a></h3>
-  <p>See coursework projects from DCU — including data analytics, backend dev, and full-stack assignments.</p>
+  <h3><a href="projects/academic.html">Academic Projects</a></h3>
+  <p>See coursework from DCU — including data analytics, backend systems, and full-stack assignments with real clients.</p>
 </div>
 
 </div>
