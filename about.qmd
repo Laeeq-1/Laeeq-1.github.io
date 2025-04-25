@@ -8,27 +8,28 @@ page-layout: full
   <img src="images/about-me.jpg" alt="Laeeq profile" style="width:180px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;" />
 </div>
 
-I'm a **Business Studies & Data Analytics** student at **Dublin City University**, passionate about turning ideas into action.  
-Whether it’s cricket, code, or creative ventures — I build, test, and grow with purpose.
+Hello! I'm **Laeeq Ur Rehman**, a final-year Business Studies student at Dublin City University, working toward a First-Class Honours degree. I have a passion for technology, leadership, and sustainability, with hands-on experience in academic research, technical projects, public speaking, and entrepreneurship.
+
+My journey blends business thinking with technical skills, leadership roles, and a continuous drive to improve myself and those around me.
 
 ---
 
-##  My Cricket Journey
+## My Cricket Journey
 
+<a href="projects/cricket-journey.qmd" style="text-decoration: none; color: inherit;">
 <div class="card">
   <p>
     Cricket shaped who I am. I've progressed through clubs and divisions, growing both mentally and physically.  
     I now use data-driven self-analysis to track my performances, refine technique, and lead by example.
   </p>
-  <p>
-    🔗 [**Laeeq’s Cricketing Journey →**](projects/cricket-journey.qmd)
-  </p>
 </div>
+</a>
 
 ---
 
-##  My Business Hustle – EVCIM
+## My Business Hustle – EVCIM
 
+<a href="projects/weights-project.qmd" style="text-decoration: none; color: inherit;">
 <div class="card">
   <img src="projects/weights.jpg" alt="EVCIM weights" style="width:100%; max-width:400px; border-radius: 10px; display:block; margin: 10px auto;" />
   <p>
@@ -37,6 +38,7 @@ Whether it’s cricket, code, or creative ventures — I build, test, and grow w
     This project taught me how to build from the ground up, with limited resources but limitless drive.
   </p>
 </div>
+</a>
 
 ---
 
@@ -54,7 +56,7 @@ Whether it’s cricket, code, or creative ventures — I build, test, and grow w
 
 ---
 
-## 💻My Tech Stack
+## 💻 My Tech Stack
 
 <div class="card">
   <ul>
@@ -67,14 +69,14 @@ Whether it’s cricket, code, or creative ventures — I build, test, and grow w
 
 ---
 
-##  Achievements
+## Achievements
 
 <div class="card">
   <p>
     I’ve been honoured with leadership roles, peer awards, and the **Colm and Paula Delves Scholarship** — recognizing both academic merit and character.
   </p>
   <p>
-     [**View Achievements →**](achievements.html)
+    🔗 [**View Achievements →**](achievements.html)
   </p>
 </div>
 
@@ -91,7 +93,19 @@ Each project reflects curiosity, discipline, and a willingness to push boundarie
 ## Connect & Explore
 
 - 📄 [**My CV →**](Laeeq_CV.pdf)
-- 📁 [**My Projects →**](projects.qmd)
+- 📁 [**My Projects →**](projects/personal.qmd)
 - 🏅 [**My Achievements →**](achievements.html)
+
+---
+
+## Final Reflection
+
+Building this portfolio has been more than just a technical project — it’s been a journey of self-reflection.  
+I enjoyed revisiting my experiences, connecting the dots between different stages of growth, and imagining new possibilities for the future.  
+
+I’m excited to keep learning, building, and sharing as I move forward.
+
+Thanks for visiting my site!
+
 
 
