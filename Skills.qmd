@@ -1,0 +1,70 @@
+---
+title: Skills
+---
+
+---
+
+## Languages
+
+| Language             | Proficiency                  |
+|----------------------|-------------------------------|
+| English              | Fluent                        |
+| Urdu                 | Fluent                        |
+| Arabic               | Intermediate                  |
+| German               | Beginner                      |
+
+: {.striped .hover}
+
+<br><br>
+
+## Technological Skills
+
+<p>Microsoft Excel</p>
+<div class="container">
+  <div class="skills excel">95%</div>
+</div>
+
+<p>SQL</p>
+<div class="container">
+  <div class="skills sql">80%</div>
+</div>
+
+<p>Python</p>
+<div class="container">
+  <div class="skills python">75%</div>
+</div>
+
+<p>Data Visualization (Tableau, Power BI)</p>
+<div class="container">
+  <div class="skills dataviz">70%</div>
+</div>
+
+<p>Machine Learning (Scikit-Learn)</p>
+<div class="container">
+  <div class="skills ml">65%</div>
+</div>
+
+<p>Web Development (HTML, CSS, JavaScript)</p>
+<div class="container">
+  <div class="skills webdev">60%</div>
+</div>
+
+<br><br>
+
+## Professional Skills
+
+| Skill                         | Description |
+|--------------------------------|-------------|
+| Communication                  | Delivered motivational talks and collaborated effectively in academic, sports, and professional environments. |
+| Leadership                     | Captain of university and club cricket teams, leading and motivating diverse groups towards shared goals. |
+| Public Speaking                | Comfortable speaking at events, giving motivational talks, and presenting academic projects. |
+| Teamwork                       | Worked effectively in teams for group assignments, cricket leadership, and project collaboration. |
+| Project Management             | Successfully led and coordinated projects in academic and personal ventures like "EVCIM" weights business. |
+| Problem Solving                | Analyzed technical and project challenges, developing creative solutions quickly and efficiently. |
+| Adaptability                   | Quickly learned new technical tools (e.g., Web Dev, SQL, Machine Learning) and adjusted to changing project needs. |
+| Time Management                | Balanced academics, sports leadership, and personal business projects within tight deadlines.|
+
+: {.striped .hover}
+
+---
+
