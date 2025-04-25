@@ -8,16 +8,17 @@ page-layout: full
   <img src="images/about-me.jpg" alt="Laeeq profile" style="width:180px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;" />
 </div>
 
-I'm a **Business Studies & Data Analytics** student at **Dublin City University**, passionate about transforming ideas into impact. Whether through cricket, code, or entrepreneurial ventures — I’m always building, testing, and growing.
+I'm a **Business Studies & Data Analytics** student at **Dublin City University**, passionate about turning ideas into action.  
+Whether it’s cricket, code, or creative ventures — I build, test, and grow with purpose.
 
 ---
 
-## My Cricket Journey
+## 🏏 My Cricket Journey
 
 <div class="card">
   <p>
-    Cricket has shaped my discipline and mindset. Over the years, I’ve moved between clubs, progressed through divisions, and grown both mentally and physically.  
-    I use data-driven self-analysis to track performances and refine my game.
+    Cricket shaped who I am. I've progressed through clubs and divisions, growing both mentally and physically.  
+    I now use data-driven self-analysis to track my performances, refine technique, and lead by example.
   </p>
   <p>
     🔗 [**Laeeq’s Cricketing Journey →**](projects/cricket-journey.qmd)
@@ -26,33 +27,34 @@ I'm a **Business Studies & Data Analytics** student at **Dublin City University*
 
 ---
 
-## My Business Hustle – EVCIM
+## 🧱 My Business Hustle – EVCIM
 
 <div class="card">
   <img src="projects/weights.jpg" alt="EVCIM weights" style="width:100%; max-width:400px; border-radius: 10px; display:block; margin: 10px auto;" />
   <p>
-    EVCIM is a weights business I co-founded — turning scrap into smart, recycled solutions.  
-    I managed everything from hands-on manufacturing to sales and backend automation. It taught me the realities of lean startup life.
+    EVCIM is a recycled weights business I co-founded — transforming scrap into smart, sustainable products.  
+    I handled everything from design and manufacturing to customer outreach and backend automation.  
+    This project taught me how to build from the ground up, with limited resources but limitless drive.
   </p>
 </div>
 
 ---
 
-## Work Experience
+## 🍟 Work Experience
 
 <div class="card">
   <p>
-    For over 4 years, I’ve worked at **Golden Grill** in Carlow — a local family-owned restaurant.  
-    I’ve taken on roles across customer service, stock control, and even kitchen work during peak hours.
+    For over 4 years, I worked at **Golden Grill** in Carlow — a family-owned Italian restaurant.  
+    I gained hands-on experience in customer service, stock management, and kitchen operations during peak hours.
   </p>
   <p>
-    That experience grounded me in teamwork, adaptability, and real-world business problem solving.
+    It taught me the value of consistency, clear communication, and staying calm under pressure.
   </p>
 </div>
 
 ---
 
-## My Tech Stack
+## 💻 My Tech Stack
 
 <div class="card">
   <ul>
@@ -65,11 +67,11 @@ I'm a **Business Studies & Data Analytics** student at **Dublin City University*
 
 ---
 
-## Achievements
+## 🏅 Achievements
 
 <div class="card">
   <p>
-    From captaincy honors in sport to winning scholarships and peer-nominated awards — I’ve had the privilege of being recognized for both leadership and character.
+    I’ve been honoured with leadership roles, peer awards, and the **Colm and Paula Delves Scholarship** — recognizing both academic merit and character.
   </p>
   <p>
     🏆 [**View Achievements →**](achievements.html)
@@ -78,15 +80,15 @@ I'm a **Business Studies & Data Analytics** student at **Dublin City University*
 
 ---
 
-## Why This Portfolio?
+## 🧭 Why This Portfolio?
 
-> This site documents more than just skills — it captures my journey.
+> This site isn’t just about showcasing skills — it captures growth.
 
-Every project reflects a mindset of growth, curiosity, and perseverance — from the pitch to the page.
+Each project reflects curiosity, discipline, and a willingness to push boundaries — whether on the pitch or in the classroom.
 
 ---
 
-## Connect & Explore
+## 🔗 Connect & Explore
 
 - 📄 [**My CV →**](Laeeq_CV.pdf)
 - 📁 [**My Projects →**](projects.qmd)
