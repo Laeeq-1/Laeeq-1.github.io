@@ -55,6 +55,18 @@ page-layout: full
   font-weight: bold;
   margin-top: 10px;
 }
+
+.contact-section {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.1em;
+}
+
+.contact-section a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+}
 </style>
 
 <!-- Fade-in separator only -->
@@ -62,9 +74,13 @@ page-layout: full
   <hr style="margin-top: 10px; margin-bottom: 30px;">
 </div>
 
-Welcome to my personal website—I'm studying Business Studies at DCU with a specialization in Data Analytics. Explore my academic work, cricket journey, and entrepreneurial projects below!
+Welcome! I'm a final-year Business Studies student at DCU, specialising in Data Analytics.  
+I lead on and off the field — as a club & university cricket captain, speaker, and coder.  
+Below are highlights from my academic journey, cricket life, and startup projects.
 
-## My Portfolio
+---
+
+##  My Portfolio
 
 <div style="text-align: center;">
 <table class="caption-top table">
@@ -73,33 +89,29 @@ Welcome to my personal website—I'm studying Business Studies at DCU with a spe
 <th style="text-align: center;">
   <a href="projects/academic.html">
     <img src="images/dairygold.png" style="width: 300px; height: 200px; object-fit: cover; border-radius: 0;">
+    <div class="project-title">Academic Projects</div>
   </a>
 </th>
 <th style="text-align: center;">
   <a href="projects/cricket-journey.html">
     <img src="images/cricket.jpg" style="width: 300px; height: 200px; object-fit: cover; border-radius: 0;">
+    <div class="project-title">Cricket Journey</div>
   </a>
 </th>
 <th style="text-align: center;">
   <a href="projects/EVCIM.html">
     <img src="images/weights.jpg" style="width: 300px; height: 200px; object-fit: cover; border-radius: 0;">
+    <div class="project-title">EVCIM: Recycled Weights</div>
   </a>
 </th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">Academic Projects</td>
-<td style="text-align: center;">Cricket Journey</td>
-<td style="text-align: center;">EVCIM</td>
-</tr>
-</tbody>
 </table>
 </div>
 
 ---
 
-## Podcasts That I like
+## 🎙️ Podcasts That I Like
 
 <div class="podcast-container">
   <iframe src="https://www.youtube.com/embed/QOsHNL6V8O8" frameborder="0" allowfullscreen></iframe>
@@ -108,8 +120,9 @@ Welcome to my personal website—I'm studying Business Studies at DCU with a spe
 </div>
 
 <div style="text-align: center; margin-top: 20px; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.05em;">
-  I picked these because they delve into the mind of an athlete, tackle performance anxiety, and highlight what differentiates the average from the best.
+  I picked these podcasts because they delve into the mind of an athlete, tackle performance anxiety, and highlight what separates the average from the elite. 
 </div>
 
+---
 
 
