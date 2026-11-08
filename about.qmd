@@ -93,7 +93,9 @@ Each project reflects curiosity, discipline, and a willingness to push boundarie
 ## Connect & Explore
 
 - 📄 [**My CV →**](Laeeq_CV.pdf)
-- 📁 [**My Projects →**](projects/personal.qmd)
+- 🎓 [**Academic →**](academic.qmd)
+- 🚀 [**Entrepreneurship →**](entrepreneurship.qmd)
+- 🏏 [**Sport →**](sport.qmd)
 - 🏅 [**My Achievements →**](achievements.html)
 
 ---

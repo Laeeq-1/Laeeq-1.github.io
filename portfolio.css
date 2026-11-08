@@ -1,0 +1,297 @@
+/* ==========================================================
+   Portfolio redesign styles
+   Everything is scoped under .pf so existing pages (About,
+   Achievements, Cricket Journey, EVCIM...) are not affected.
+   Section accents: Academic = navy, Entrepreneurship = green,
+   Sport = orange.
+   ========================================================== */
+
+.pf {
+  --pf-ink: #1f2937;
+  --pf-muted: #5b6472;
+  --pf-line: #e5e9f0;
+  --pf-soft: #f4f7fb;
+  --pf-academic: #004085;
+  --pf-venture: #157a5a;
+  --pf-sport: #d9622b;
+  --pf-accent: var(--pf-academic);
+  max-width: 1080px;
+  margin: 0 auto;
+  color: var(--pf-ink);
+}
+
+.pf--academic { --pf-accent: var(--pf-academic); }
+.pf--venture  { --pf-accent: var(--pf-venture); }
+.pf--sport    { --pf-accent: var(--pf-sport); }
+
+.pf p,
+.pf li {
+  text-align: left;
+  color: var(--pf-muted);
+  line-height: 1.7;
+}
+
+.pf h1,
+.pf h2,
+.pf h3 {
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--pf-ink);
+}
+
+.pf h2 {
+  font-size: 1.6rem;
+  margin: 3rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 3px solid var(--pf-accent);
+  display: inline-block;
+}
+
+.pf h3 {
+  font-size: 1.15rem;
+  margin: 0 0 0.4rem;
+}
+
+.pf a { text-decoration: none; }
+.pf p a:not(.pf-btn) { color: var(--pf-accent); font-weight: 600; }
+.pf p a:not(.pf-btn):hover { text-decoration: underline; }
+
+.pf img { max-width: 100%; }
+
+/* ---------- Buttons ---------- */
+.pf-btn {
+  display: inline-block;
+  padding: 0.7rem 1.3rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px solid var(--pf-accent);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pf-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(0,0,0,0.12); }
+.pf-btn--primary { background: var(--pf-accent); color: #fff !important; }
+.pf-btn--ghost { background: transparent; color: var(--pf-accent) !important; }
+
+.pf-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.5rem; }
+
+/* ---------- Home hero ---------- */
+.pf-hero {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 2.5rem 0 1rem;
+}
+.pf-hero .pf-title { font-size: 2.8rem; font-weight: 800; margin: 0 0 0.3rem; line-height: 1.1; color: var(--pf-ink); }
+.pf-hero .pf-role { font-size: 1.2rem; font-weight: 600; color: var(--pf-academic); margin-bottom: 1rem; }
+.pf-hero .pf-intro { font-size: 1.1rem; }
+.pf-hero img {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  justify-self: center;
+  box-shadow: 0 12px 30px rgba(0, 64, 133, 0.25);
+}
+
+.pf-social { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.2rem; font-size: 0.95rem; }
+.pf-social a { color: var(--pf-muted); font-weight: 500; }
+.pf-social a:hover { color: var(--pf-academic); }
+
+/* ---------- Section tiles on home ---------- */
+.pf-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+.pf-tile {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--pf-line);
+  border-top: 5px solid var(--tile-accent);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  color: inherit !important;
+}
+.pf-tile:hover { transform: translateY(-6px); box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12); }
+.pf-tile img { width: 100%; height: 190px; object-fit: cover; display: block; }
+.pf-tile-body { padding: 1.2rem 1.3rem 1.4rem; display: flex; flex-direction: column; flex: 1; }
+.pf-tile-body h3 { color: var(--tile-accent); font-size: 1.3rem; }
+.pf-tile-body p { margin: 0 0 1rem; flex: 1; }
+.pf-tile-cta { font-weight: 600; color: var(--tile-accent); }
+.pf-tile--academic { --tile-accent: var(--pf-academic); }
+.pf-tile--venture  { --tile-accent: var(--pf-venture); }
+.pf-tile--sport    { --tile-accent: var(--pf-sport); }
+
+/* ---------- Stats strip ---------- */
+.pf-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+.pf-stat {
+  background: var(--pf-soft);
+  border-radius: 12px;
+  padding: 1.1rem 1rem;
+  text-align: center;
+}
+.pf-stat strong { display: block; font-size: 1.9rem; color: var(--pf-accent); line-height: 1.2; }
+.pf-stat span { font-size: 0.9rem; color: var(--pf-muted); }
+
+/* ---------- Page header banner (section pages) ---------- */
+.pf-pagehead {
+  background: linear-gradient(135deg, var(--pf-accent), color-mix(in srgb, var(--pf-accent) 55%, #000));
+  color: #fff;
+  border-radius: 16px;
+  padding: 2.6rem 2rem;
+  margin: 1rem 0 2rem;
+}
+.pf-pagehead .pf-title { color: #fff; font-size: 2.4rem; font-weight: 800; margin: 0 0 0.5rem; line-height: 1.15; }
+.pf-pagehead p { color: rgba(255, 255, 255, 0.92); font-size: 1.1rem; max-width: 720px; margin: 0; }
+
+/* ---------- Card grid (projects) ---------- */
+.pf-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+.pf-cards--two { grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
+@media (max-width: 480px) { .pf-cards--two { grid-template-columns: 1fr; } }
+
+.pf-card {
+  background: #fff;
+  border: 1px solid var(--pf-line);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.pf-card:hover { transform: translateY(-4px); box-shadow: 0 12px 26px rgba(0, 0, 0, 0.11); }
+.pf-card img { width: 100%; height: 190px; object-fit: cover; display: block; }
+.pf-card-body { padding: 1.1rem 1.3rem 1.3rem; display: flex; flex-direction: column; flex: 1; }
+.pf-card-body p { margin: 0.2rem 0 0.8rem; flex: 1; }
+.pf-card-links { display: flex; flex-wrap: wrap; gap: 1rem; font-weight: 600; font-size: 0.95rem; }
+.pf-card-links a { color: var(--pf-accent); }
+.pf-card-links a:hover { text-decoration: underline; }
+
+.pf-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.3rem 0 0.6rem; }
+.pf-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--pf-accent) 12%, #fff);
+  color: var(--pf-accent);
+}
+
+/* ---------- Feature rows (image + text) ---------- */
+.pf-feature {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 1.5rem 0 2.5rem;
+}
+.pf-feature--reverse { grid-template-columns: 1.2fr 1fr; }
+.pf-feature--reverse .pf-feature-media { order: 2; }
+.pf-feature-media img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14);
+  display: block;
+}
+
+/* ---------- Steps list ---------- */
+.pf-steps { counter-reset: step; list-style: none; padding: 0; margin: 1rem 0; }
+.pf-steps li {
+  counter-increment: step;
+  position: relative;
+  padding: 0.2rem 0 0.9rem 3rem;
+}
+.pf-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  background: var(--pf-accent);
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Chips ---------- */
+.pf-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0 1rem; }
+.pf-chip {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: var(--pf-soft);
+  border: 1px solid var(--pf-line);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--pf-ink);
+}
+
+/* ---------- Callout ---------- */
+.pf-next {
+  background: var(--pf-soft);
+  border-left: 5px solid var(--pf-accent);
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin: 2rem 0;
+}
+.pf-next h3 { margin-top: 0; }
+.pf-next p:last-child { margin-bottom: 0; }
+
+/* ---------- Podcast / video embeds ---------- */
+.pf-videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+  margin: 1rem 0;
+}
+.pf-videos iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 12px;
+}
+
+/* ---------- Footer nav between sections ---------- */
+.pf-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--pf-line);
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 760px) {
+  .pf-hero { grid-template-columns: 1fr; text-align: center; padding-top: 1rem; }
+  .pf-hero img { order: -1; max-width: 220px; }
+  .pf-hero .pf-actions, .pf-hero .pf-social { justify-content: center; }
+  .pf-hero .pf-title { font-size: 2.1rem; }
+  .pf-feature,
+  .pf-feature--reverse { grid-template-columns: 1fr; }
+  .pf-feature--reverse .pf-feature-media { order: 0; }
+  .pf-pagehead { padding: 1.8rem 1.3rem; }
+  .pf-pagehead .pf-title { font-size: 1.9rem; }
+}

@@ -62,7 +62,7 @@ page-layout: full
 
 <a href="kubicle_certificates.html" target="_blank">
   <img 
-    src="images/kubicle.png" 
+    src="images/Kubicle.png"
     alt="Kubicle Certificates" 
     style="float: right; margin-left: 20px; width: 350px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;"
     onmouseover="this.style.transform='translateY(-10px)';"

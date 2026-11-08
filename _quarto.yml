@@ -4,37 +4,33 @@ project:
 
 website:
   title: "Laeeq Ur Rehman"
+  site-url: https://laeeq-1.github.io
+  description: "Portfolio of Laeeq Ur Rehman: academic projects, entrepreneurship and sport."
+  open-graph: true
+  twitter-card: true
   navbar:
     logo: /favicon.png
     title-href: index.qmd
     right:
-      - icon: file-earmark-person
-        href: Laeeq_CV.pdf
-        text: "CV"
-      - icon: list-check
-        href: Skills.qmd
-        text: "Skills"
-      - text: Projects
-        menu:
-          - icon: laptop
-            href: projects/personal.qmd
-            text: "Personal Projects"
-          - icon: mortarboard
-            href: projects/academic.qmd
-            text: "Academic Projects"
-      - icon: award
-        href: achievements.html
-        text: "Achievements"
-      - icon: compass
-        href: Future.qmd
-        text: "Future Plans"
+      - icon: mortarboard
+        href: academic.qmd
+        text: "Academic"
+      - icon: rocket-takeoff
+        href: entrepreneurship.qmd
+        text: "Entrepreneurship"
+      - icon: trophy
+        href: sport.qmd
+        text: "Sport"
       - icon: person
         href: about.qmd
         text: "About"
+      - icon: file-earmark-person
+        href: Laeeq_CV.pdf
+        text: "CV"
 
 
   page-footer:
-    center: "Copyright © 2025 Laeeq"
+    center: "Copyright © 2026 Laeeq Ur Rehman"
 
   favicon: /favicon.png
 
@@ -46,4 +42,5 @@ format:
     css:
       - styles.css
       - custom.scss
+      - portfolio.css
     toc: true
