@@ -9,27 +9,22 @@ toc: false
 ```{=html}
 <div class="pf pf--venture">
 
-<section class="pf-pagehead">
+<header class="pf-head">
   <div class="pf-title" role="heading" aria-level="1">Entrepreneurship</div>
-  <p>
+  <p class="pf-lede">
     I like building things from the ground up, with limited resources and a lot of drive.
     Here is the business I co-founded, a venture project from my degree, and the work experience that taught me how businesses really run.
   </p>
-</section>
+</header>
 
-<h2>EVCIM: Recycled Weights</h2>
+<h2>EVCIM: recycled weights</h2>
 
 <div class="pf-feature">
   <div class="pf-feature-media">
     <img src="projects/final-image.jpg" alt="Stack of finished EVCIM 5kg weight plates">
   </div>
   <div>
-    <div class="pf-tags">
-      <span class="pf-tag">Co-founder</span>
-      <span class="pf-tag">Sustainability</span>
-      <span class="pf-tag">Product design</span>
-      <span class="pf-tag">Manufacturing</span>
-    </div>
+    <div class="pf-meta">Co-founder. Product design, manufacturing, outreach and automation.</div>
     <p>
       EVCIM turns scrap into affordable gym equipment. I co-founded it and handled everything from design and manufacturing
       to customer outreach and backend automation. It rests on one belief: fitness should be accessible to everyone,
@@ -37,12 +32,12 @@ toc: false
     </p>
     <div class="pf-actions">
       <a class="pf-btn pf-btn--primary" href="projects/EVCIM.qmd">Read the full story</a>
-      <a class="pf-btn pf-btn--ghost" href="https://www.instagram.com/_evcim_" target="_blank">Follow @_evcim_</a>
+      <a class="pf-btn pf-btn--ghost" href="https://www.instagram.com/_evcim_" target="_blank">Follow EVCIM on Instagram</a>
     </div>
   </div>
 </div>
 
-<h3>How we make them</h3>
+<h3>How we make the weights</h3>
 
 <ol class="pf-steps">
   <li>Recover metal springs from abandoned mattresses, then heat, straighten and cut them.</li>
@@ -52,33 +47,29 @@ toc: false
   <li>Build a drying rack from discarded wooden planks so several weights can cure at once.</li>
 </ol>
 
-<div class="pf-cards">
-  <article class="pf-card">
-    <img src="projects/no-paint.jpg" alt="Concrete and metal plates before painting">
-    <div class="pf-card-body"><h3>Early prototypes</h3><p>Concrete reinforced with straightened mattress springs.</p></div>
-  </article>
-  <article class="pf-card">
+<div class="pf-gallery">
+  <figure>
+    <img src="projects/no-paint.jpg" alt="Concrete and metal plate before painting">
+    <figcaption>An early plate: concrete reinforced with straightened mattress springs.</figcaption>
+  </figure>
+  <figure>
     <img src="projects/mould.jpg" alt="Recycled plastic mould for weight plates">
-    <div class="pf-card-body"><h3>Scaling with moulds</h3><p>A recycled-plastic mould for consistent, repeatable plates.</p></div>
-  </article>
-  <article class="pf-card">
+    <figcaption>A recycled-plastic mould for consistent, repeatable plates.</figcaption>
+  </figure>
+  <figure>
     <img src="projects/painting.jpg" alt="Painting the weight plates">
-    <div class="pf-card-body"><h3>Finishing</h3><p>Matte black paint gives each plate a clean, consistent look.</p></div>
-  </article>
+    <figcaption>Matte black paint gives each plate a clean finish.</figcaption>
+  </figure>
 </div>
 
 <h2>WaterWize</h2>
 
 <div class="pf-feature pf-feature--reverse">
   <div>
-    <div class="pf-tags">
-      <span class="pf-tag">Team venture project</span>
-      <span class="pf-tag">NED</span>
-      <span class="pf-tag">Health tech</span>
-    </div>
+    <div class="pf-meta">Team venture project (NED). Health technology.</div>
     <p>
-      WaterWize, our NED project, turns slow water testing into instant checks. The idea is a pocket-sized device that spots
-      Legionella in seconds and sends the results to your phone &mdash; a Fitbit for your water system, always on and always watching.
+      WaterWize turns slow water testing into instant checks. The idea is a pocket-sized device that spots
+      Legionella in seconds and sends the results to your phone: a Fitbit for your water system, always on and always watching.
     </p>
     <div class="pf-actions">
       <a class="pf-btn pf-btn--primary" href="pdfs/WaterWize.pdf" target="_blank">Read the full report</a>
@@ -89,28 +80,28 @@ toc: false
   </div>
 </div>
 
-<h2>Work Experience</h2>
+<h2>Work experience</h2>
 
-<div class="pf-next">
-  <h3>Golden Grill, Carlow &mdash; 4+ years</h3>
+<div class="pf-note">
+  <h3>Golden Grill, Carlow: over 4 years</h3>
   <p>
-    I worked for over four years at a family-owned Italian restaurant, gaining hands-on experience in customer service,
+    I worked at a family-owned Italian restaurant, gaining hands-on experience in customer service,
     stock management and kitchen operations during peak hours. It taught me the value of consistency, clear communication
     and staying calm under pressure.
   </p>
 </div>
 
-<h2>What's Next</h2>
+<h2>What's next</h2>
 
 <p>
-  I intend to launch my own cricket coaching business or cricket-related initiative, with a professional website as one of the first steps.
-  <a href="Future.qmd">Read about my plans &rarr;</a>
+  I plan to launch my own cricket coaching business or cricket-related initiative, with a professional website as one of the first steps.
+  <a href="Future.qmd">Read about my plans</a>.
 </p>
 
-<div class="pf-switch">
-  <a class="pf-btn pf-btn--ghost" href="academic.qmd">&larr; Academic</a>
-  <a class="pf-btn pf-btn--ghost" href="sport.qmd">Next: Sport &rarr;</a>
-</div>
+<nav class="pf-switch" aria-label="Other sections">
+  <a class="to-academic" href="academic.qmd">Academic</a>
+  <a class="to-sport" href="sport.qmd">Sport</a>
+</nav>
 
 </div>
 ```
