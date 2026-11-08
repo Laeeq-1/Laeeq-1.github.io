@@ -46,7 +46,7 @@ Here's how my performance evolved:
 ### North County (2024)
 
 <div class="card">
-  <img src="northcounty2024.png" alt="North County Stats">
+  <img src="Northcounty2024.png" alt="North County Stats">
 </div>
 
 <div class="card">
