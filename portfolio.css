@@ -1,297 +1,389 @@
+/* Fonts are self-hosted in /fonts (SIL Open Font License), so the site
+   does not depend on Google Fonts at load time. */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('fonts/bricolage-grotesque-latin-wght-normal.woff2') format('woff2');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  src: url('fonts/source-serif-4-latin-wght-normal.woff2') format('woff2');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ==========================================================
-   Portfolio redesign styles
-   Everything is scoped under .pf so existing pages (About,
-   Achievements, Cricket Journey, EVCIM...) are not affected.
-   Section accents: Academic = navy, Entrepreneurship = green,
-   Sport = orange.
+   Portfolio design system
+
+   Type:   Bricolage Grotesque (headings, navigation, labels)
+           Source Serif 4 (reading text)
+   Colour: one colour per section, shared across the whole site
+           Academic = blue, Entrepreneurship = green, Sport = red
+           (cricket ball red, which also echoes the EVCIM logo)
    ========================================================== */
 
-.pf {
-  --pf-ink: #1f2937;
-  --pf-muted: #5b6472;
-  --pf-line: #e5e9f0;
-  --pf-soft: #f4f7fb;
-  --pf-academic: #004085;
-  --pf-venture: #157a5a;
-  --pf-sport: #d9622b;
-  --pf-accent: var(--pf-academic);
-  max-width: 1080px;
-  margin: 0 auto;
-  color: var(--pf-ink);
+:root {
+  --ink: #0f1b2d;
+  --body: #2a3446;
+  --muted: #5b667a;
+  --line: #dde2ea;
+  --panel: #f3f5f8;
+
+  --academic: #1d4a8f;
+  --venture: #1b6e4a;
+  --sport: #b3261e;
+
+  --font-ui: 'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif;
+  --font-text: 'Source Serif 4', Georgia, 'Times New Roman', serif;
 }
 
-.pf--academic { --pf-accent: var(--pf-academic); }
-.pf--venture  { --pf-accent: var(--pf-venture); }
-.pf--sport    { --pf-accent: var(--pf-sport); }
-
-.pf p,
-.pf li {
-  text-align: left;
-  color: var(--pf-muted);
-  line-height: 1.7;
+/* ---------- Site-wide: makes older pages match the new ones ---------- */
+body {
+  font-family: var(--font-text);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--body);
+  background-color: #fff;
 }
 
-.pf h1,
-.pf h2,
-.pf h3 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-ui);
   text-transform: none;
-  letter-spacing: 0;
-  color: var(--pf-ink);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  line-height: 1.2;
+}
+h1 { font-size: 2.3rem; font-weight: 800; }
+h2 { font-size: 1.7rem; font-weight: 700; }
+h3 { font-size: 1.3rem; font-weight: 700; }
+
+p { text-align: left; color: var(--body); }
+
+a { text-underline-offset: 3px; }
+
+.navbar {
+  background-color: var(--ink);
+  font-family: var(--font-ui);
+}
+.navbar-title { font-family: var(--font-ui); font-weight: 700; letter-spacing: -0.01em; }
+.navbar a.nav-link { font-weight: 500; }
+
+/* Three-colour rule under the navigation: one stripe per section */
+#quarto-header::after {
+  content: "";
+  display: block;
+  height: 5px;
+  background: linear-gradient(90deg,
+    var(--academic) 0 33.333%,
+    var(--venture) 33.333% 66.666%,
+    var(--sport) 66.666% 100%);
 }
 
+.quarto-page-footer { font-family: var(--font-ui); }
+
+/* ---------- Page container and section accent ---------- */
+.pf {
+  --accent: var(--academic);
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.pf--academic { --accent: var(--academic); }
+.pf--venture  { --accent: var(--venture); }
+.pf--sport    { --accent: var(--sport); }
+
+.pf p { color: var(--body); max-width: 40em; }
+.pf a { color: var(--accent); }
+
+/* Section headings: a hairline rule above encodes "new section" */
 .pf h2 {
-  font-size: 1.6rem;
-  margin: 3rem 0 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 3px solid var(--pf-accent);
-  display: inline-block;
+  font-size: 1.9rem;
+  margin: 4.5rem 0 1.5rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 0;
+  color: var(--ink);
+}
+.pf h3 { font-size: 1.3rem; margin: 0 0 0.5rem; color: var(--ink); }
+
+/* ---------- Page header (Academic / Entrepreneurship / Sport) ---------- */
+.pf-head {
+  margin: 1.5rem 0 1rem;
+  padding-top: 1.6rem;
+  border-top: 10px solid var(--accent);
+}
+.pf-title {
+  font-family: var(--font-ui);
+  font-weight: 800;
+  font-size: clamp(2.8rem, 8vw, 5.2rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--accent);
+  margin: 0 0 1.2rem;
+}
+.pf .pf-lede {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--ink);
+  max-width: 34em;
+  margin: 0;
 }
 
-.pf h3 {
-  font-size: 1.15rem;
-  margin: 0 0 0.4rem;
-}
-
-.pf a { text-decoration: none; }
-.pf p a:not(.pf-btn) { color: var(--pf-accent); font-weight: 600; }
-.pf p a:not(.pf-btn):hover { text-decoration: underline; }
-
-.pf img { max-width: 100%; }
-
-/* ---------- Buttons ---------- */
+/* ---------- Buttons and links ---------- */
 .pf-btn {
   display: inline-block;
-  padding: 0.7rem 1.3rem;
-  border-radius: 999px;
-  font-weight: 600;
-  font-size: 0.95rem;
-  border: 2px solid var(--pf-accent);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.75rem 1.4rem;
+  border-radius: 4px;
+  border: 2px solid var(--accent);
+  text-decoration: none;
 }
-.pf-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(0,0,0,0.12); }
-.pf-btn--primary { background: var(--pf-accent); color: #fff !important; }
-.pf-btn--ghost { background: transparent; color: var(--pf-accent) !important; }
+.pf .pf-btn--primary { background: var(--accent); color: #fff; }
+.pf .pf-btn--primary:hover { background: var(--ink); border-color: var(--ink); }
+.pf .pf-btn--ghost { background: transparent; color: var(--accent); }
+.pf .pf-btn--ghost:hover { background: var(--accent); color: #fff; }
 
-.pf-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.5rem; }
+.pf-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.6rem; }
+
+.pf-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.4rem; font-family: var(--font-ui); font-weight: 700; margin-top: 0.4rem; }
+.pf-links a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 2px; }
+.pf-links a:hover { color: var(--ink); }
+
+.pf-meta {
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin: 0.2rem 0 0.7rem;
+}
 
 /* ---------- Home hero ---------- */
 .pf-hero {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 2.5rem;
+  grid-template-columns: 1.35fr 0.85fr;
+  gap: 3.5rem;
   align-items: center;
-  padding: 2.5rem 0 1rem;
+  padding: 3rem 0 1rem;
 }
-.pf-hero .pf-title { font-size: 2.8rem; font-weight: 800; margin: 0 0 0.3rem; line-height: 1.1; color: var(--pf-ink); }
-.pf-hero .pf-role { font-size: 1.2rem; font-weight: 600; color: var(--pf-academic); margin-bottom: 1rem; }
-.pf-hero .pf-intro { font-size: 1.1rem; }
-.pf-hero img {
+.pf-hero .pf-title { color: var(--ink); font-size: clamp(3rem, 8.5vw, 5.8rem); margin-bottom: 0.9rem; }
+.pf-role {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--academic);
+  margin-bottom: 1.4rem;
+}
+.pf-hero .pf-intro { font-size: 1.22rem; line-height: 1.65; color: var(--ink); }
+
+.pf-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+  margin-top: 1.8rem;
+  font-family: var(--font-ui);
+  font-weight: 500;
+}
+.pf-social a { color: var(--muted); }
+.pf-social a:hover { color: var(--ink); }
+
+/* Portrait with stepped colour blocks: blue, green, red */
+.pf-portrait {
   width: 100%;
   max-width: 340px;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: 50%;
   justify-self: center;
-  box-shadow: 0 12px 30px rgba(0, 64, 133, 0.25);
+  border-radius: 4px;
+  box-shadow: 14px 14px 0 var(--venture), 28px 28px 0 var(--sport);
+  margin: 0 28px 28px 0;
 }
 
-.pf-social { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.2rem; font-size: 0.95rem; }
-.pf-social a { color: var(--pf-muted); font-weight: 500; }
-.pf-social a:hover { color: var(--pf-academic); }
-
-/* ---------- Section tiles on home ---------- */
-.pf-tiles {
+/* ---------- Home: the three parts ---------- */
+.pf-part {
+  --c: var(--academic);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
-  margin: 1rem 0 2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.8rem;
+  align-items: center;
+  margin: 0 0 4rem;
 }
-.pf-tile {
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid var(--pf-line);
-  border-top: 5px solid var(--tile-accent);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  color: inherit !important;
-}
-.pf-tile:hover { transform: translateY(-6px); box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12); }
-.pf-tile img { width: 100%; height: 190px; object-fit: cover; display: block; }
-.pf-tile-body { padding: 1.2rem 1.3rem 1.4rem; display: flex; flex-direction: column; flex: 1; }
-.pf-tile-body h3 { color: var(--tile-accent); font-size: 1.3rem; }
-.pf-tile-body p { margin: 0 0 1rem; flex: 1; }
-.pf-tile-cta { font-weight: 600; color: var(--tile-accent); }
-.pf-tile--academic { --tile-accent: var(--pf-academic); }
-.pf-tile--venture  { --tile-accent: var(--pf-venture); }
-.pf-tile--sport    { --tile-accent: var(--pf-sport); }
+.pf-part--venture { --c: var(--venture); }
+.pf-part--sport { --c: var(--sport); }
+.pf-part:nth-of-type(even) .pf-part-media { order: 2; }
 
-/* ---------- Stats strip ---------- */
-.pf-stats {
+.pf-part-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 4px;
+  border-bottom: 8px solid var(--c);
+}
+.pf-part h3 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--c);
+  margin-bottom: 0.7rem;
+}
+.pf-part p { font-size: 1.15rem; margin: 0 0 1rem; }
+.pf-part .pf-links a { color: var(--c); }
+.pf-part .pf-links a:hover { color: var(--ink); }
+
+.pf-more { font-size: 1.1rem; }
+.pf-more a { font-weight: 600; }
+
+/* ---------- Project rows (Academic) ---------- */
+.pf-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 2rem;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--line);
 }
-.pf-stat {
-  background: var(--pf-soft);
-  border-radius: 12px;
-  padding: 1.1rem 1rem;
-  text-align: center;
+.pf-row:first-of-type { padding-top: 0.5rem; }
+.pf-row img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
 }
-.pf-stat strong { display: block; font-size: 1.9rem; color: var(--pf-accent); line-height: 1.2; }
-.pf-stat span { font-size: 0.9rem; color: var(--pf-muted); }
-
-/* ---------- Page header banner (section pages) ---------- */
-.pf-pagehead {
-  background: linear-gradient(135deg, var(--pf-accent), color-mix(in srgb, var(--pf-accent) 55%, #000));
-  color: #fff;
-  border-radius: 16px;
-  padding: 2.6rem 2rem;
-  margin: 1rem 0 2rem;
-}
-.pf-pagehead .pf-title { color: #fff; font-size: 2.4rem; font-weight: 800; margin: 0 0 0.5rem; line-height: 1.15; }
-.pf-pagehead p { color: rgba(255, 255, 255, 0.92); font-size: 1.1rem; max-width: 720px; margin: 0; }
-
-/* ---------- Card grid (projects) ---------- */
-.pf-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 1rem 0 2rem;
-}
-.pf-cards--two { grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
-@media (max-width: 480px) { .pf-cards--two { grid-template-columns: 1fr; } }
-
-.pf-card {
-  background: #fff;
-  border: 1px solid var(--pf-line);
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.pf-card:hover { transform: translateY(-4px); box-shadow: 0 12px 26px rgba(0, 0, 0, 0.11); }
-.pf-card img { width: 100%; height: 190px; object-fit: cover; display: block; }
-.pf-card-body { padding: 1.1rem 1.3rem 1.3rem; display: flex; flex-direction: column; flex: 1; }
-.pf-card-body p { margin: 0.2rem 0 0.8rem; flex: 1; }
-.pf-card-links { display: flex; flex-wrap: wrap; gap: 1rem; font-weight: 600; font-size: 0.95rem; }
-.pf-card-links a { color: var(--pf-accent); }
-.pf-card-links a:hover { text-decoration: underline; }
-
-.pf-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.3rem 0 0.6rem; }
-.pf-tag {
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.2rem 0.65rem;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--pf-accent) 12%, #fff);
-  color: var(--pf-accent);
-}
+.pf-row h3 { margin-bottom: 0.2rem; }
+.pf-row p { margin: 0 0 0.6rem; }
 
 /* ---------- Feature rows (image + text) ---------- */
 .pf-feature {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 2rem;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 2.8rem;
   align-items: center;
-  margin: 1.5rem 0 2.5rem;
+  margin: 1.5rem 0 3rem;
 }
-.pf-feature--reverse { grid-template-columns: 1.2fr 1fr; }
+.pf-feature--reverse { grid-template-columns: 1.15fr 1fr; }
 .pf-feature--reverse .pf-feature-media { order: 2; }
 .pf-feature-media img {
-  width: 100%;
-  max-height: 380px;
-  object-fit: cover;
-  border-radius: 14px;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14);
   display: block;
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.pf-feature p { margin: 0 0 1rem; }
+
+/* ---------- Gallery with captions ---------- */
+.pf-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.pf-gallery figure { margin: 0; }
+.pf-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.pf-gallery figcaption {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin-top: 0.5rem;
 }
 
-/* ---------- Steps list ---------- */
-.pf-steps { counter-reset: step; list-style: none; padding: 0; margin: 1rem 0; }
+/* ---------- Steps (a real sequence) ---------- */
+.pf-steps { counter-reset: step; list-style: none; padding: 0; margin: 1rem 0 2rem; max-width: 40em; }
 .pf-steps li {
   counter-increment: step;
   position: relative;
-  padding: 0.2rem 0 0.9rem 3rem;
+  padding: 0 0 1rem 3rem;
+  color: var(--body);
 }
 .pf-steps li::before {
   content: counter(step);
   position: absolute;
   left: 0;
-  top: 0;
-  width: 2.1rem;
-  height: 2.1rem;
+  top: 0.1rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
-  background: var(--pf-accent);
+  background: var(--accent);
   color: #fff;
+  font-family: var(--font-ui);
   font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* ---------- Chips ---------- */
-.pf-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.5rem 0 1rem; }
-.pf-chip {
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
-  background: var(--pf-soft);
-  border: 1px solid var(--pf-line);
-  font-weight: 600;
-  font-size: 0.9rem;
-  color: var(--pf-ink);
+/* ---------- Toolkit ---------- */
+.pf-toolkit {
+  font-family: var(--font-ui);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.9;
+  max-width: 40em;
 }
+.pf-toolkit span:not(:last-child)::after { content: ", "; }
 
-/* ---------- Callout ---------- */
-.pf-next {
-  background: var(--pf-soft);
-  border-left: 5px solid var(--pf-accent);
-  border-radius: 10px;
-  padding: 1.2rem 1.5rem;
-  margin: 2rem 0;
+/* ---------- Statement block (experience, what's next) ---------- */
+.pf-note {
+  border-left: 6px solid var(--accent);
+  padding: 0.2rem 0 0.2rem 1.4rem;
+  margin: 1.2rem 0;
+  max-width: 42em;
 }
-.pf-next h3 { margin-top: 0; }
-.pf-next p:last-child { margin-bottom: 0; }
+.pf-note h3 { margin-top: 0; }
+.pf-note p { margin-bottom: 0; }
 
-/* ---------- Podcast / video embeds ---------- */
+/* ---------- Podcast embeds ---------- */
 .pf-videos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.2rem;
-  margin: 1rem 0;
+  margin: 1.2rem 0;
 }
-.pf-videos iframe {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: 0;
-  border-radius: 12px;
-}
+.pf-videos iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 4px; }
 
-/* ---------- Footer nav between sections ---------- */
+/* ---------- Moving between sections ---------- */
 .pf-switch {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
-  justify-content: center;
-  margin: 3rem 0 1rem;
+  gap: 1rem 2.4rem;
+  margin: 4.5rem 0 1rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--pf-line);
+  border-top: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 1.15rem;
 }
+.pf-switch a { text-decoration: none; padding-bottom: 2px; border-bottom: 4px solid currentColor; }
+.pf-switch .to-academic { color: var(--academic); }
+.pf-switch .to-venture { color: var(--venture); }
+.pf-switch .to-sport { color: var(--sport); }
+.pf-switch a:hover { color: var(--ink); }
+
+/* ---------- Keyboard focus ---------- */
+.pf a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 
 /* ---------- Mobile ---------- */
-@media (max-width: 760px) {
-  .pf-hero { grid-template-columns: 1fr; text-align: center; padding-top: 1rem; }
-  .pf-hero img { order: -1; max-width: 220px; }
-  .pf-hero .pf-actions, .pf-hero .pf-social { justify-content: center; }
-  .pf-hero .pf-title { font-size: 2.1rem; }
+@media (max-width: 800px) {
+  .pf-hero { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 1.5rem; }
+  .pf-portrait { order: -1; max-width: 240px; justify-self: start; box-shadow: 9px 9px 0 var(--venture), 18px 18px 0 var(--sport); margin: 0 18px 18px 0; }
+  .pf-part,
   .pf-feature,
-  .pf-feature--reverse { grid-template-columns: 1fr; }
+  .pf-feature--reverse,
+  .pf-row { grid-template-columns: 1fr; gap: 1.2rem; }
+  .pf-part:nth-of-type(even) .pf-part-media,
   .pf-feature--reverse .pf-feature-media { order: 0; }
-  .pf-pagehead { padding: 1.8rem 1.3rem; }
-  .pf-pagehead .pf-title { font-size: 1.9rem; }
+  .pf h2 { margin-top: 3.2rem; }
 }

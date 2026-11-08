@@ -1,6 +1,6 @@
 ---
 pagetitle: "Sport – Laeeq Ur Rehman"
-description: "Laeeq Ur Rehman's cricket journey, from Division 16 to Division 4 in one year, plus hurling and cricket captaincies and a data-driven approach to performance."
+description: "Laeeq Ur Rehman's cricket journey, hurling and cricket captaincies, and a data-driven approach to improving performance."
 image: images/cricket.jpg
 page-layout: full
 toc: false
@@ -9,41 +9,35 @@ toc: false
 ```{=html}
 <div class="pf pf--sport">
 
-<section class="pf-pagehead">
+<header class="pf-head">
   <div class="pf-title" role="heading" aria-level="1">Sport</div>
-  <p>
+  <p class="pf-lede">
     Cricket has been a way of life since I can remember. It taught me discipline, leadership and resilience,
     and now I use code to study my game and keep improving.
   </p>
-</section>
+</header>
 
-<h2>Cricket Journey</h2>
+<h2>Cricket journey</h2>
 
 <div class="pf-feature">
   <div class="pf-feature-media">
-    <img src="images/cricket.jpg" alt="Laeeq playing cricket">
+    <img src="images/cricket.jpg" alt="Laeeq batting in a cricket match">
   </div>
   <div>
     <p>
       Every summer, whether in Ireland or visiting Pakistan, I'd spend hours playing with family and friends.
-      Cricket was never just a game &mdash; it was a dream, and dreams demand hard work.
+      Cricket was never just a game. It was a dream, and dreams demand hard work.
       I now analyse technique, review matches and work on both my physical game and my mental mindset.
     </p>
     <p>
-      I represented <strong>Carlow in 2023</strong> and moved to <strong>North County in 2024</strong>,
-      a move about growth: higher-level cricket and pushing beyond my comfort zone.
+      I represented Carlow in 2023 and moved to North County in 2024, a move about growth:
+      higher-level cricket and pushing beyond my comfort zone.
     </p>
     <div class="pf-actions">
-      <a class="pf-btn pf-btn--primary" href="projects/cricket-journey.qmd">See the full stats</a>
-      <a class="pf-btn pf-btn--ghost" href="https://www.instagram.com/laeeq3x/" target="_blank">Follow on Instagram</a>
+      <a class="pf-btn pf-btn--primary" href="projects/cricket-journey.qmd">See my cricket stats</a>
+      <a class="pf-btn pf-btn--ghost" href="https://www.instagram.com/laeeq3x/" target="_blank">Follow me on Instagram</a>
     </div>
   </div>
-</div>
-
-<div class="pf-stats">
-  <div class="pf-stat"><strong>Div 16 &rarr; 4</strong><span>a 12-division leap in one year</span></div>
-  <div class="pf-stat"><strong>267 &rarr; 567</strong><span>total runs, 2023 to 2024</span></div>
-  <div class="pf-stat"><strong>2</strong><span>clubs: Carlow (2023), North County (2024)</span></div>
 </div>
 
 <h3>Using data to get better</h3>
@@ -61,19 +55,14 @@ toc: false
   </div>
 </div>
 
-<h2>Leadership on the Field</h2>
+<h2>Leadership on the field</h2>
 
 <div class="pf-feature">
   <div class="pf-feature-media">
     <img src="images/cbs.jpg" alt="Laeeq as captain of the CBS hurling team">
   </div>
   <div>
-    <div class="pf-tags">
-      <span class="pf-tag">Captain</span>
-      <span class="pf-tag">Hurling</span>
-      <span class="pf-tag">Cricket</span>
-    </div>
-    <h3>Captain: school hurling, club and university cricket</h3>
+    <h3>Captain of school hurling, club cricket and university cricket</h3>
     <p>
       As captain of the CBS hurling team, I led our school with pride and commitment. In my final year we won the
       South Leinster final, one of my most memorable moments from secondary school. The role taught me responsibility and communication
@@ -95,21 +84,21 @@ toc: false
   <iframe src="https://www.youtube.com/embed/VSceuiPBpxY" title="Podcast 3" allowfullscreen loading="lazy"></iframe>
 </div>
 
-<h2>What's Next</h2>
+<h2>What's next</h2>
 
-<div class="pf-next">
+<div class="pf-note">
   <h3>Going professional, and coaching</h3>
   <p>
     My next big goal is to pursue cricket professionally: training harder, pushing my physical and mental limits,
     and possibly training abroad for higher competition and better facilities. Longer term, I want to launch a cricket coaching business
-    or cricket-related initiative. <a href="Future.qmd">Read more about my plans &rarr;</a>
+    or cricket-related initiative. <a href="Future.qmd">Read more about my plans</a>.
   </p>
 </div>
 
-<div class="pf-switch">
-  <a class="pf-btn pf-btn--ghost" href="academic.qmd">&larr; Academic</a>
-  <a class="pf-btn pf-btn--ghost" href="entrepreneurship.qmd">&larr; Entrepreneurship</a>
-</div>
+<nav class="pf-switch" aria-label="Other sections">
+  <a class="to-academic" href="academic.qmd">Academic</a>
+  <a class="to-venture" href="entrepreneurship.qmd">Entrepreneurship</a>
+</nav>
 
 </div>
 ```
